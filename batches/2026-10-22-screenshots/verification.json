@@ -1,0 +1,18 @@
+{
+  "input_images": 9,
+  "topics": 9,
+  "reports": 9,
+  "csv_columns": [
+    "名称",
+    "详细信息",
+    "原始链接"
+  ],
+  "input_order_preserved": true,
+  "local_report_links_ok": true,
+  "screenshot_provenance_verified": 9,
+  "repeat_upsert_no_change": 9,
+  "original_douyin_urls_confirmed": 0,
+  "model_calls": 0,
+  "software_installations": 0,
+  "video_downloads": 0
+}

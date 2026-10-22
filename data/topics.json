@@ -1,4 +1,140 @@
 {
   "schema_version": 1,
-  "topics": []
+  "topics": [
+    {
+      "id": "2026-10-22-codex-open-source",
+      "name": "Codex for Open Source：开源维护者支持计划",
+      "report": "topics/2026-10-22-codex-open-source/README.md",
+      "sources": [
+        {
+          "kind": "screenshot",
+          "url": null,
+          "title": "首批图片01",
+          "note": "01-source.jpg；原抖音链接待补"
+        }
+      ],
+      "created_at": "2026-10-22T10:52:52+00:00",
+      "updated_at": "2026-10-22T10:52:52+00:00"
+    },
+    {
+      "id": "2026-10-22-piik-screen-sharing",
+      "name": "Piik：P2P 屏幕共享与自部署",
+      "report": "topics/2026-10-22-piik-screen-sharing/README.md",
+      "sources": [
+        {
+          "kind": "screenshot",
+          "url": null,
+          "title": "首批图片02",
+          "note": "02-source.jpg；原抖音链接待补"
+        }
+      ],
+      "created_at": "2026-10-22T10:52:52+00:00",
+      "updated_at": "2026-10-22T10:52:52+00:00"
+    },
+    {
+      "id": "2026-10-22-midjourney-kling-video",
+      "name": "Midjourney＋可灵：角色图到真人风格视频",
+      "report": "topics/2026-10-22-midjourney-kling-video/README.md",
+      "sources": [
+        {
+          "kind": "screenshot",
+          "url": null,
+          "title": "首批图片03",
+          "note": "03-source.jpg；原抖音链接待补"
+        }
+      ],
+      "created_at": "2026-10-22T10:52:52+00:00",
+      "updated_at": "2026-10-22T10:52:52+00:00"
+    },
+    {
+      "id": "2026-10-22-dsh-free-model",
+      "name": "dsh-our-free-model：75 提供商聚合与免费渠道",
+      "report": "topics/2026-10-22-dsh-free-model/README.md",
+      "sources": [
+        {
+          "kind": "screenshot",
+          "url": null,
+          "title": "首批图片04",
+          "note": "04-source.jpg；原抖音链接待补"
+        }
+      ],
+      "created_at": "2026-10-22T10:52:52+00:00",
+      "updated_at": "2026-10-22T10:52:52+00:00"
+    },
+    {
+      "id": "2026-10-22-anywear-realtime-vton",
+      "name": "Anywear：Decart 实时虚拟试衣",
+      "report": "topics/2026-10-22-anywear-realtime-vton/README.md",
+      "sources": [
+        {
+          "kind": "screenshot",
+          "url": null,
+          "title": "首批图片05",
+          "note": "05-source.jpg；原抖音链接待补"
+        }
+      ],
+      "created_at": "2026-10-22T10:52:52+00:00",
+      "updated_at": "2026-10-22T10:52:52+00:00"
+    },
+    {
+      "id": "2026-10-22-algora-bounties",
+      "name": "Algora：GitHub Issue 悬赏与贡献者付款",
+      "report": "topics/2026-10-22-algora-bounties/README.md",
+      "sources": [
+        {
+          "kind": "screenshot",
+          "url": null,
+          "title": "首批图片06",
+          "note": "06-source.jpg；原抖音链接待补"
+        }
+      ],
+      "created_at": "2026-10-22T10:52:52+00:00",
+      "updated_at": "2026-10-22T10:52:52+00:00"
+    },
+    {
+      "id": "2026-10-22-ai-blender",
+      "name": "AI 控制 Blender：Python 与 MCP 三维创作",
+      "report": "topics/2026-10-22-ai-blender/README.md",
+      "sources": [
+        {
+          "kind": "screenshot",
+          "url": null,
+          "title": "首批图片07",
+          "note": "07-source.jpg；原抖音链接待补"
+        }
+      ],
+      "created_at": "2026-10-22T10:52:52+00:00",
+      "updated_at": "2026-10-22T10:52:52+00:00"
+    },
+    {
+      "id": "2026-10-22-astrbot-wechat",
+      "name": "AstrBot：微信 AI 聊天与人格配置",
+      "report": "topics/2026-10-22-astrbot-wechat/README.md",
+      "sources": [
+        {
+          "kind": "screenshot",
+          "url": null,
+          "title": "首批图片08",
+          "note": "08-source.jpg；原抖音链接待补"
+        }
+      ],
+      "created_at": "2026-10-22T10:52:52+00:00",
+      "updated_at": "2026-10-22T10:52:52+00:00"
+    },
+    {
+      "id": "2026-10-22-beeftv",
+      "name": "BeefTV：本地 AI 视频画布与短剧工作流",
+      "report": "topics/2026-10-22-beeftv/README.md",
+      "sources": [
+        {
+          "kind": "screenshot",
+          "url": null,
+          "title": "首批图片09",
+          "note": "09-source.jpg；原抖音链接待补"
+        }
+      ],
+      "created_at": "2026-10-22T10:52:52+00:00",
+      "updated_at": "2026-10-22T10:52:52+00:00"
+    }
+  ]
 }

@@ -1,0 +1,92 @@
+[
+  {
+    "input_order": 1,
+    "topic_id": "2026-10-22-codex-open-source",
+    "message_id": "om_x100b62aa71a2e8acdfca8d358086591",
+    "attachment_name": "img_v3_0216n_96c2d33a-19e2-4b09-8f30-bac163f1d61g.jpg",
+    "attachment_sha256": "ad9f5f7ea1129e1f223073ccf50e74181340cec983c2f1fb66cbd478bd1440ae",
+    "saved_evidence": "topics/2026-10-22-codex-open-source/evidence/01-source.jpg",
+    "original_douyin_url": null,
+    "original_url_status": "原链接待补"
+  },
+  {
+    "input_order": 2,
+    "topic_id": "2026-10-22-piik-screen-sharing",
+    "message_id": "om_x100b62aa71b9a0acdd0986cfb6d7951",
+    "attachment_name": "img_v3_0216n_70c94d44-5610-4f78-901c-282e15cd9b7g.jpg",
+    "attachment_sha256": "80d9933ac2b513aae7129654b693b879a1f4b5e54f7e78ad834fb7079c9ca3fa",
+    "saved_evidence": "topics/2026-10-22-piik-screen-sharing/evidence/02-source.jpg",
+    "original_douyin_url": null,
+    "original_url_status": "原链接待补"
+  },
+  {
+    "input_order": 3,
+    "topic_id": "2026-10-22-midjourney-kling-video",
+    "message_id": "om_x100b62aa71b5e8b4dc19602d0dc1bcc",
+    "attachment_name": "img_v3_0216n_dbc12cf1-6b94-44e3-911b-84befeb968fg.jpg",
+    "attachment_sha256": "89cca511585c962d40bb542ce1c73877f9c8aacbd56ad3bfc5f3c6db2fb1846a",
+    "saved_evidence": "topics/2026-10-22-midjourney-kling-video/evidence/03-source.jpg",
+    "original_douyin_url": null,
+    "original_url_status": "原链接待补"
+  },
+  {
+    "input_order": 4,
+    "topic_id": "2026-10-22-dsh-free-model",
+    "message_id": "om_x100b62aa71b124a0de0331f9b5c3bf4",
+    "attachment_name": "img_v3_0216n_f38eed6c-bad3-414b-baf3-2b339265d47g.jpg",
+    "attachment_sha256": "57f3dcdacd363432c1cf4b619eb44c973c291076e6e52755bcc65cd241c87115",
+    "saved_evidence": "topics/2026-10-22-dsh-free-model/evidence/04-source.jpg",
+    "original_douyin_url": null,
+    "original_url_status": "原链接待补"
+  },
+  {
+    "input_order": 5,
+    "topic_id": "2026-10-22-anywear-realtime-vton",
+    "message_id": "om_x100b62aa714cd8a0ddbde47e3440ab6",
+    "attachment_name": "img_v3_0216n_be4fa325-a17a-4ee1-b288-6d0f670b2a8g.jpg",
+    "attachment_sha256": "f9b20de74445e1e28427b62e81a123e7c22afe39bf34343224cf1fc88a963a6d",
+    "saved_evidence": "topics/2026-10-22-anywear-realtime-vton/evidence/05-source.jpg",
+    "original_douyin_url": null,
+    "original_url_status": "原链接待补"
+  },
+  {
+    "input_order": 6,
+    "topic_id": "2026-10-22-algora-bounties",
+    "message_id": "om_x100b62aa714898b4ddd28c616e4c1e0",
+    "attachment_name": "img_v3_0216n_ada039f5-a40a-4ed3-9c74-414aeb661adg.jpg",
+    "attachment_sha256": "fff82282ccc2fbe6229936957d65014bf9c0e7de5a1489494e9199712d5e47e0",
+    "saved_evidence": "topics/2026-10-22-algora-bounties/evidence/06-source.jpg",
+    "original_douyin_url": null,
+    "original_url_status": "原链接待补"
+  },
+  {
+    "input_order": 7,
+    "topic_id": "2026-10-22-ai-blender",
+    "message_id": "om_x100b62aa714430a4dfb7ad7aef8400a",
+    "attachment_name": "img_v3_0216n_83d2cbd1-0981-4f95-ac98-332a920a4c8g.jpg",
+    "attachment_sha256": "8e9dce1b842ff2650a4231466ab177c7d4f87caf14d7379c50d0907a034be148",
+    "saved_evidence": "topics/2026-10-22-ai-blender/evidence/07-source.jpg",
+    "original_douyin_url": null,
+    "original_url_status": "原链接待补"
+  },
+  {
+    "input_order": 8,
+    "topic_id": "2026-10-22-astrbot-wechat",
+    "message_id": "om_x100b62aa714048a4c0f82a50d0fe709",
+    "attachment_name": "img_v3_0216n_87571ce5-ff59-404d-8c5f-6a7894b9a90g.jpg",
+    "attachment_sha256": "7839f4c88060d17b08cb819e64a51db16cd5a793fb059115eead8d5cd74a9c91",
+    "saved_evidence": "topics/2026-10-22-astrbot-wechat/evidence/08-source.jpg",
+    "original_douyin_url": null,
+    "original_url_status": "原链接待补"
+  },
+  {
+    "input_order": 9,
+    "topic_id": "2026-10-22-beeftv",
+    "message_id": "om_x100b62aa715feca4dd7b3f3390fa011",
+    "attachment_name": "img_v3_0216n_667b2743-d79e-43ee-a6ae-28f0af32276g.jpg",
+    "attachment_sha256": "5aa92cec3b07021e3be3a237749a194f10d8a9cbb55d717bdcf35df248528275",
+    "saved_evidence": "topics/2026-10-22-beeftv/evidence/09-source.jpg",
+    "original_douyin_url": null,
+    "original_url_status": "原链接待补"
+  }
+]
