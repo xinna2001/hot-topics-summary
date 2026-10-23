@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "scope": "standalone HTML demo; no DSH plugin installation",
+  "checks": [
+    {
+      "check": "intro decoded and seeked to wireframe",
+      "video": {
+        "duration": 7.05,
+        "width": 1280,
+        "height": 720,
+        "muted": true
+      }
+    },
+    {
+      "check": "background decoded, loop enabled, glass UI visible",
+      "video": {
+        "duration": 25.458333,
+        "width": 1664,
+        "height": 856,
+        "loop": true
+      }
+    },
+    {
+      "check": "fit control",
+      "passed": true
+    },
+    {
+      "check": "escape skips intro",
+      "passed": true
+    },
+    {
+      "check": "local file playback without upload",
+      "passed": true
+    },
+    {
+      "check": "ended transitions from intro to background",
+      "passed": true
+    }
+  ],
+  "page_errors": []
+}

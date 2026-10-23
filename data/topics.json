@@ -135,6 +135,27 @@
       ],
       "created_at": "2026-10-22T10:52:52+00:00",
       "updated_at": "2026-10-22T10:52:52+00:00"
+    },
+    {
+      "id": "2026-10-23-whale-girl-wireframe-animation",
+      "name": "鲸鱼娘线框显影：DSH 片头与动态视频背景",
+      "report": "topics/2026-10-23-whale-girl-wireframe-animation/README.md",
+      "sources": [
+        {
+          "kind": "douyin",
+          "url": "https://v.douyin.com/v2JCN3Z_L_c/",
+          "title": "星⭐海鲸🐳梦：省一块钱的 tokens，手搓了三个小时",
+          "note": "原分享短链；对应视频 ID 7698725807199441387"
+        },
+        {
+          "kind": "douyin",
+          "url": "https://www.douyin.com/video/7698725807199441387",
+          "title": "抖音完整作品链接",
+          "note": "从原短链跳转并由视频详情接口核实"
+        }
+      ],
+      "created_at": "2026-10-23T11:52:57+00:00",
+      "updated_at": "2026-10-23T11:52:57+00:00"
     }
   ]
 }

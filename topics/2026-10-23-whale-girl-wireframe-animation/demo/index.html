@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>鲸鱼娘：线框显影与视频背景</title>
+<style>
+  *{box-sizing:border-box}body{margin:0;background:#05070d;color:#e8f1ff;font:15px/1.65 system-ui,sans-serif}
+  main{max-width:1180px;margin:28px auto;padding:0 20px}h1{font-size:25px;margin:0 0 8px}
+  p{color:#9aafcc}a{color:#70d9ff}button,select,input{font:inherit}
+  button,select,.upload{border:1px solid #29456e;background:#101e35;color:#e8f1ff;border-radius:8px;padding:8px 14px;cursor:pointer}
+  button:hover,.upload:hover{border-color:#39ffd1}button:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid #39ffd1;outline-offset:3px}
+  .toolbar{display:flex;gap:10px;flex-wrap:wrap;margin:20px 0}.upload input{max-width:210px}
+  .stage{position:relative;aspect-ratio:16/9;overflow:hidden;border:1px solid #1e3a6b;border-radius:14px;background:#000}
+  video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .workspace{position:absolute;inset:0;display:flex;pointer-events:none;opacity:0;transition:opacity .45s}
+  .stage[data-mode="background"] .workspace{opacity:1}
+  .sidebar{width:23%;padding:24px 20px;background:#0a1020b0;border-right:1px solid #1e3a6b}
+  .brand{font-size:20px;color:#39ffd1}.sidebar p{border-bottom:1px solid #1e3a6b;padding:12px 0;color:#bdcde5}
+  .conversation{width:57%;padding:30px 24px;background:linear-gradient(90deg,#05070d40,transparent)}
+  .bubble{margin:20px 0;padding:16px;background:#0a1020ad;border:1px solid #1e3a6b;border-radius:10px}
+  .bubble strong{color:#39ffd1}.composer{position:absolute;left:27%;right:24%;bottom:25px;padding:14px;background:#0a1020c9;border:1px solid #39ffd1;border-radius:12px}
+  .transport{display:flex;gap:12px;align-items:center;margin:14px 0}.transport input{flex:1;min-width:70px;accent-color:#39ffd1}
+  #status{color:#39ffd1;min-height:25px}.credits{font-size:13px;border-top:1px solid #1e3a6b;padding-top:16px}
+  @media(max-width:650px){h1{font-size:21px}.sidebar{padding:10px;width:26%;font-size:10px}.brand{font-size:12px}.conversation{padding:12px;font-size:11px;width:65%}.bubble{margin:12px 0;padding:8px}.composer{font-size:10px;left:30%;right:8%;bottom:12px;padding:8px}}
+  @media(prefers-reduced-motion:reduce){.workspace{transition:none}}
+</style>
+<main>
+  <h1>鲸鱼娘：从线框到彩色人物</h1>
+  <p>先播放片头，再进入带动态背景的示例工作台。拖动时间轴可以逐段观察线框、扫描光与上色。</p>
+  <div class="toolbar">
+    <button id="intro">重播片头</button><button id="background">查看循环背景</button>
+    <button id="pause">暂停</button>
+    <label>画面 <select id="fit"><option value="cover">铺满</option><option value="contain">完整显示</option></select></label>
+    <label class="upload">试用自己的视频 <input id="file" type="file" accept="video/*"></label>
+  </div>
+  <div class="stage" data-mode="intro" id="stage">
+    <video id="video" muted playsinline preload="metadata" aria-label="人物动画演示"></video>
+    <div class="workspace" aria-hidden="true">
+      <div class="sidebar"><div class="brand">示例工作台</div><p>＋ 新对话</p><p>动画研究</p><p>我的项目</p><p>设置</p></div>
+      <div class="conversation"><div class="bubble"><strong>人物动画</strong><br>线框显影、扫描光和眨眼来自背景视频。</div><div class="bubble">界面通过半透明面板叠在视频上。这里展示视觉结构。</div></div>
+      <div class="composer">输入消息…</div>
+    </div>
+  </div>
+  <div class="transport"><label for="seek">时间轴</label><input id="seek" type="range" min="0" max="1" step="0.01" value="0"><output id="time">0.00 / 0.00s</output></div>
+  <div id="status" role="status">正在加载片头…</div>
+  <p class="credits">片头：<a href="https://github.com/NativeDog1/dsh-boot-animation">NativeDog1 / dsh-boot-animation</a>，BSD-3-Clause。背景：<a href="https://github.com/zhu1090093659/dsh-skins/tree/aaa972c5d8bb97eec1bf6662a64e90324f32c057/skins/whale-fantasy">stushansusu / 鲸鱼娘 · 未至之境</a>，CC BY-NC-SA 4.0，限非商业使用。本页从固定版本的上游地址播放素材，需要联网；个人视频只在本地播放。</p>
+</main>
+<script>
+  'use strict';
+  const sources = {
+    intro:'https://raw.githubusercontent.com/NativeDog1/dsh-boot-animation/24c711296cb4af2618fef4f65e81346a660fc67b/media/deepseek-cyberpunk-intro.mp4',
+    background:'https://raw.githubusercontent.com/zhu1090093659/dsh-web/9c1523417f76ea36516db80e831953c1f1062007/market/dist/assets/skins/whale-fantasy/assets/whale-fantasy-loop.mp4'
+  };
+  const video=document.getElementById('video'),stage=document.getElementById('stage'),status=document.getElementById('status');
+  const seek=document.getElementById('seek'),time=document.getElementById('time'),pause=document.getElementById('pause');
+  let mode='intro',objectURL=null,generation=0,watchdog=null;
+  function stopWatchdog(){clearTimeout(watchdog);watchdog=null}
+  function releaseLocal(){if(objectURL){URL.revokeObjectURL(objectURL);objectURL=null}}
+  function updateTime(){const duration=Number.isFinite(video.duration)?video.duration:0;seek.max=duration||1;seek.value=video.currentTime;time.textContent=video.currentTime.toFixed(2)+' / '+duration.toFixed(2)+'s'}
+  async function play(){const current=generation;try{await video.play()}catch(error){if(current===generation&&error.name!=='AbortError'){status.textContent='请点击播放；浏览器未自动开始播放。';pause.textContent='播放'}}}
+  function load(next,src){
+    generation++;stopWatchdog();video.pause();mode=next;stage.dataset.mode=next==='intro'?'intro':'background';
+    video.loop=next==='background';video.muted=true;video.src=src;video.load();pause.textContent='暂停';updateTime();status.textContent='正在加载…';
+    const current=generation;watchdog=setTimeout(()=>{if(current===generation){status.textContent='加载较慢，可以重试或选择本地视频。';watchdog=null}},20000);play();
+  }
+  document.getElementById('intro').onclick=()=>{releaseLocal();load('intro',sources.intro)};
+  document.getElementById('background').onclick=()=>{releaseLocal();load('background',sources.background)};
+  pause.onclick=()=>{if(video.paused)play();else video.pause()};
+  document.getElementById('fit').onchange=event=>{video.style.objectFit=event.target.value};
+  document.getElementById('file').onchange=event=>{const file=event.target.files[0];if(!file)return;releaseLocal();objectURL=URL.createObjectURL(file);load('custom',objectURL)};
+  seek.oninput=()=>{if(Number.isFinite(video.duration))video.currentTime=Number(seek.value)};
+  video.addEventListener('playing',()=>{stopWatchdog();pause.textContent='暂停';status.textContent=mode==='intro'?'片头播放中；结束后进入动态背景。':mode==='background'?'循环背景播放中。':'正在播放个人视频。'});
+  video.addEventListener('pause',()=>{pause.textContent='播放'});
+  video.addEventListener('timeupdate',updateTime);video.addEventListener('loadedmetadata',updateTime);
+  video.addEventListener('ended',()=>{if(mode==='intro')load('background',sources.background);else status.textContent='视频播放结束。'});
+  video.addEventListener('error',()=>{stopWatchdog();status.textContent='视频加载失败，请检查网络或选择本地 H.264 MP4 视频。';pause.textContent='播放'});
+  window.addEventListener('keydown',event=>{if(event.key==='Escape'&&mode==='intro')load('background',sources.background)});
+  window.addEventListener('pagehide',()=>{generation++;stopWatchdog();video.pause();video.removeAttribute('src');video.load();releaseLocal()});
+  load('intro',sources.intro);
+</script>
+</html>
