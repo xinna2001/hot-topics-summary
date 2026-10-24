@@ -1,0 +1,125 @@
+{
+  "research_date": "2026-10-24",
+  "timezone": "Asia/Shanghai",
+  "statistics_as_of": "2026-10-24 17:53-17:57",
+  "github_stars_source": "GitHub API repos/<owner>/<repo> and search/repositories",
+  "github_repositories": [
+    {
+      "repository": "eternityspring/shuohao-skills",
+      "stars": 5023,
+      "commit": "6dbddc64fed306fc96d22674cd36b717a8190d90",
+      "commit_date": "2026-10-24T06:32:34Z"
+    },
+    {
+      "repository": "zenstory-ai/drama-skills",
+      "stars": 3293,
+      "commit": "fdb7b7c58017e3eae64eca382c2a85ede368dab0",
+      "commit_date": "2026-10-20T19:21:03Z"
+    },
+    {
+      "repository": "dramaclaw/dramaclaw",
+      "stars": 6428,
+      "commit": "f14b8e4b893f271b605d70b53cc682771dd77682",
+      "commit_date": "2026-10-23T02:52:15Z"
+    },
+    {
+      "repository": "HBAI-Ltd/Toonflow-app",
+      "stars": 19181,
+      "commit": "30139c931e80476caa718b31684b86383c6e83ce",
+      "commit_date": "2026-10-20T16:12:51Z"
+    },
+    {
+      "repository": "JimLiu/baoyu-skills",
+      "stars": 26918,
+      "commit": "1567581c26ec29f4216c6e6835415bf30343b0e3",
+      "commit_date": "2026-09-10T15:13:43Z"
+    },
+    {
+      "repository": "lixiaoxiao9888-create/manju-laoli-skill",
+      "stars": 1646,
+      "commit": "6f16955c57053d77ea0ffbdbbf3a7985a3e0080a",
+      "commit_date": "2026-10-21T02:06:28Z"
+    }
+  ],
+  "skill_installs": [
+    {
+      "skill": "eternityspring/shuohao-skills/novel-storyboard",
+      "installs": 245,
+      "source": "https://skills.sh/eternityspring/shuohao-skills/novel-storyboard"
+    },
+    {
+      "skill": "zenstory-ai/drama-skills/short-drama-produce",
+      "display_installs": "1.5K",
+      "source": "https://skills.sh/zenstory-ai/drama-skills/short-drama-produce"
+    },
+    {
+      "skill": "JimLiu/baoyu-skills/baoyu-comic",
+      "display_installs": "29.8K",
+      "source": "https://skills.sh/jimliu/baoyu-skills/baoyu-comic"
+    }
+  ],
+  "pinned_source_checks": [
+    {
+      "repo": "eternityspring/shuohao-skills",
+      "path": "skills/novel-storyboard/SKILL.md",
+      "commit": "6dbddc64fed306fc96d22674cd36b717a8190d90",
+      "same_as_research": true,
+      "sha256": "2af3bb17fa9719976fe9f2486ba09f26bdc4397aa45f13a18884408e2a7fe857"
+    },
+    {
+      "repo": "eternityspring/shuohao-skills",
+      "path": "skills/novel-storyboard/scripts/novel-storyboard.mjs",
+      "commit": "6dbddc64fed306fc96d22674cd36b717a8190d90",
+      "same_as_research": true,
+      "sha256": "89ca281f9d9768b90d8a89f70e26365eb0872a7984ef304858692e7c4780e379"
+    },
+    {
+      "repo": "zenstory-ai/drama-skills",
+      "path": "skills/short-drama-produce/SKILL.md",
+      "commit": "fdb7b7c58017e3eae64eca382c2a85ede368dab0",
+      "same_as_research": true,
+      "sha256": "dfeca69609dcca477f7cc9d488c1554e8da1ea851e2fe0f4e95169924a2b74f2"
+    },
+    {
+      "repo": "zenstory-ai/drama-skills",
+      "path": "skills/short-drama-produce/scripts/provider_adapters.py",
+      "commit": "fdb7b7c58017e3eae64eca382c2a85ede368dab0",
+      "same_as_research": true,
+      "sha256": "9555f41da83e3666324dafedaf271a0205ed924bd956424c037e71419d7c067b"
+    },
+    {
+      "repo": "zenstory-ai/drama-skills",
+      "path": "skills/short-drama-edit/SKILL.md",
+      "commit": "fdb7b7c58017e3eae64eca382c2a85ede368dab0",
+      "same_as_research": true,
+      "sha256": "38946a741e12b2be0ac9715fdd31c0886e80cb5f80b6531c1da3314e4481301f"
+    },
+    {
+      "repo": "dramaclaw/dramaclaw",
+      "path": "agent-kit/README.md",
+      "commit": "f14b8e4b893f271b605d70b53cc682771dd77682",
+      "same_as_research": true,
+      "sha256": "d7561f74ea5495979723ebca074ca28ba113770b0a9c46c77a72b7bb001ef9ea"
+    },
+    {
+      "repo": "HBAI-Ltd/Toonflow-app",
+      "path": "README.md",
+      "commit": "30139c931e80476caa718b31684b86383c6e83ce",
+      "same_as_research": true,
+      "sha256": "8c38c9bb6e51adb96de6ac26f36d60e1179aba95dd2667f4b2f83eaf9eb88473"
+    }
+  ],
+  "validation_status": {
+    "video_metadata_and_sampled_frames": "verified",
+    "source_files": "read_and_compared",
+    "candidate_installation": "not_run",
+    "model_generation": "not_run",
+    "finished_film": "not_run"
+  },
+  "video_evidence": {
+    "video_id": "7700156852155444645",
+    "sample_timestamp_seconds": 4.5,
+    "file": "video-045s-repo.jpg",
+    "sha256": "51d8d7abe3f12bce83dbb68339f517ed0174ec8a52509036532e10c167810ffc"
+  }
+}

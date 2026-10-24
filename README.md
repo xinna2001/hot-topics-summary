@@ -17,6 +17,7 @@
 | AstrBot：微信 AI 聊天与人格配置 | [查看详细信息](topics/2026-10-22-astrbot-wechat/README.md) | 截图提供，原链接待补（08-source.jpg；原抖音链接待补） |
 | BeefTV：本地 AI 视频画布与短剧工作流 | [查看详细信息](topics/2026-10-22-beeftv/README.md) | 截图提供，原链接待补（09-source.jpg；原抖音链接待补） |
 | 鲸鱼娘线框显影：DSH 片头与动态视频背景 | [查看详细信息](topics/2026-10-23-whale-girl-wireframe-animation/README.md) | [星⭐海鲸🐳梦：省一块钱的 tokens，手搓了三个小时](https://v.douyin.com/v2JCN3Z_L_c/)<br>[抖音完整作品链接](https://www.douyin.com/video/7698725807199441387) |
+| 小说转 AI 漫剧：shuohao-skills 与同类方案选型 | [查看详细信息](topics/2026-10-24-novel-to-ai-drama-skills/README.md) | [毛毛毛67：用豆包安装 Skill 自动制作 AI 漫剧](https://v.douyin.com/Dmtix-C5CUg/)<br>[抖音完整作品链接](https://www.douyin.com/video/7700156852155444645) |
 <!-- HOT_TOPICS:END -->
 
 详细页说明：它是什么、技术如何实现、关联开源项目和官方资料、复现条件、限制，以及仍需核实的说法。关键结论附来源和查阅日期，区分已核实事实、作者宣称和推测。

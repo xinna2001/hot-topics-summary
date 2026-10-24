@@ -156,6 +156,27 @@
       ],
       "created_at": "2026-10-23T11:52:57+00:00",
       "updated_at": "2026-10-23T11:52:57+00:00"
+    },
+    {
+      "id": "2026-10-24-novel-to-ai-drama-skills",
+      "name": "小说转 AI 漫剧：shuohao-skills 与同类方案选型",
+      "report": "topics/2026-10-24-novel-to-ai-drama-skills/README.md",
+      "sources": [
+        {
+          "kind": "douyin",
+          "url": "https://v.douyin.com/Dmtix-C5CUg/",
+          "title": "毛毛毛67：用豆包安装 Skill 自动制作 AI 漫剧",
+          "note": "用户原分享短链；对应视频 ID 7700156852155444645"
+        },
+        {
+          "kind": "douyin",
+          "url": "https://www.douyin.com/video/7700156852155444645",
+          "title": "抖音完整作品链接",
+          "note": "从原短链解析，并由移动分享页元信息与关键帧确认"
+        }
+      ],
+      "created_at": "2026-10-24T11:37:48+00:00",
+      "updated_at": "2026-10-24T11:38:46+00:00"
     }
   ]
 }
