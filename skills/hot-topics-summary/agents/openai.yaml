@@ -1,4 +1,4 @@
 interface:
   display_name: "热点信息汇总"
-  short_description: "从视频、文章和截图溯源技术实现，维护 GitHub 三列热点信息索引"
-  default_prompt: "使用 $hot-topics-summary 分析我发来的热点信息，查找技术原理与一手来源并同步仓库。"
+  short_description: "从视频、文章和截图溯源技术实现，通过 PR 维护 GitHub 三列热点信息索引"
+  default_prompt: "使用 $hot-topics-summary 分析我发来的热点信息，查找技术原理与一手来源，通过独立分支创建 PR，必要检查通过后直接合并并回读主分支。"
