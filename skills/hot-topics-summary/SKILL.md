@@ -1,6 +1,8 @@
 ---
 name: hot-topics-summary
-description: 当用户说“热点信息”“热点信息汇总”“收录这个技术热点”，或在热点信息话题继续发送抖音、B站/Bilibili、YouTube/油管、微信公众号文章、网页链接或截图时使用。识别技术热点，读取视频/文章/截图，检索 GitHub、官方文档、论文和新闻源头，分析技术实现、关联项目与复现路径，并把详细 README 和“名称、详细信息、原始链接”三列索引同步到用户的 GitHub 热点信息汇总仓库。
+description: 当用户说“热点信息”“热点信息汇总”“收录这个技术热点”，或在热点信息话题继续发送抖音、B站/Bilibili、YouTube/油管、微信公众号文章、网页链接或截图时使用。识别技术热点，读取视频/文章/截图，检索 GitHub、官方文档、论文和新闻源头，分析技术实现、关联项目与复现路径，并把详细 README 和“名称、详细信息、原始链接”三列索引同步到用户的 GitHub 热点信息汇总仓库。默认通过独立分支和 PR 提交变更。
+metadata:
+  version: 1.0.1
 ---
 
 # 热点信息汇总
@@ -12,6 +14,7 @@ description: 当用户说“热点信息”“热点信息汇总”“收录这�
 - GitHub：`xinna2001/hot-topics-summary`，中文标题「热点信息汇总」。默认保持当前可见性。
 - 本机：`/Users/bytedance/hot-topics-summary`。迁移主机时先从 GitHub 克隆到可写目录，再以实际目录传 `--repo`。
 - 本 Skill 随该仓库版本管理，并以本地目录加载到希儿；不自动复制到其他共享 Skill 库。
+- 后续收录、更新和本 Skill 修改默认通过独立分支创建 Pull Request（PR），便于记录贡献与提交量；不直接推送主分支。只有用户明确要求时才合并 PR。
 - `README.md` 首页固定三列：`名称`、`详细信息`、`原始链接`。同时生成相同三列的 `热点信息汇总.csv`。
 - 每个技术热点一篇 `topics/<id>/README.md`；索引中第二列链接到该文件。一个素材包含多个独立技术可拆为多行，共用原始链接并人工标明关联。
 - 以用户输入顺序追加。同一技术复用 id、更新原条目并合并原始链接；不要重新排序或覆盖旧来源。
@@ -23,7 +26,7 @@ description: 当用户说“热点信息”“热点信息汇总”“收录这�
 
 先执行 `gh api user --jq .login`、`git -C /absolute/repo status --short` 和 `git remote -v`，核对身份与目标。已登录张加恩的 GitHub 身份在本仓库维护任务中可以继续使用；其他用户要求修改此私人仓库时必须有仓库所有者授权，不将主机登录态视为任何人都能写入的许可。
 
-工作区干净时 `git pull --ff-only`。已有未提交修改时保留它们，用独立分支/工作树完成当前条目，避免混入他人改动。身份不匹配或无权限时先完成可做的本地研究并报告准确阻塞。
+确认默认分支（当前为 `main`），工作区干净时先 `git fetch origin`，从最新 `origin/main` 创建本轮独立分支。若已在本轮 PR 分支，核对其目标分支和现有 PR 后继续使用；不要重复开分支或 PR。已有未提交修改时保留它们，用独立分支/工作树完成当前条目，避免混入他人改动。身份不匹配或无权限时先完成可做的本地研究并报告准确阻塞。
 
 读取 `data/topics.json` 查同名技术、平台视频 ID 和原始链接。记录本轮所有输入，按用户顺序处理；同一话题上一轮已进入本流程时，继续接收后续链接和截图。
 
@@ -65,24 +68,33 @@ python3 "$SKILL_ROOT/scripts/catalog.py" --repo "$REPO" check
 
 首次初始化空仓库可用 `init`；由数据重新生成索引可用 `render`；`list` 可查看当前条目。不要手工修改自动索引块。
 
-### 5. 同步和回读
+### 5. 通过 PR 提交和回读
 
 检查 `git diff`，确认来源、中文、文件路径和三列顺序正确。对本轮新增/更新的详细页检查每项关键事实都有实际读取到的证据；确认未把凭据、临时大媒体或测试条目纳入提交。
 
-只 `git add` 本轮具体的报告、`data/topics.json`、`README.md`、`热点信息汇总.csv` 及必要的局部证据文件；提交后正常 `git push`。用户已明确要求热点同步，因此该仓库内后续收录不用每条再次确认。
+只 `git add` 本轮具体的报告、`data/topics.json`、`README.md`、`热点信息汇总.csv` 及必要的局部证据文件；修改本 Skill 时只额外加入实际变更的 Skill/维护规则文件。提交后正常推送本轮分支，并创建以 `main` 为目标的 PR；已有同一任务 PR 时更新原 PR。用户已明确授权热点收录和 PR 提交，不用每条再次确认；该授权不等于自动合并。
 
-远端领先则 `fetch` 后在独立工作树中整合两个 catalog，保留双方来源和顺序，再 `render`、`check`。禁止盲目用 ours/theirs 覆盖整份 JSON；出现无法判断的同一报告语义冲突才询问用户。禁止强推。
+```bash
+git push -u origin <本轮分支>
+gh pr create --repo xinna2001/hot-topics-summary --base main --head <本轮分支> \
+  --title '<具体变更>' --body-file '<UTF-8 PR说明文件>'
+```
 
-推送报错或超时时先查远端 commit，避免重复提交。比较 `git rev-parse HEAD` 和 `git ls-remote origin refs/heads/<branch>`；用 `gh api repos/xinna2001/hot-topics-summary/contents/README.md` 回读。提交成功但未推送成功时明确说明“本地已保存，GitHub 尚未同步”。
+PR 说明概括具体收录/更新内容、来源与验证结果，保留未实测状态。提交前再次 `fetch` 核对主分支；远端领先则整合最新改动。catalog 冲突保留双方来源和顺序，再 `render`、`check`，禁止盲目用 ours/theirs 覆盖整份 JSON；无法判断的同一报告语义冲突才询问用户。禁止强推。
+
+推送报错或超时时先查远端分支 commit；创建 PR 结果不确定时先按 head/base 查询已有 PR，避免重复提交。比较 `git rev-parse HEAD` 和 `git ls-remote origin refs/heads/<branch>`，用带 `?ref=<branch>` 的 GitHub Contents API 回读本轮文件，并核对 PR 的 URL、作者、head/base 和 head SHA。
+
+未合并时交付“PR 已提交，待合并”，链接到 PR 或 PR 分支上的详细页，不宣称主分支已同步。只有用户明确要求并实际合并成功后，才回读主分支并报告主分支已同步。提交成功但未推送成功时说明“本地已保存，GitHub 尚未同步”；分支已推送但 PR 未创建成功时分别说明两个状态。
 
 ### 6. 当前话题交付
 
-回复收录/更新数量、简要技术结论、仓库/详细页链接和实际缺口。飞书会话用 `botmux send --response-kind final --mention-back` 在当前话题发送一次最终结果，复杂发送前读 `botmux-send`。不额外向其他人发消息。
+回复收录/更新数量、简要技术结论、PR 链接、PR 分支上的详细页链接、合并状态和实际缺口。飞书会话用 `botmux send --response-kind final --mention-back` 在当前话题发送一次最终结果，复杂发送前读 `botmux-send`。不额外向其他人发消息。
 
 ## 检查标准
 
 - 每条输入均有处理结果；未成功读取的输入说明原因。
 - 正式索引恰好三列；每个详细页存在；CSV 行序、来源与首页一致；`check` 通过。
 - 同一热点更新而不重复，原始链接不丢失；截图缺链有明确状态。
-- GitHub 回读与本地提交一致；未同步就不能宣称完成同步。
+- PR 已创建或同任务 PR 已更新，head/base、作者和 head SHA 核对正确；GitHub 分支回读与本地提交一致。
+- 未合并就明确“PR 已提交，待合并”；未同步不能宣称完成同步，不直接推送主分支。
 - Skill 的流程能力与已实测平台范围分开报告；没有实际素材验证时不宣称各平台端到端已通过。
