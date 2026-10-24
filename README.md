@@ -19,6 +19,7 @@
 | 鲸鱼娘线框显影：DSH 片头与动态视频背景 | [查看详细信息](topics/2026-10-23-whale-girl-wireframe-animation/README.md) | [星⭐海鲸🐳梦：省一块钱的 tokens，手搓了三个小时](https://v.douyin.com/v2JCN3Z_L_c/)<br>[抖音完整作品链接](https://www.douyin.com/video/7698725807199441387) |
 | 小说转 AI 漫剧：shuohao-skills 与同类方案选型 | [查看详细信息](topics/2026-10-24-novel-to-ai-drama-skills/README.md) | [毛毛毛67：用豆包安装 Skill 自动制作 AI 漫剧](https://v.douyin.com/Dmtix-C5CUg/)<br>[抖音完整作品链接](https://www.douyin.com/video/7700156852155444645) |
 | ComfyUI：节点工作流与 API 批量图像生产 | [查看详细信息](topics/2026-10-24-comfyui-workflows/README.md) | 截图提供，原链接待补（图片1 img\_v3\_0216p\_8190e440-5d7c-419b-91db-6f71243484ag.jpg；原抖音图文链接待补） |
+| 3D美术资产 | [查看详细信息](topics/2026-10-24-3d-art-assets/README.md) | [依亦：又是温馨治愈爱意满满的一天，现在是（最终）幻想时间](https://v.douyin.com/6CompqDLYcM/)<br>[抖音完整作品链接](https://www.douyin.com/video/7699805973577239851) |
 <!-- HOT_TOPICS:END -->
 
 详细页说明：它是什么、技术如何实现、关联开源项目和官方资料、复现条件、限制，以及仍需核实的说法。关键结论附来源和查阅日期，区分已核实事实、作者宣称和推测。
