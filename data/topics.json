@@ -234,6 +234,27 @@
       ],
       "created_at": "2026-10-25T05:13:59+00:00",
       "updated_at": "2026-10-25T05:13:59+00:00"
+    },
+    {
+      "id": "2026-10-25-motion-canvas",
+      "name": "Motion Canvas：代码动画与可拖动时间事件",
+      "report": "topics/2026-10-25-motion-canvas/README.md",
+      "sources": [
+        {
+          "kind": "douyin",
+          "url": "https://v.douyin.com/14v7WmZAL9E/",
+          "title": "AI不得鸟：1.9 万 Star，用代码做动画，时间点能拖",
+          "note": "用户原短链；对应视频 ID 7700368672421924111；已读取网页完整简介、作者和发布时间，并下载视频抽查 5/15/25/35/45/52 秒关键帧，确认项目为 Motion Canvas"
+        },
+        {
+          "kind": "douyin",
+          "url": "https://www.douyin.com/video/7700368672421924111",
+          "title": "抖音完整作品链接",
+          "note": "由原短链解析；项目对应关系由网页简介和原视频关键帧共同确认；未进行全视频语音转写"
+        }
+      ],
+      "created_at": "2026-10-25T05:31:05+00:00",
+      "updated_at": "2026-10-25T05:31:05+00:00"
     }
   ]
 }
