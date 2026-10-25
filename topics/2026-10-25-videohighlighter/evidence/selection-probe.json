@@ -1,0 +1,48 @@
+{
+  "scope": "Upstream pure segment-selection module only; no GUI, detector, ASR, model download, or real video pipeline run",
+  "repo_commit": "772bc42521d2d156c0d42aef4d8b1c702febd677",
+  "input": {
+    "video_duration": 60,
+    "clip_time": 8,
+    "target_duration": 16,
+    "score_peaks": {
+      "8": 10,
+      "20": 9,
+      "44": 8,
+      "57": 7
+    }
+  },
+  "results": {
+    "MAX_coverage_0": [
+      [
+        4,
+        12
+      ],
+      [
+        16,
+        24
+      ]
+    ],
+    "MAX_coverage_1": [
+      [
+        4,
+        12
+      ],
+      [
+        40,
+        48
+      ]
+    ],
+    "zero_score_MAX": [],
+    "zero_score_EXACT": [
+      [
+        0,
+        8
+      ],
+      [
+        8,
+        16
+      ]
+    ]
+  }
+}

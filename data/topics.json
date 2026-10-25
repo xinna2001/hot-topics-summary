@@ -255,6 +255,21 @@
       ],
       "created_at": "2026-10-25T05:31:05+00:00",
       "updated_at": "2026-10-25T05:31:05+00:00"
+    },
+    {
+      "id": "2026-10-25-videohighlighter",
+      "name": "VideoHighlighter：本地多信号高光筛选与视频导出",
+      "report": "topics/2026-10-25-videohighlighter/README.md",
+      "sources": [
+        {
+          "kind": "screenshot",
+          "url": null,
+          "title": "试图驯服AI的喵喵：AI 已经开始自动剪视频了",
+          "note": "用户图片1 img_v3_0216q_2f9a863a-8569-4499-807c-188d8ff8748g.jpg；截图提供，原抖音图文链接待补；正文中的开源日期未经证实，仓库记录更早"
+        }
+      ],
+      "created_at": "2026-10-25T07:44:13+00:00",
+      "updated_at": "2026-10-25T07:44:13+00:00"
     }
   ]
 }

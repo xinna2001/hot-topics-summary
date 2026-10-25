@@ -1,0 +1,249 @@
+{
+  "verified_at": "2026-10-25T15:44:12.905513+08:00",
+  "source": {
+    "kind": "screenshot",
+    "original_url": null,
+    "source_image_name": "img_v3_0216q_2f9a863a-8569-4499-807c-188d8ff8748g.jpg",
+    "title": "AI 已经开始自动剪视频了",
+    "author_display": "试图驯服AI的喵喵",
+    "article_claimed_date": "2026-10-17",
+    "original_post_date_verified": false,
+    "read_scope": "provided image only; original post URL and video unknown",
+    "archived_image_scope": "article text crop only; phone status and personal UI excluded"
+  },
+  "upstream": {
+    "repo": "Aseiel/VideoHighlighter",
+    "commit": "772bc42521d2d156c0d42aef4d8b1c702febd677",
+    "commit_date": "2026-10-23T16:08:57Z",
+    "created_at": "2025-09-19T19:10:23Z",
+    "stars": 305,
+    "license": "AGPL-3.0",
+    "archived": false,
+    "version": "0.14.2",
+    "latest_release": {
+      "tag": "0.14.2",
+      "published_at": "2026-10-24T06:41:33Z"
+    }
+  },
+  "read_files": [
+    {
+      "path": "LICENSE",
+      "bytes": 34523,
+      "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7794,
+      "sha256": "1f6b148c28365af486ef4a55bcf65a8fa956f7f3d7a6651badbcd993a22cdc98"
+    },
+    {
+      "path": "README_zh-CN.md",
+      "bytes": 8249,
+      "sha256": "7a00246bec1fad3312cefb5419490e492c5664a49af73ad928dfb898b334872d"
+    },
+    {
+      "path": "config.yaml",
+      "bytes": 2001,
+      "sha256": "c268b769fb11b521a8afd21d2eecf528d96449a52eea8b3460e6a77295d9c9df"
+    },
+    {
+      "path": "docs/AUTO-PIPELINE.md",
+      "bytes": 13024,
+      "sha256": "54a20923bea803d424cc3fa91c006d4d55ccd1fcfb67c9ff8c4304d8d61ab390"
+    },
+    {
+      "path": "docs/DETECTION-GUIDE.md",
+      "bytes": 16085,
+      "sha256": "5ffdce372618ffd4cd3c3a1233c76dad244126959f93f4b39b303e55300bb870"
+    },
+    {
+      "path": "docs/INSTALL.md",
+      "bytes": 6360,
+      "sha256": "af1cbb8c83757a003ccc58d208fa435e3e15b659281623c1e811ecc099af0c16"
+    },
+    {
+      "path": "docs/MAC-GPU.md",
+      "bytes": 2051,
+      "sha256": "b3278440d9e5deab500521ba3ad42e063aa5cf2b03a2c451134ee0daf6610022"
+    },
+    {
+      "path": "docs/REPORTS.md",
+      "bytes": 3026,
+      "sha256": "a45012f399956c86b7bc3c2e9593d56e858996ea93f9e14b6144167df656e38d"
+    },
+    {
+      "path": "frontend/README.md",
+      "bytes": 3954,
+      "sha256": "2c0c5fefbeaac6346d1eb1c47c0d3f5c3c23f0a37804c477c1588fca50b33f9c"
+    },
+    {
+      "path": "llm/llm_module.py",
+      "bytes": 78751,
+      "sha256": "5ec2634417ec20e12916dbc673efef41b03a3ef7fbdec483efce1d0550b3b343"
+    },
+    {
+      "path": "main.py",
+      "bytes": 363969,
+      "sha256": "698f60dd161a08654807dbba9a1c7ddac61da9c1fbb87d26ec4406078d57795a"
+    },
+    {
+      "path": "modules/audio/audio_peaks.py",
+      "bytes": 8642,
+      "sha256": "dff1f6e810e179ea23ba083cfb21fb707f865085bee5324733a5673f8610f888"
+    },
+    {
+      "path": "modules/audio/reaction_bursts.py",
+      "bytes": 21117,
+      "sha256": "6d35cf85ce5231cba1c5332c2ff1557af12ad518e1382ee7b335ac2646e09906"
+    },
+    {
+      "path": "modules/audio/transcript.py",
+      "bytes": 21479,
+      "sha256": "d4531ea709adc410b7762a681a5ffb5ba39948e381685f86c5f3e8c714c3d644"
+    },
+    {
+      "path": "modules/media/clip_export.py",
+      "bytes": 1647,
+      "sha256": "f86890b4db9a3f89910eaed9294c97cc5b5782548418c6a33648f5a7e9f6cc4e"
+    },
+    {
+      "path": "modules/media/combine_videos.py",
+      "bytes": 11518,
+      "sha256": "9992b4d2e309b6d1a76bd19a7015f0f4de367c1e3e5a44051f933b30bd701f40"
+    },
+    {
+      "path": "modules/media/edl.py",
+      "bytes": 30812,
+      "sha256": "51aa038783360441974cfaf89d8715edb6d3e89e4cfef556ef3158b0cded995f"
+    },
+    {
+      "path": "modules/media/ffmpeg_tools.py",
+      "bytes": 8334,
+      "sha256": "24b3980206949a91ecdd0020608301256cb5c573a8397cca42dd2ca17dd3cfd4"
+    },
+    {
+      "path": "modules/media/video_cutter.py",
+      "bytes": 2148,
+      "sha256": "ff7b4299067b89fbe7a9afd6cfd46f4275ecaa925a5b4f2147023d4baad14117"
+    },
+    {
+      "path": "modules/report/highlight_report.py",
+      "bytes": 148336,
+      "sha256": "38f7ab58f562c2c92d89724a4986b6af2dea4237c4d78bcee9e94a5d914e71ef"
+    },
+    {
+      "path": "modules/rules/compose_events.py",
+      "bytes": 11546,
+      "sha256": "946ba3d59292599bf1e170abd3461bc24fd74ea74800fbcfc6a1acc2ffeb05a1"
+    },
+    {
+      "path": "modules/rules/composition_signals.py",
+      "bytes": 10586,
+      "sha256": "d26e1320cb8fdeacffe40c406b129ea83d64b357395034733c8ca81a291c407e"
+    },
+    {
+      "path": "modules/segments/__pycache__/highlight_select.cpython-311.pyc",
+      "bytes": 13672,
+      "sha256": "d33f1a3544cf946fb12bff9dd50c02798737dfe0715f5a1b4dd3878dcaa254e6"
+    },
+    {
+      "path": "modules/segments/auto_segments.py",
+      "bytes": 18456,
+      "sha256": "33c937408517eefca9cb51f44243f4ee6cc21d28b4318193ee2e8b90f845f099"
+    },
+    {
+      "path": "modules/segments/highlight_select.py",
+      "bytes": 9857,
+      "sha256": "a127d9db217a5f9636a8ca59b15307abb30c18df22afdcf0e8fd4619213c0dea"
+    },
+    {
+      "path": "modules/segments/motion_scene_detect_optimized.py",
+      "bytes": 27103,
+      "sha256": "f080aecf8b756bf74301f5365917dd468b5396ca73ada7f9e05db69c84c5b2a2"
+    },
+    {
+      "path": "modules/segments/scene_cuts.py",
+      "bytes": 8517,
+      "sha256": "b7c43c3586c633bddf4b440c5a282bc53d7a65ab8a93f25b6efc58830ef8e218"
+    },
+    {
+      "path": "modules/segments/signal_combinations.py",
+      "bytes": 8430,
+      "sha256": "0a71b9d161bad084c59b74764b8d3366cc52764168d9ee7537d5361636276e61"
+    },
+    {
+      "path": "modules/segments/simple_run.py",
+      "bytes": 2290,
+      "sha256": "ab9f93094dbd9a44aaf4ab475b887ed4f542c58e6100f17308795aff5688b719"
+    },
+    {
+      "path": "modules/vision/action_models.py",
+      "bytes": 9680,
+      "sha256": "70067fb63f967daaa3f36f5908542b6777a531667c36ce45ed02e3f47e1f20f1"
+    },
+    {
+      "path": "modules/vision/action_siglip.py",
+      "bytes": 47546,
+      "sha256": "7771ec491147a89e3532dd4fd53312fbbf122b9b854c0c9f1ea9ec4f95b6c384"
+    },
+    {
+      "path": "modules/vision/yolox_models.py",
+      "bytes": 4161,
+      "sha256": "74c517cd7fde24300374efdfb3621a3a4e39cf04b16523eac6be34eaa30bda3f"
+    },
+    {
+      "path": "object_recognition.py",
+      "bytes": 28942,
+      "sha256": "dfa4f5d3841af0f5184d656d90f0d4c46c18bf79bdb564627b1295af6128127e"
+    },
+    {
+      "path": "pipeline.py",
+      "bytes": 153456,
+      "sha256": "bf286b05dcf766e65a9da6e8336f0dcb7e3bb258cefa74f1366c7d2487599ffe"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 3565,
+      "sha256": "5b48cd9ec18ad818a4f422b7e098824cf0d7a5ca726eefd664018c7b75f72425"
+    },
+    {
+      "path": "version.py",
+      "bytes": 74,
+      "sha256": "43d4791e81086e6e1572dd6e2924b1b5dbeb08d4dc1774fbcd82eba75496bdb5"
+    }
+  ],
+  "related_repositories": [
+    {
+      "repo": "WyattBlue/auto-editor",
+      "stars": 5614,
+      "license": "Unlicense",
+      "sha": "be18d01b3438eb86bfaf75703bea09183141887b",
+      "url": "https://github.com/WyattBlue/auto-editor"
+    },
+    {
+      "repo": "zhouxiaoka/autoclip",
+      "stars": 9706,
+      "license": "MIT",
+      "sha": "3d3b5edf9ffa595a764b0919e6dbd4ce8acaca84",
+      "url": "https://github.com/zhouxiaoka/autoclip"
+    }
+  ],
+  "execution": {
+    "full_app_installed": false,
+    "models_downloaded": false,
+    "real_video_analyzed": false,
+    "real_video_exported": false,
+    "pure_selection_module_executed": true,
+    "probe_cases": 4
+  },
+  "evidence_files": {
+    "selection-probe.json": {
+      "bytes": 737,
+      "sha256": "4ba460eb63d05aba53a1bd70d7bf4e18e4a064a5e26dec323300fea1657dc0c0"
+    },
+    "source-text.jpg": {
+      "bytes": 228565,
+      "sha256": "f90287bf5c85bbc8ad2182eebcd71cbf8cdbfdc44052dad34e46f6e0d953fffe"
+    }
+  }
+}
