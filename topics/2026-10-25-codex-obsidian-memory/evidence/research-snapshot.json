@@ -1,0 +1,160 @@
+{
+  "verified_at": "2026-10-25T21:19:03.007024+08:00",
+  "source": {
+    "kind": "screenshot",
+    "original_url": null,
+    "image_name": "img_v3_0216q_49034cf0-0750-4cfb-9ba7-6feba59d0cfg.jpg",
+    "author_display": "张三的歌AI（订阅版）",
+    "headline": "给 Codex 装永久记忆",
+    "read_scope": "user-provided screenshot text only",
+    "archive_scope": "two article text crops only; phone and social UI excluded",
+    "screenshot_is_instructional_material": true,
+    "original_setup_verified": false
+  },
+  "references": {
+    "obsidian_help_commit": "f333c95d23fc1e30594fa7acb9181f67ab71861c",
+    "obsidian_skills_commit": "3ccff5338ea700537839b21900aa5358a0402c98",
+    "obsidian_skills_stars": 50043,
+    "obsidian_skills_license": "MIT",
+    "read_codex_pages": {
+      "codex-agents": "https://learn.chatgpt.com/docs/agent-configuration/agents-md",
+      "codex-automations": "https://learn.chatgpt.com/docs/automations?surface=app",
+      "codex-memories": "https://learn.chatgpt.com/docs/customization/memories",
+      "codex-skills": "https://learn.chatgpt.com/docs/build-skills"
+    },
+    "obsidian_help_page_read_note": "HTTP 200 final pages contained app shell only; official repository Markdown read instead"
+  },
+  "retrieved_files": [
+    {
+      "group": "obsidian-help",
+      "path": "en/Extending Obsidian/Obsidian CLI.md",
+      "bytes": 32586,
+      "sha256": "884d3f36a30ad2dc08bcdc84c1243e17e255677a2bd4a7a1aa0d8f77939fc012"
+    },
+    {
+      "group": "obsidian-help",
+      "path": "en/Extending Obsidian/Obsidian Headless.md",
+      "bytes": 1928,
+      "sha256": "48e063d9f46deb199213ac6f57f099cd9e0dde67c2b78546755ca838e1914cbb"
+    },
+    {
+      "group": "obsidian-help",
+      "path": "en/Files and folders/How Obsidian stores data.md",
+      "bytes": 3473,
+      "sha256": "add03088da7be4ab2fd364918c17b006d646eafedffada5440db83217f6942e6"
+    },
+    {
+      "group": "obsidian-help",
+      "path": "en/Getting started/Create a vault.md",
+      "bytes": 1055,
+      "sha256": "21ac1c3c3dc50a20d01cc128d86929badfc80ecc1cf50750115d04a11b1aef9b"
+    },
+    {
+      "group": "obsidian-help",
+      "path": "en/Obsidian Sync/Headless Sync.md",
+      "bytes": 6545,
+      "sha256": "633bda169c0488c0d64e8b7f128cb427d30f92fd5bdaf20fb4c0246a127046a4"
+    },
+    {
+      "group": "obsidian-skills",
+      "path": "LICENSE",
+      "bytes": 1077,
+      "sha256": "64c64d48361edfe8610016441bf593256ea9b67f133b00f47c55aa29ee878567"
+    },
+    {
+      "group": "obsidian-skills",
+      "path": "README.md",
+      "bytes": 3539,
+      "sha256": "a395f944ddce5efa92f52f5c947cec9d015e5c7448ae7f31eb41a0652c968c57"
+    },
+    {
+      "group": "obsidian-skills",
+      "path": "skills/knap/SKILL.md",
+      "bytes": 3942,
+      "sha256": "ef5666573358cd7d18e04195f3e7c473b88d3e3140c41ab59bbee01c81e9989f"
+    },
+    {
+      "group": "obsidian-skills",
+      "path": "skills/obsidian-cli/SKILL.md",
+      "bytes": 3183,
+      "sha256": "b54257cdc0e5d04488b35b0c797bfe427b24359f0848d3c73924dcacf8da6358"
+    },
+    {
+      "group": "obsidian-skills",
+      "path": "skills/obsidian-markdown/SKILL.md",
+      "bytes": 5367,
+      "sha256": "7ad72e1f0a9081ed325e76b6402ad5de50a00e63e2341fd403a92f147234a007"
+    },
+    {
+      "group": "official",
+      "path": "codex-agents.html",
+      "bytes": 409563,
+      "sha256": "899e9ad3fccaaf00f8446fdc654336f129fd389fdf430f42a525d0beac04d9d2"
+    },
+    {
+      "group": "official",
+      "path": "codex-automations.html",
+      "bytes": 481159,
+      "sha256": "6e7997ce99da7c68a9c0740bbcba4eae447bd9956a0018cbf5795392eda30c76"
+    },
+    {
+      "group": "official",
+      "path": "codex-global-memory.html",
+      "bytes": 396839,
+      "sha256": "0f0f107457f369a2cace155d937c207ccf47e20ce98405d1e78c82e126622766"
+    },
+    {
+      "group": "official",
+      "path": "codex-memories.html",
+      "bytes": 423443,
+      "sha256": "3f041754d07e88203be07cf9d5917ec3fbcc8720581dfedcc732b3483aeab894"
+    },
+    {
+      "group": "official",
+      "path": "codex-skills.html",
+      "bytes": 418399,
+      "sha256": "9258cce3cd4c475d134097abd9eabf22007cbd7fffad9e8e51173b87687cab4d"
+    },
+    {
+      "group": "official",
+      "path": "obsidian-cli.html",
+      "bytes": 2798,
+      "sha256": "e330dbcfa1a415165557854fb0b305fd87b2797f4021b14eaae6f9736c8a686d"
+    },
+    {
+      "group": "official",
+      "path": "obsidian-data.html",
+      "bytes": 2851,
+      "sha256": "f5024856f9db01abfe1404697c908959b597e7e76af29d462a18f47f8535ae28"
+    },
+    {
+      "group": "official",
+      "path": "obsidian-sync.html",
+      "bytes": 2797,
+      "sha256": "36d83edc6ed4c3ea701918b2935a48e6b79f4efd36b0e0377df67a2a0426d5e5"
+    }
+  ],
+  "findings": {
+    "native_codex_memories_documented": true,
+    "native_local_memories_default": "off per current official page",
+    "global_agents_default_limit_bytes": 32768,
+    "obsidian_cli_installer_recommendation": "1.12.7+",
+    "obsidian_cli_requires_desktop_app": true,
+    "headless_sync_requires_subscription": true
+  },
+  "execution": {
+    "created_user_vault": false,
+    "read_user_full_chat_history": false,
+    "modified_native_memory_config": false,
+    "installed_obsidian_skills": false,
+    "created_scheduled_jobs": false,
+    "end_to_end_memory_tested": false,
+    "scope": "research and repository catalog archive only"
+  },
+  "evidence": {
+    "source-text.jpg": {
+      "bytes": 175210,
+      "sha256": "2258fae902b3e4f5582b3f9944274a6912c49e3636f257f17b85f38c65652f48"
+    }
+  }
+}

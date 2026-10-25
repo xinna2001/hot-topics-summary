@@ -282,6 +282,21 @@
       ],
       "created_at": "2026-10-25T07:44:13+00:00",
       "updated_at": "2026-10-25T07:44:13+00:00"
+    },
+    {
+      "id": "2026-10-25-codex-obsidian-memory",
+      "name": "Codex + Obsidian：跨项目记忆与定期整理",
+      "report": "topics/2026-10-25-codex-obsidian-memory/README.md",
+      "sources": [
+        {
+          "kind": "screenshot",
+          "url": null,
+          "title": "张三的歌AI（订阅版）：给 Codex 装永久记忆",
+          "note": "图片1 img_v3_0216q_49034cf0-0750-4cfb-9ba7-6feba59d0cfg.jpg；原抖音图文链接待补；截图为 Obsidian 记忆工作流建议，未提供实际配置与运行证据"
+        }
+      ],
+      "created_at": "2026-10-25T13:19:03+00:00",
+      "updated_at": "2026-10-25T13:19:03+00:00"
     }
   ]
 }
