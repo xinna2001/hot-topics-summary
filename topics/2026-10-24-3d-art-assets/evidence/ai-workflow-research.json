@@ -1,0 +1,254 @@
+{
+  "verified_at": "2026-10-25T20:05:31.748232+08:00",
+  "topic_id": "2026-10-24-3d-art-assets",
+  "mode": "update existing topic; preserve original sources",
+  "new_source": {
+    "short_url": "https://v.douyin.com/12PJ2ng1WWU/",
+    "canonical_url": "https://www.douyin.com/video/7700304126933058938",
+    "author": "朝忆",
+    "page_title": "AI已经进化到这种程度了？ AI建模+AI绑定+AI形态键",
+    "declared_workflow": "Tripo + codex + Charakuru",
+    "author_comments": [
+      "是tripo的模型",
+      "用识图标点给模型面部框位置，让codex捏形态键这种"
+    ],
+    "publication_display": "2026-10-25 02:32",
+    "read_scope": "public page description and author comments; six sampled video frames",
+    "sampled_seconds": [
+      2,
+      7,
+      12,
+      17,
+      23,
+      29
+    ],
+    "media_probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "index": 0,
+          "codec_type": "audio"
+        },
+        {
+          "index": 1,
+          "codec_type": "video",
+          "width": 960,
+          "height": 576
+        }
+      ],
+      "format": {
+        "duration": "31.633333",
+        "size": "1407337"
+      }
+    },
+    "video_sha256": "182c932417755aecceac3ab78ff0fa5b4621437e4d80cddea50cfe5aa486e018",
+    "original_project_obtained": false
+  },
+  "charakuru": {
+    "repo": "nanocle/Charakuru",
+    "document_commit": "8eb22f6c6700dcc310896336596682594928024c",
+    "stars": 904,
+    "created_at": "2026-10-06T08:27:57Z",
+    "release": "v1.1.0",
+    "release_date": "2026-10-23T00:59:23Z",
+    "license": "custom source-available; not OSI/MIT",
+    "node_requirement": ">=22",
+    "blender_requirement": "5.2+ per current expression guide",
+    "release_asset": {
+      "name": "charakuru-1.1.0-2026-10-23T00-56-38-465Z.zip",
+      "bytes": 11684894,
+      "sha256": "ad2b7d7de05f7b495bb5f05e6e9c6c13b7aa2339a0fa116f56f4a9f74183dd1b",
+      "file_entries": 278,
+      "skill_entrypoints": 10
+    },
+    "expression_outputs_update_existing_vrm": false
+  },
+  "retrieved_and_inspected_sources": [
+    {
+      "group": "charakuru",
+      "path": "README.ja.md",
+      "bytes": 16580,
+      "sha256": "25fc63992a19af412a9b918252e046d5af6f3f8a3ea24f507c6054d0afc934ae"
+    },
+    {
+      "group": "charakuru",
+      "path": "README.md",
+      "bytes": 13846,
+      "sha256": "391e71a85f0ff1f2a46e146958d8283fb9bf9134e7a1a3356290c33d0f8f8c3f"
+    },
+    {
+      "group": "charakuru",
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 2317,
+      "sha256": "dd91c02e70e89a862029149eed06e8162d01f8d051cf4ad8ccd94e3df6130dbd"
+    },
+    {
+      "group": "charakuru",
+      "path": "docs/browser-use.md",
+      "bytes": 3122,
+      "sha256": "ce6c571f18ff20112bc01da50d501268dc88f1f67688a3267967fdf478055c09"
+    },
+    {
+      "group": "charakuru",
+      "path": "docs/expression-authoring.ja.md",
+      "bytes": 4245,
+      "sha256": "baba19ccaa42b90089c190d372dd56542c0fee9e01bac3ba95aede11ad26c3b9"
+    },
+    {
+      "group": "charakuru",
+      "path": "docs/getting-started.md",
+      "bytes": 2210,
+      "sha256": "0eb80d8b968d863e42b21423859b68ec633054704a009d31fa46713ac10379e3"
+    },
+    {
+      "group": "charakuru",
+      "path": "docs/license.md",
+      "bytes": 848,
+      "sha256": "0e71533eb57e57f14e902cacff56e63708af134a5b48e7c772151b32ac810ee2"
+    },
+    {
+      "group": "charakuru",
+      "path": "docs/preview-user.zh-CN.md",
+      "bytes": 1517,
+      "sha256": "60b27012df86ac22d33dade78092e206df4d933c14edea22061e81bf6f8f454b"
+    },
+    {
+      "group": "charakuru",
+      "path": "docs/tutorial.md",
+      "bytes": 17784,
+      "sha256": "a8feb0c9112bb754aab7bfb51bb908ea0f32aebe3f21fc744155ab97b3f8647d"
+    },
+    {
+      "group": "charakuru",
+      "path": "docs/tutorial.zh-CN.md",
+      "bytes": 10197,
+      "sha256": "d24d84f899746b7c3a167eccab738589db9a2324c2eac4f466d8f823026acc29"
+    },
+    {
+      "group": "kit-read",
+      "path": "package.json",
+      "bytes": 215,
+      "sha256": "9f147c6b9c5defdabafdc956c5b0fbb7b8703f20a3ed7bae742400393e9021f2"
+    },
+    {
+      "group": "kit-read",
+      "path": "scripts/export-rig.py",
+      "bytes": 4018,
+      "sha256": "ab385e417f5a4ebcf2f1d879cf1e2e17f2fa45dbe24429ba2d9c96defd010b4e"
+    },
+    {
+      "group": "kit-read",
+      "path": "scripts/expression-mask.py",
+      "bytes": 36119,
+      "sha256": "f020d5fc45e782a1cad7373e4ddc4ef79a0064e191705051a89604f0cfd6f675"
+    },
+    {
+      "group": "kit-read",
+      "path": "scripts/expression-transfer.py",
+      "bytes": 17958,
+      "sha256": "ee004bb5d8948c2d4167f55199af741680766ec2710ed2c20b7b15fe1e938865"
+    },
+    {
+      "group": "kit-read",
+      "path": "scripts/spring-setup.py",
+      "bytes": 16718,
+      "sha256": "7a2781671edbff6031da334e04e4449e9408115994637e7afa0ad90904d08541"
+    },
+    {
+      "group": "kit-read",
+      "path": "scripts/transfer-weights.py",
+      "bytes": 2735,
+      "sha256": "13fb3b2be29f9b10320983d9519fa280be16903d779744ff740e18d2ec835eba"
+    },
+    {
+      "group": "kit-read",
+      "path": "scripts/update-expression-authoring.mjs",
+      "bytes": 4377,
+      "sha256": "dde22be8cc6fd2f98aab40c824abc0c3508436bc0ba737cfd3fa6cc1c1c2d4b3"
+    },
+    {
+      "group": "kit-read",
+      "path": "scripts/verify-springs.mjs",
+      "bytes": 1069,
+      "sha256": "1558eaa46ce410d2184472dfc6089649b0a905232e966f3291e2a86e30d85d72"
+    },
+    {
+      "group": "kit-read",
+      "path": "server-expression-authoring.mjs",
+      "bytes": 2035,
+      "sha256": "71046396ffe96dff4836de9d9f76ddde36ceda77722ae87937b041b77f2b7d1b"
+    },
+    {
+      "group": "official",
+      "path": "blender-shape-keys-5.2.html",
+      "bytes": 462291,
+      "sha256": "7e715ab7f0830722bddf99bf8733d1a7c3f6ad3755a995a6dab58499c31d672d"
+    },
+    {
+      "group": "official",
+      "path": "blender-shape-keys.html",
+      "bytes": 462291,
+      "sha256": "7e715ab7f0830722bddf99bf8733d1a7c3f6ad3755a995a6dab58499c31d672d"
+    },
+    {
+      "group": "official",
+      "path": "gigazine.html",
+      "bytes": 105667,
+      "sha256": "5cf416c71bf4de7103560208c7c82c630a8351b47c371f4fafe7c16a0b945db8"
+    },
+    {
+      "group": "official",
+      "path": "mogura.html",
+      "bytes": 77422,
+      "sha256": "491c373f3e778f299fcb9a4da264fe7f8a6d2e869bdfda10befe49c8c4f2e93e"
+    },
+    {
+      "group": "official",
+      "path": "tripo-feature.html",
+      "bytes": 225418,
+      "sha256": "62c18bcf0b0efa22da53b617a14fef6b3df342799b13641cb7e682846f11ccc3"
+    },
+    {
+      "group": "official",
+      "path": "tripo-rig-api.html",
+      "bytes": 98531,
+      "sha256": "8a1a7d47bf1c654a9c2cca11d66704279c7166b0639ae9290a51c9b948ccab46"
+    },
+    {
+      "group": "official",
+      "path": "tripo-rig.html",
+      "bytes": 52689,
+      "sha256": "5667328df37a0b2afcab8b99d4be8f9eef12ce8de75f3c647ee7512a78ac2b2a"
+    },
+    {
+      "group": "official",
+      "path": "unity-blendshape-api.html",
+      "bytes": 16877,
+      "sha256": "8f3e406755f18a8e90763b3f3eeaab65198716d3c84c9502239438c05c76ed9d"
+    },
+    {
+      "group": "official",
+      "path": "unity-blendshapes.html",
+      "bytes": 14700,
+      "sha256": "bb33168294463208a3cf28bf060a69c4cbd589dd3594d113b5936830133b09d5"
+    }
+  ],
+  "execution": {
+    "source_video_downloaded": true,
+    "source_video_sampled": true,
+    "release_archive_downloaded": true,
+    "release_code_static_inspection": true,
+    "kit_code_executed": false,
+    "kit_installed": false,
+    "model_services_called": false,
+    "new_3d_asset_created": false,
+    "unity_integration_tested": false
+  },
+  "evidence": {
+    "ai-workflow-video-keyframes.jpg": {
+      "bytes": 215875,
+      "sha256": "ea2bed670c994f341643e2a1fb75e8d5eeecc50b6272a0ec0f8983fc17f371cd"
+    }
+  }
+}
