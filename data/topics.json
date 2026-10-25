@@ -213,6 +213,27 @@
       ],
       "created_at": "2026-10-24T15:35:58+00:00",
       "updated_at": "2026-10-24T15:35:58+00:00"
+    },
+    {
+      "id": "2026-10-25-pixelle-video",
+      "name": "Pixelle-Video：AI 全自动短视频引擎（原视频待核）",
+      "report": "topics/2026-10-25-pixelle-video/README.md",
+      "sources": [
+        {
+          "kind": "douyin",
+          "url": "https://v.douyin.com/PR-x_TmHfUg/",
+          "title": "爱科技AI：阿里开源了 AI 短视频引擎",
+          "note": "标题和作者来自用户分享文本；短链解析为视频 ID 7699893581566216810；原作品详情和视频未获取，Pixelle-Video 为检索匹配候选，尚未确认与视频一一对应"
+        },
+        {
+          "kind": "douyin",
+          "url": "https://www.douyin.com/video/7699893581566216810",
+          "title": "抖音完整作品链接",
+          "note": "由用户原短链跳转确认视频 ID；保留规范地址，不保留分享追踪参数"
+        }
+      ],
+      "created_at": "2026-10-25T05:13:59+00:00",
+      "updated_at": "2026-10-25T05:13:59+00:00"
     }
   ]
 }
