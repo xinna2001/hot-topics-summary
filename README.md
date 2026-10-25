@@ -21,6 +21,7 @@
 | ComfyUI：节点工作流与 API 批量图像生产 | [查看详细信息](topics/2026-10-24-comfyui-workflows/README.md) | 截图提供，原链接待补（图片1 img\_v3\_0216p\_8190e440-5d7c-419b-91db-6f71243484ag.jpg；原抖音图文链接待补） |
 | 3D美术资产 | [查看详细信息](topics/2026-10-24-3d-art-assets/README.md) | [依亦：又是温馨治愈爱意满满的一天，现在是（最终）幻想时间](https://v.douyin.com/6CompqDLYcM/)<br>[抖音完整作品链接](https://www.douyin.com/video/7699805973577239851) |
 | Pixelle-Video：AI 全自动短视频引擎（原视频待核） | [查看详细信息](topics/2026-10-25-pixelle-video/README.md) | [爱科技AI：阿里开源了 AI 短视频引擎](https://v.douyin.com/PR-x_TmHfUg/)<br>[抖音完整作品链接](https://www.douyin.com/video/7699893581566216810) |
+| Motion Canvas：代码动画与可拖动时间事件 | [查看详细信息](topics/2026-10-25-motion-canvas/README.md) | [AI不得鸟：1.9 万 Star，用代码做动画，时间点能拖](https://v.douyin.com/14v7WmZAL9E/)<br>[抖音完整作品链接](https://www.douyin.com/video/7700368672421924111) |
 <!-- HOT_TOPICS:END -->
 
 详细页说明：它是什么、技术如何实现、关联开源项目和官方资料、复现条件、限制，以及仍需核实的说法。关键结论附来源和查阅日期，区分已核实事实、作者宣称和推测。

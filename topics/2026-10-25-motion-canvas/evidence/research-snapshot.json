@@ -1,0 +1,313 @@
+{
+  "verified_at": "2026-10-25T13:31:04.926271+08:00",
+  "source": {
+    "short_url": "https://v.douyin.com/14v7WmZAL9E/",
+    "canonical_url": "https://www.douyin.com/video/7700368672421924111",
+    "video_id": "7700368672421924111",
+    "author": "AI不得鸟",
+    "title": "1.9 万 Star，用代码做动画，时间点能拖",
+    "page_publication_display": "2026-10-25 06:43",
+    "description": "1.9 万 Star，用代码做动画，时间点能拖 用代码做动画，最麻烦的是跟配音对不上。这个 1.9 万 Star 的开源项目，把「什么时候动」做成了编辑器里能拖的块，改稿不用回来改数字。它还专管图表、公式、流程、架构图，也能按空格翻页当幻灯片讲。限制也说清楚：不剪实拍，正式版停在 3.17。GitHub 搜 Motion Canvas。",
+    "project_correspondence_confirmed": true,
+    "read_scope": "full public webpage description and six sampled frames; no full ASR transcript",
+    "sampled_seconds": [
+      5,
+      15,
+      25,
+      35,
+      45,
+      52
+    ],
+    "media_probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "index": 0,
+          "codec_type": "video",
+          "width": 720,
+          "height": 1280
+        },
+        {
+          "index": 1,
+          "codec_type": "audio"
+        }
+      ],
+      "format": {
+        "duration": "56.466667",
+        "size": "2410673"
+      }
+    },
+    "video_sha256": "059086ee84eef4553de889f953150c53654f54ad2b68d519c2015131b9f4452f"
+  },
+  "upstream": {
+    "repo": "motion-canvas/motion-canvas",
+    "commit": "7b91435c301d530351dcf5ebb91dd139c002e405",
+    "commit_date": "2026-07-02T20:01:32Z",
+    "stars": 19469,
+    "archived": false,
+    "root_license": "MIT",
+    "ffmpeg_package_license": "GPLv3",
+    "latest_release": {
+      "tag": "v3.17.2",
+      "published_at": "2024-12-14T20:26:49Z"
+    },
+    "documentation_site_read": "timeout; fixed-commit official repository MDX read instead"
+  },
+  "read_files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1070,
+      "sha256": "b3f12201916c5d478263cd210cf17f3d0c007d03bd574e0b77cac6307953068e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5266,
+      "sha256": "9895daa20be79849a312b5cb5b9ed36db2d1a6dfe9731b5e53a67b222abe9cd9"
+    },
+    {
+      "path": "package.json",
+      "bytes": 2141,
+      "sha256": "df32afdf6b799ee90d201f2b5812809d2cfbea68260f6f05d1669861977d370b"
+    },
+    {
+      "path": "packages/2d/package.json",
+      "bytes": 1350,
+      "sha256": "9b5988f5d7dab117302278030212ed887c348734964468e1a27b2f42070e4f88"
+    },
+    {
+      "path": "packages/2d/src/lib/components/Latex.ts",
+      "bytes": 7175,
+      "sha256": "405afa4b28147d73ff6b8c947ab99be7b3132599b7d7a0dd407296b199e72ece"
+    },
+    {
+      "path": "packages/2d/src/lib/components/Video.ts",
+      "bytes": 8563,
+      "sha256": "7f9aec37cb67838932f442a8a1463d5168b6431e2aa79a0809c320e074c76adf"
+    },
+    {
+      "path": "packages/2d/src/lib/scenes/Scene2D.ts",
+      "bytes": 5551,
+      "sha256": "82c123ef150c0aaac29006476e49ba2e26177eb8078bafc31def9bb24f007d5a"
+    },
+    {
+      "path": "packages/core/package.json",
+      "bytes": 916,
+      "sha256": "8ff2573a69e763571acc158226ffac070f426893a58902f79fbd1cdf874c03e3"
+    },
+    {
+      "path": "packages/core/src/app/Renderer.ts",
+      "bytes": 9109,
+      "sha256": "2a1d337e90457eaef597c9b447a721cd1d6446e5209fad14393e2a2ef5d12577"
+    },
+    {
+      "path": "packages/core/src/flow/scheduling.ts",
+      "bytes": 1556,
+      "sha256": "7dc9f34890f8ab6dd353850b0003734acc33a6283035ba449237784ea4cf4f56"
+    },
+    {
+      "path": "packages/core/src/scenes/timeEvents/EditableTimeEvents.ts",
+      "bytes": 4897,
+      "sha256": "2e37ac98986b35d32a67a7478bbb61d521c78bbdbeb0546ed764d72f79d9b330"
+    },
+    {
+      "path": "packages/core/src/scenes/timeEvents/TimeEvent.ts",
+      "bytes": 662,
+      "sha256": "09361fd227d482a62b39580898d912d9c2fffd0381b33227c43380adf08020e4"
+    },
+    {
+      "path": "packages/core/src/signals/SignalContext.ts",
+      "bytes": 8788,
+      "sha256": "561ee53ceae348a3074197ab298bfb283b633b1c274d1f25c2804bba5801c5f4"
+    },
+    {
+      "path": "packages/core/src/threading/threads.ts",
+      "bytes": 2953,
+      "sha256": "7c0f63c91eee74de5ee57e79a402a8d3af0f0fad677cd1ba209f3d233308c7c5"
+    },
+    {
+      "path": "packages/core/src/utils/useDuration.ts",
+      "bytes": 837,
+      "sha256": "7d5d174556da012dfd60761df0f139a53ba2381a4fbeb991b8b7c01f946c67a7"
+    },
+    {
+      "path": "packages/create/index.js",
+      "bytes": 6572,
+      "sha256": "dca150a49d225d7bf7788f3fcee27f31d8fd0465c1e377b8dd89c26ee1ad4366"
+    },
+    {
+      "path": "packages/create/package.json",
+      "bytes": 791,
+      "sha256": "c0e467fb3a9aaff9f98c1cae1dad71f64aebb46f986e9118558801ef1d6a490a"
+    },
+    {
+      "path": "packages/create/template-2d-ts/package.json",
+      "bytes": 395,
+      "sha256": "731156466103fd09fa759e71aedc05394fcb410e1e869a03571289db0acaeb1c"
+    },
+    {
+      "path": "packages/create/template-2d-ts/src/project.ts",
+      "bytes": 151,
+      "sha256": "ba66971f40f3f2a7ff781d60eefb44c2a4dd724d8f855559180f0875153ac49e"
+    },
+    {
+      "path": "packages/create/template-2d-ts/src/scenes/example.tsx",
+      "bytes": 338,
+      "sha256": "6977e9ebb51dca78587e5d363a64b50a6ba494280d59562b5c22721ce3843ddc"
+    },
+    {
+      "path": "packages/docs/docs/getting-started/flow.mdx",
+      "bytes": 5552,
+      "sha256": "0d9b77a81fed195c6651c34d2d71872d1e667479c872261cbb51911960e93fcf"
+    },
+    {
+      "path": "packages/docs/docs/getting-started/media.mdx",
+      "bytes": 4413,
+      "sha256": "20165c25944cedd038fe2001b13029b85775cb8eeb1f37a147326e55bc298523"
+    },
+    {
+      "path": "packages/docs/docs/getting-started/presentation.mdx",
+      "bytes": 1978,
+      "sha256": "c04dc849ab71d53210f1d9a7b2939ac77dac33d460c2519cbf1078e8da795083"
+    },
+    {
+      "path": "packages/docs/docs/getting-started/quickstart.mdx",
+      "bytes": 10733,
+      "sha256": "c850705ebb69a43ea166efd1efdb6443c19b263eacdf0158e35b131e21100c26"
+    },
+    {
+      "path": "packages/docs/docs/getting-started/rendering/image-sequence.mdx",
+      "bytes": 1096,
+      "sha256": "ae572b50245b31432da5722130a2b39d4aca6464098d358e2cd3e2c022fbe181"
+    },
+    {
+      "path": "packages/docs/docs/getting-started/rendering/index.mdx",
+      "bytes": 4399,
+      "sha256": "890fee9d50de84affe357570b34aee069d3e69504b578831ee334f19eda1614b"
+    },
+    {
+      "path": "packages/docs/docs/getting-started/rendering/video.mdx",
+      "bytes": 1875,
+      "sha256": "0a836d0e95bb1c6357a411a8c192c7739a2ab0874b1a5d63052e3837862ae966"
+    },
+    {
+      "path": "packages/docs/docs/getting-started/signals.mdx",
+      "bytes": 5110,
+      "sha256": "e456042d8f03e5929dba7ba833d258a4f34a60cce7564f3f4c3bac29d004b0ef"
+    },
+    {
+      "path": "packages/docs/docs/getting-started/time-events.mdx",
+      "bytes": 2199,
+      "sha256": "db0bcec9dd688d8e5cc4cd146be0cc306b508e118f7683221ab7faa90e7fd7fb"
+    },
+    {
+      "path": "packages/ffmpeg/client/FFmpegExporterClient.ts",
+      "bytes": 5568,
+      "sha256": "122a3dc5e6430f23849f750de763ca4b02465708a46af6fb964ac8638600a7e4"
+    },
+    {
+      "path": "packages/ffmpeg/package.json",
+      "bytes": 1014,
+      "sha256": "eff2d7468c26882d027b376d2ac84db834c8c8323873e3c0590488784d73e1f5"
+    },
+    {
+      "path": "packages/ffmpeg/server/FFmpegExporterServer.ts",
+      "bytes": 5574,
+      "sha256": "9f7d6db92e56da039de9776df9f609a666562a081d8c2f133a5faf0ee00e3b7a"
+    },
+    {
+      "path": "packages/ffmpeg/server/index.ts",
+      "bytes": 462,
+      "sha256": "62108a6380db836e675308251ec00b7d8d820008935d6a70c6e1581a988d15d2"
+    },
+    {
+      "path": "packages/ui/src/components/timeline/Label.tsx",
+      "bytes": 3212,
+      "sha256": "13cfa02fc08bf154159048582678a716ec93a666c4d8e8b33234f2b253415da6"
+    },
+    {
+      "path": "packages/ui/src/components/timeline/Timeline.tsx",
+      "bytes": 10944,
+      "sha256": "20eebbfdf2666114a5d5dcbf171e8ccdbbd9b60054faacbff1be70f9f9d29e11"
+    },
+    {
+      "path": "packages/ui/src/contexts/timeline.tsx",
+      "bytes": 2422,
+      "sha256": "2f13c70a2af4b4cd1bbeaba629344599c928055771ec88b5c19e7595c59bfcb7"
+    },
+    {
+      "path": "packages/vite-plugin/src/partials/meta.ts",
+      "bytes": 1786,
+      "sha256": "d758dd133cb6f60126ad8e5a6af53aeb83b31e4af34b162d5b75103abde450a9"
+    }
+  ],
+  "related_repositories": [
+    {
+      "repo": "ManimCommunity/manim",
+      "url": "https://github.com/ManimCommunity/manim",
+      "stars": 41841,
+      "license": "MIT",
+      "sha": "bb380986b16273d4197bcf21e1365b5f0dcad505",
+      "pushed_at": "2026-10-24T22:40:26Z",
+      "read_files": [
+        {
+          "path": "LICENSE",
+          "sha256": "c6a922fc1cfaed7ac0f87aa1dc77ebf5a3c8d1ccc5ab01da33153f0d013bf019"
+        },
+        {
+          "path": "README.md",
+          "sha256": "41cac8aeb33a726c1b0a70d10233ee06d9cd73c6df0bace8145637d75c5fc283"
+        }
+      ]
+    },
+    {
+      "repo": "remotion-dev/remotion",
+      "url": "https://github.com/remotion-dev/remotion",
+      "stars": 67175,
+      "license": "NOASSERTION",
+      "sha": "a64a02770f89fd5d0de8956f6a8fc5c62bd30295",
+      "pushed_at": "2026-10-24T18:02:55Z",
+      "read_files": [
+        {
+          "path": "LICENSE.md",
+          "sha256": "bd65083b940f61904f6ef298aade918a7cad72a3e35bc406e36fab365844b673"
+        },
+        {
+          "path": "README.md",
+          "sha256": "867c11b80c8ba7a56b3fdaff4501cf8871529c9bb9cf50f2ee87cae9f4d6a505"
+        }
+      ]
+    },
+    {
+      "repo": "theatre-js/theatre",
+      "url": "https://github.com/theatre-js/theatre",
+      "stars": 12793,
+      "license": "Apache-2.0",
+      "sha": "6ea82b938ea49609489f6377ded693ccc6ee8f5b",
+      "pushed_at": "2024-08-14T13:20:18Z",
+      "read_files": [
+        {
+          "path": "LICENSE",
+          "sha256": "32a36fa187169c24228aaf6889371e7ffb4273d327ef37e340994e7ca157879b"
+        },
+        {
+          "path": "README.md",
+          "sha256": "a5b6be8fec45220609f12ca629884dbb6567bd545cd4ad849d90ad49fdc564f2"
+        }
+      ]
+    }
+  ],
+  "execution": {
+    "installed_motion_canvas": false,
+    "editor_interactions_tested": false,
+    "new_animation_rendered": false,
+    "source_video_downloaded": true,
+    "source_video_keyframes_inspected": true
+  },
+  "evidence_files": {
+    "video-keyframes.jpg": {
+      "sha256": "1823dc3d153ad2d42d53fa9e123f9c45fba651f5573e64fbb1d898c1a3e8d0dc",
+      "bytes": 105275
+    }
+  }
+}
