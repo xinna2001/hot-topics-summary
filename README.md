@@ -26,6 +26,7 @@
 | Codex + Obsidian：跨项目记忆与定期整理 | [查看详细信息](topics/2026-10-25-codex-obsidian-memory/README.md) | 截图提供，原链接待补（图片1 img\_v3\_0216q\_49034cf0-0750-4cfb-9ba7-6feba59d0cfg.jpg；原抖音图文链接待补；截图为 Obsidian 记忆工作流建议，未提供实际配置与运行证据） |
 | PicRope（图绳）：Windows 截图挂绳与桌面贴图 | [查看详细信息](topics/2026-10-26-picrope/README.md) | [小确教你用ai：GitHub宝藏截图浏览工具，截图随手挂桌面](https://v.douyin.com/z9gkJJIz0as/)<br>[抖音完整作品链接](https://www.douyin.com/video/7700797693073718761) |
 | BilldDesk：WebRTC 远程桌面与开源/Pro 边界 | [查看详细信息](topics/2026-10-26-billddesk/README.md) | [AI-算法小鬼：远程操控开源、不限流工具](https://v.douyin.com/3VII7081ScM/)<br>[抖音完整作品链接](https://www.douyin.com/video/7700453353424684726) |
+| Mesh Avatar Studio：单张插画与可动 2D 网格形象 | [查看详细信息](topics/2026-10-26-mesh-avatar-studio/README.md) | [梦莱加德：让你图片转可动虚拟形象](https://v.douyin.com/d6w6geFR9u8/)<br>[抖音完整作品链接](https://www.douyin.com/video/7700784743008324900) |
 <!-- HOT_TOPICS:END -->
 
 详细页说明：它是什么、技术如何实现、关联开源项目和官方资料、复现条件、限制，以及仍需核实的说法。关键结论附来源和查阅日期，区分已核实事实、作者宣称和推测。
