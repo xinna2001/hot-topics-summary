@@ -330,6 +330,27 @@
       ],
       "created_at": "2026-10-26T04:23:46+00:00",
       "updated_at": "2026-10-26T04:23:46+00:00"
+    },
+    {
+      "id": "2026-10-26-billddesk",
+      "name": "BilldDesk：WebRTC 远程桌面与开源/Pro 边界",
+      "report": "topics/2026-10-26-billddesk/README.md",
+      "sources": [
+        {
+          "kind": "douyin",
+          "url": "https://v.douyin.com/3VII7081ScM/",
+          "title": "AI-算法小鬼：远程操控开源、不限流工具",
+          "note": "用户原始短链；已读取29.652秒视频的全时段逐秒画面；项目为galaxy-s10/billd-desk；视频宣称需区分开源版与Pro"
+        },
+        {
+          "kind": "douyin",
+          "url": "https://www.douyin.com/video/7700453353424684726",
+          "title": "抖音完整作品链接",
+          "note": "短链已解析的规范原文；作品ID 7700453353424684726；作者AI-算法小鬼"
+        }
+      ],
+      "created_at": "2026-10-26T04:32:03+00:00",
+      "updated_at": "2026-10-26T04:32:03+00:00"
     }
   ]
 }
