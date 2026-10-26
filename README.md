@@ -24,6 +24,7 @@
 | Motion Canvas：代码动画与可拖动时间事件 | [查看详细信息](topics/2026-10-25-motion-canvas/README.md) | [AI不得鸟：1.9 万 Star，用代码做动画，时间点能拖](https://v.douyin.com/14v7WmZAL9E/)<br>[抖音完整作品链接](https://www.douyin.com/video/7700368672421924111) |
 | VideoHighlighter：本地多信号高光筛选与视频导出 | [查看详细信息](topics/2026-10-25-videohighlighter/README.md) | 截图提供，原链接待补（用户图片1 img\_v3\_0216q\_2f9a863a-8569-4499-807c-188d8ff8748g.jpg；截图提供，原抖音图文链接待补；正文中的开源日期未经证实，仓库记录更早） |
 | Codex + Obsidian：跨项目记忆与定期整理 | [查看详细信息](topics/2026-10-25-codex-obsidian-memory/README.md) | 截图提供，原链接待补（图片1 img\_v3\_0216q\_49034cf0-0750-4cfb-9ba7-6feba59d0cfg.jpg；原抖音图文链接待补；截图为 Obsidian 记忆工作流建议，未提供实际配置与运行证据） |
+| PicRope（图绳）：Windows 截图挂绳与桌面贴图 | [查看详细信息](topics/2026-10-26-picrope/README.md) | [小确教你用ai：GitHub宝藏截图浏览工具，截图随手挂桌面](https://v.douyin.com/z9gkJJIz0as/)<br>[抖音完整作品链接](https://www.douyin.com/video/7700797693073718761) |
 <!-- HOT_TOPICS:END -->
 
 详细页说明：它是什么、技术如何实现、关联开源项目和官方资料、复现条件、限制，以及仍需核实的说法。关键结论附来源和查阅日期，区分已核实事实、作者宣称和推测。
