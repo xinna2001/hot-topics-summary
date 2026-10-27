@@ -414,6 +414,27 @@
       ],
       "created_at": "2026-10-26T11:37:04+00:00",
       "updated_at": "2026-10-26T11:37:04+00:00"
+    },
+    {
+      "id": "2026-10-27-magpie-local-gateway",
+      "name": "Magpie：多 Agent 本地模型网关与 WorkBuddy 插件",
+      "report": "topics/2026-10-27-magpie-local-gateway/README.md",
+      "sources": [
+        {
+          "kind": "douyin",
+          "url": "https://v.douyin.com/rv4Cbts0aqA/",
+          "title": "Kk-AI：magpie 开源项目，本地请求转发与 token 自由",
+          "note": "用户原始短链；解析为图文作品 7701321273133139547；完整正文与全部 1 张配图已读取，源码与插件已核对，未安装运行或核验扣费"
+        },
+        {
+          "kind": "douyin",
+          "url": "https://www.douyin.com/note/7701321273133139547",
+          "title": "抖音完整图文链接",
+          "note": "由原短链解析；Kk-AI；发布时间 2026-10-27 20:19:50 Asia/Shanghai；原图未给出 GitHub 地址和版本，yetone/magpie 为高置信匹配"
+        }
+      ],
+      "created_at": "2026-10-27T15:57:18+00:00",
+      "updated_at": "2026-10-27T15:57:18+00:00"
     }
   ]
 }

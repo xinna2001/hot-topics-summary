@@ -1,0 +1,124 @@
+{
+  "source_checked_date": "2026-10-27",
+  "snapshot_written_at": "2026-10-27T23:57:18.358746+08:00",
+  "original_material": {
+    "share_url": "https://v.douyin.com/rv4Cbts0aqA/",
+    "canonical_url": "https://www.douyin.com/note/7701321273133139547",
+    "platform_id": "7701321273133139547",
+    "author": "Kk-AI",
+    "published_at": "2026-10-27T20:19:50+08:00",
+    "caption": "magpie开源项目无敌！magpie可以在本地做请求转发，基本可以实现token自由。可以接入wb cb，每天领积分用内置的模型，其他智能体把请求base url打到本地magpie上，magpie把请求再打到wb cb，即可完成转发，强无敌！推荐立刻马上安装使用！安装办法很简单，跟你的AI桌面助手说一句，给我下载并安装github上的magpie！\n#deepseek #magpie #workbuddy #token自由 #AI",
+    "type": "image_note",
+    "image_count": 1,
+    "all_images_visually_inspected": true,
+    "image_dimensions": [
+      {
+        "width": 580,
+        "height": 170
+      }
+    ],
+    "image_sha256": "6f423028b5992beb1ae49482b1d48ae32583f17e46076fddd8d70b302abad666",
+    "project_match": "high_confidence; original image has no repository URL or version"
+  },
+  "repositories": [
+    {
+      "repo": "yetone/magpie",
+      "commit": "e54a7d50b94899cf5b8c51206f6a893eab06b20e",
+      "stars": 23475,
+      "license": "MIT",
+      "release_observed": "v0.1.1744",
+      "release_published_at": "2026-10-27T15:48:31Z",
+      "release_darwin_arm64_dmg_bytes": 26005772,
+      "release_commit_equivalence_verified": false
+    },
+    {
+      "repo": "magpie-community/plugins",
+      "commit": "2ef8b8b5ef53edab888727d088a5973388d92a00",
+      "stars": 145,
+      "license": "MIT",
+      "workbuddy_package": "@magpie-community/opencode-workbuddy-auth",
+      "workbuddy_package_version": "0.1.39",
+      "minimum_version_in_magpie_snapshot": "0.1.39"
+    },
+    {
+      "repo": "router-for-me/CLIProxyAPI",
+      "commit": "ad8bdd3f20bef44f0684b8a6096a216b2c76040d",
+      "stars": 56614,
+      "license": "MIT",
+      "inspection_scope": "repository metadata and README"
+    },
+    {
+      "repo": "farion1231/cc-switch",
+      "commit": "1718a26199e626bf8d4b20485ed4791192f1ebf7",
+      "stars": 149328,
+      "license": "MIT",
+      "inspection_scope": "repository metadata and README"
+    }
+  ],
+  "source_file_hashes": {
+    "magpie-README.zh-CN.md": {
+      "bytes": 22774,
+      "sha256": "1fdf2839c8b3701988c5ab493b038a6f790467eeb5558f56ef9bf74871762de1"
+    },
+    "gateway.go": {
+      "bytes": 313425,
+      "sha256": "337e70d2c7c4a7f2c564ab73612c6e23e8526c893dfcc454baf5f738316ce212"
+    },
+    "go.mod": {
+      "bytes": 2457,
+      "sha256": "9c57ea76cd0d3c4f560fb9a5fbbaa09ab268515204a56caca92596d509693be9"
+    },
+    "agent-workbuddy.go": {
+      "bytes": 13608,
+      "sha256": "d453c7a77e761228890df73b371210a985f232382bf3c453e61ae1677770e9d0"
+    },
+    "agent-codebuddy.go": {
+      "bytes": 3722,
+      "sha256": "e2aa39738d406d70c68eb7cf3db4a3d19731bbc25eee6c8103c0b405e4013abb"
+    },
+    "workbuddy.go": {
+      "bytes": 15354,
+      "sha256": "77a3a7f1cd33c0029f792f3a129d9f1b5e502b39079d07157f24041720a88cc6"
+    },
+    "migrate_workbuddy.go": {
+      "bytes": 7467,
+      "sha256": "baf40b00d0659fd399d92ddee6e67108052ce6f5fdd4ecc8ffb58798a86c558c"
+    },
+    "reference.md": {
+      "bytes": 210002,
+      "sha256": "497cdc17c534327c01c10a55e893cfe243584cc011deb8b08f60aa83b04f2d7d"
+    },
+    "workbuddy-plugin-README.md": {
+      "bytes": 16684,
+      "sha256": "42f18fb1e88d0324dea1b3750d6a1cda97dbfe21b068206e0580095feb2bf85c"
+    },
+    "workbuddy-plugin-index.mjs": {
+      "bytes": 119168,
+      "sha256": "f787a28bef4014173a354b5b805867d4b54424c9bc6dabe69acfa2e92de387dc"
+    },
+    "workbuddy-plugin-package.json": {
+      "bytes": 566,
+      "sha256": "ca0abddf8532512e1635b69a8330ff0e137e9808fc4d08763a85e356fd975d4b"
+    },
+    "CLIProxyAPI-README.md": {
+      "bytes": 31982,
+      "sha256": "10b0e32f7b6ade748cf1159175fadbe5785b19698b5f22d3ea0f2f804337d97c"
+    },
+    "cc-switch-README.md": {
+      "bytes": 69485,
+      "sha256": "62f28223c292a50ed489b444ec5a779bd193e53b4aee67bc6668e981f187a56a"
+    }
+  },
+  "runtime_verification": {
+    "magpie_installed": false,
+    "agent_config_modified": false,
+    "existing_subscription_credentials_read": false,
+    "upstream_model_request_sent": false,
+    "credit_deduction_verified": false
+  },
+  "source_limitations": [
+    "Original post does not identify exact repository URL/version or show successful response/billing.",
+    "Official /zh/ homepage fetch timed out after 30 seconds; only partial HTML retrieved.",
+    "Implementation findings use fully retrieved pinned GitHub documentation and source."
+  ]
+}
