@@ -29,6 +29,7 @@
 | Mesh Avatar Studio：单张插画与可动 2D 网格形象 | [查看详细信息](topics/2026-10-26-mesh-avatar-studio/README.md) | [梦莱加德：让你图片转可动虚拟形象](https://v.douyin.com/d6w6geFR9u8/)<br>[抖音完整作品链接](https://www.douyin.com/video/7700784743008324900) |
 | Tooliva AI：模板驱动的 Spine 动画与多皮肤导出 | [查看详细信息](topics/2026-10-26-tooliva-spine/README.md) | [开发工程师彭飞：Ai一键生成Spine动画](https://v.douyin.com/UTegETrqLhc/)<br>[抖音完整作品链接](https://www.douyin.com/video/7700928072992882555) |
 | BetterGI：原神画面识别与日常任务自动化 | [查看详细信息](topics/2026-10-26-bettergi/README.md) | [AI指挥官Felix：原神也有开源代肝了？日常任务自动搞定！](https://v.douyin.com/6CgtttZgi84/)<br>[抖音完整作品链接](https://www.douyin.com/video/7700606045111310568) |
+| Magpie：多 Agent 本地模型网关与 WorkBuddy 插件 | [查看详细信息](topics/2026-10-27-magpie-local-gateway/README.md) | [Kk-AI：magpie 开源项目，本地请求转发与 token 自由](https://v.douyin.com/rv4Cbts0aqA/)<br>[抖音完整图文链接](https://www.douyin.com/note/7701321273133139547) |
 <!-- HOT_TOPICS:END -->
 
 详细页说明：它是什么、技术如何实现、关联开源项目和官方资料、复现条件、限制，以及仍需核实的说法。关键结论附来源和查阅日期，区分已核实事实、作者宣称和推测。
