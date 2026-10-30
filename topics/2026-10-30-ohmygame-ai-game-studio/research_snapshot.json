@@ -1,0 +1,190 @@
+{
+  "checked_at": "2026-10-30T07:00:27.990728+00:00",
+  "research_status": "partially_verified",
+  "application_executed": false,
+  "original_video": {
+    "short_url": "https://v.douyin.com/gl2zfm54JjA/",
+    "canonical_url": "https://www.douyin.com/video/7702344031505879461",
+    "id": "7702344031505879461",
+    "title_scope": "truncated_user_share_text",
+    "published_at": null,
+    "media_read": false,
+    "download_result": {
+      "total": 1,
+      "success": 0,
+      "failed": 1
+    },
+    "web_read_scope": "redirects_and_page_shell_only"
+  },
+  "repository": {
+    "full_name": "WhiteTowerAI/ohmygame",
+    "html_url": "https://github.com/WhiteTowerAI/ohmygame",
+    "stargazers_count": 1368,
+    "forks_count": 165,
+    "default_branch": "main",
+    "pushed_at": "2026-10-30T05:56:56Z"
+  },
+  "commit": "c30bfabda86c27084128deca5bc4bd0d4e9983eb",
+  "license": "Apache-2.0",
+  "latest_release": {
+    "tag_name": "v0.0.0-beta.5.0",
+    "html_url": "https://github.com/WhiteTowerAI/ohmygame/releases/tag/v0.0.0-beta.5.0",
+    "published_at": "2026-10-29T10:56:03Z"
+  },
+  "alternatives": [
+    {
+      "full_name": "Donchitos/Claude-Code-Game-Studios",
+      "stargazers_count": 29596,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "commit": "05ad7c8a5b8aa2aa86bbd3439ae7cf7295cac418",
+      "commit_date": "2026-10-19T02:09:09Z"
+    },
+    {
+      "full_name": "tettethu/VibeGame",
+      "stargazers_count": 286,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "commit": "fc9cbbe1f82c217b6d1946c00f51d309e584d826",
+      "commit_date": "2026-10-13T16:42:28Z"
+    }
+  ],
+  "read_evidence": [
+    {
+      "path": "LICENSE",
+      "url": "https://github.com/WhiteTowerAI/ohmygame/blob/c30bfabda86c27084128deca5bc4bd0d4e9983eb/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357
+    },
+    {
+      "path": "README.zh-CN.md",
+      "url": "https://github.com/WhiteTowerAI/ohmygame/blob/c30bfabda86c27084128deca5bc4bd0d4e9983eb/README.zh-CN.md",
+      "sha256": "b4257267e24739df651b000a06831c9e84cb8a68f8f99bf59af2f5094adb558b",
+      "bytes": 18836
+    },
+    {
+      "path": "config/preinstalled-plugins.json",
+      "url": "https://github.com/WhiteTowerAI/ohmygame/blob/c30bfabda86c27084128deca5bc4bd0d4e9983eb/config/preinstalled-plugins.json",
+      "sha256": "fc301289bb456a538204635dfff7a2451122868520983122fab34327d3265f8b",
+      "bytes": 930
+    },
+    {
+      "path": "docs/README.md",
+      "url": "https://github.com/WhiteTowerAI/ohmygame/blob/c30bfabda86c27084128deca5bc4bd0d4e9983eb/docs/README.md",
+      "sha256": "5c5cc40ffd5333a6a7e2bffbbcdd2aea5c74bc964fee2fdb7100e999f5e89f4b",
+      "bytes": 18264
+    },
+    {
+      "path": "docs/agent-runtimes.md",
+      "url": "https://github.com/WhiteTowerAI/ohmygame/blob/c30bfabda86c27084128deca5bc4bd0d4e9983eb/docs/agent-runtimes.md",
+      "sha256": "7b3f55871ebb50800f8883d3045df424c492b1a07b8b3a16cf06f893d7e9db0f",
+      "bytes": 30561
+    },
+    {
+      "path": "docs/external-agents.md",
+      "url": "https://github.com/WhiteTowerAI/ohmygame/blob/c30bfabda86c27084128deca5bc4bd0d4e9983eb/docs/external-agents.md",
+      "sha256": "6fe462285631a793c8b26abdb8e2ce0a1b5ef3a77025ebd7ea32c7d1ef3b7d77",
+      "bytes": 16344
+    },
+    {
+      "path": "docs/playable-nodes/README.md",
+      "url": "https://github.com/WhiteTowerAI/ohmygame/blob/c30bfabda86c27084128deca5bc4bd0d4e9983eb/docs/playable-nodes/README.md",
+      "sha256": "27045cb00e62e688e4922d79261e00e04be0f1f7a05c8d25343b11682b90cbda",
+      "bytes": 5525
+    },
+    {
+      "path": "docs/plugin-beta-testing.zh-CN.md",
+      "url": "https://github.com/WhiteTowerAI/ohmygame/blob/c30bfabda86c27084128deca5bc4bd0d4e9983eb/docs/plugin-beta-testing.zh-CN.md",
+      "sha256": "b326fc803be353245cbff40a51e9d521e94aa93f70e41e7414bca657651494ba",
+      "bytes": 14660
+    },
+    {
+      "path": "docs/plugins.md",
+      "url": "https://github.com/WhiteTowerAI/ohmygame/blob/c30bfabda86c27084128deca5bc4bd0d4e9983eb/docs/plugins.md",
+      "sha256": "648bef1d3238ca2ad975bcdf2e3889ef9a292407d8a6f48bce8733bda2ba8366",
+      "bytes": 34763
+    },
+    {
+      "path": "docs/preview-runtime.md",
+      "url": "https://github.com/WhiteTowerAI/ohmygame/blob/c30bfabda86c27084128deca5bc4bd0d4e9983eb/docs/preview-runtime.md",
+      "sha256": "f3088f5e440bf4caf4335814308cdd0831cec097461f822f4cddb171fba6cde0",
+      "bytes": 12018
+    },
+    {
+      "path": "docs/runtime.md",
+      "url": "https://github.com/WhiteTowerAI/ohmygame/blob/c30bfabda86c27084128deca5bc4bd0d4e9983eb/docs/runtime.md",
+      "sha256": "a8ea36db3022d822bb9ed10bca9cf87a1d3dec941ff8326a13415bce4510b3f6",
+      "bytes": 41817
+    },
+    {
+      "path": "package.json",
+      "url": "https://github.com/WhiteTowerAI/ohmygame/blob/c30bfabda86c27084128deca5bc4bd0d4e9983eb/package.json",
+      "sha256": "982cebb274f13a8e082aae750d802cd6316dcf85944ed70da47154c1fac5c045",
+      "bytes": 5702
+    },
+    {
+      "path": "plugins/unity/skills/unity-game/SKILL.md",
+      "url": "https://github.com/WhiteTowerAI/ohmygame/blob/c30bfabda86c27084128deca5bc4bd0d4e9983eb/plugins/unity/skills/unity-game/SKILL.md",
+      "sha256": "a7394737fed59bcc98f5af949f8151614f476fcdc2f061b9f42b0e9329741055",
+      "bytes": 1698
+    },
+    {
+      "path": "plugins/web-game-studio/skills/game-playtest/SKILL.md",
+      "url": "https://github.com/WhiteTowerAI/ohmygame/blob/c30bfabda86c27084128deca5bc4bd0d4e9983eb/plugins/web-game-studio/skills/game-playtest/SKILL.md",
+      "sha256": "d44f38eafe49ef56f90bec9ac075ae7190fcb7e4f7ee4c06ef29cba8cb298387",
+      "bytes": 4261
+    },
+    {
+      "path": "scripts/prepare-examples.ts",
+      "url": "https://github.com/WhiteTowerAI/ohmygame/blob/c30bfabda86c27084128deca5bc4bd0d4e9983eb/scripts/prepare-examples.ts",
+      "sha256": "d27dcd7814db1e0909838b7d3b5d6730bfa547be8f0fd6d412805250352e2fac",
+      "bytes": 7818
+    },
+    {
+      "path": "scripts/prepare-preinstalled-plugins.ts",
+      "url": "https://github.com/WhiteTowerAI/ohmygame/blob/c30bfabda86c27084128deca5bc4bd0d4e9983eb/scripts/prepare-preinstalled-plugins.ts",
+      "sha256": "c0eab89206b8617c9d2e41bd13409107fa42660a75ab5cafd4ae09c64f274131",
+      "bytes": 5973
+    },
+    {
+      "path": "src/daemon/external-mcp.ts",
+      "url": "https://github.com/WhiteTowerAI/ohmygame/blob/c30bfabda86c27084128deca5bc4bd0d4e9983eb/src/daemon/external-mcp.ts",
+      "sha256": "5b86c2b3f687c3c986d32e89b164bae33b9bfaf40c4c7392aeb62ae354ee362b",
+      "bytes": 22431
+    },
+    {
+      "path": "src/daemon/pi-agent.ts",
+      "url": "https://github.com/WhiteTowerAI/ohmygame/blob/c30bfabda86c27084128deca5bc4bd0d4e9983eb/src/daemon/pi-agent.ts",
+      "sha256": "f3bd0469b699a57eba4de4299e105aa2106e82c2f8300298adb21ce26cca4159",
+      "bytes": 3240
+    },
+    {
+      "path": "src/daemon/playtest-tools.ts",
+      "url": "https://github.com/WhiteTowerAI/ohmygame/blob/c30bfabda86c27084128deca5bc4bd0d4e9983eb/src/daemon/playtest-tools.ts",
+      "sha256": "65ab70271eab47ff7559a6df3eb2cf91b12546b49f544fbc3d8487cd98acf725",
+      "bytes": 12145
+    },
+    {
+      "path": "src/daemon/publish/local.ts",
+      "url": "https://github.com/WhiteTowerAI/ohmygame/blob/c30bfabda86c27084128deca5bc4bd0d4e9983eb/src/daemon/publish/local.ts",
+      "sha256": "b2f564b4d68aba8fb5b4715a2c67ac6bfb2e09df10b1734c52f19e0833f6916e",
+      "bytes": 9722
+    },
+    {
+      "path": "src/daemon/tools.ts",
+      "url": "https://github.com/WhiteTowerAI/ohmygame/blob/c30bfabda86c27084128deca5bc4bd0d4e9983eb/src/daemon/tools.ts",
+      "sha256": "ec7f5ac43578045a8ce19423ffda8424ef53d16046cc96d53ae93e857d5c918b",
+      "bytes": 43508
+    }
+  ]
+}
