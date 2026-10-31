@@ -389,10 +389,22 @@
           "url": "https://www.douyin.com/video/7700928072992882555",
           "title": "抖音完整作品链接",
           "note": "同一短链已解析规范原文；作品ID 7700928072992882555"
+        },
+        {
+          "kind": "douyin",
+          "url": "https://v.douyin.com/pv8XkhA5D7I/",
+          "title": "开发工程师彭飞：用 AI，把角色创意变成 Spine 动画 有了角...",
+          "note": "同作者Spine制作关联线索；正文和媒体未取得，不能确认展示的是Tooliva；保留于既有专题待核实"
+        },
+        {
+          "kind": "douyin",
+          "url": "https://www.douyin.com/video/7702771710579199241",
+          "title": "抖音完整作品链接（关联产品待核实）",
+          "note": "由原短链跳转确认作品ID；未读取完整正文或视频，不确认所用产品"
         }
       ],
       "created_at": "2026-10-26T11:26:09+00:00",
-      "updated_at": "2026-10-26T11:26:09+00:00"
+      "updated_at": "2026-10-31T12:10:46+00:00"
     },
     {
       "id": "2026-10-26-bettergi",

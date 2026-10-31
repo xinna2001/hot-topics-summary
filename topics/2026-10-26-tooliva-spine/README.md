@@ -2,13 +2,47 @@
 
 收录日期：2026-10-26
 
-最近核实：2026-10-26（Asia/Shanghai）
+最近核实：2026-10-31（Asia/Shanghai）；原视频的历史读取范围保留 2026-10-26 时点。
 
-研究状态：已读取原视频、实际工作台和官方图文教程；模板、部件校准与导出流程部分核实；未执行生成或引擎导入
+研究状态：2026-10-26 原视频已读取；2026-10-31 重新读取 Tooliva 工作台与官方教程，新增视频未取得正文或媒体、与 Tooliva 的对应关系待核实。未执行生成、导出或引擎导入。
 
 ## 一句话结论
 
 原视频展示的是 **Tooliva AI 的 Spine 模板工作台**。官方说明先选定已有部件结构与动作的模板，再用 AI 生成角色形象、整套部件，经过校准/返工后导出。教程明确的多皮肤资源包是共享 JSON、Atlas 和各皮肤 PNG；视频正文宣称的“.spine 源文件”尚未取得文件验证。它不是已被证明能从任意图片自动发明骨骼和全部动作的一键工具。[S1][S2][S3]
+
+上段「原视频」指已于 2026-10-26 读取的作品。**2026-10-31 的新分享还不能确认是哪一个产品**，下方单独说明本轮读取情况；不会把同作者、相似标题视为产品归属已经核实。
+
+## 2026-10-31 新线索与本轮复核
+
+用户继续提供同作者的 [新短链](https://v.douyin.com/pv8XkhA5D7I/)，跳转确认 [作品 7702771710579199241](https://www.douyin.com/video/7702771710579199241)。分享文本署名「开发工程师彭飞」，截断标题是「用 AI，把角色创意变成 Spine 动画 有了角...」。完整标题、正文、准确发布日期和所用产品未取得；口令 `06/24 :1pm` 不作为发布日期。
+
+本轮依次尝试短链网页、本机原生抖音详情接口、移动分享页和带已有 cookie 的独立 Chrome 浏览器上下文。短链解析成功，详情接口没有返回 `aweme_detail`，浏览器只有「视频数据加载中」，没有视频地址。**没有下载或观看新视频，也没有读取到其字幕。** 先把这条材料作为同作者的 Spine 制作关联线索归入现有专题，索引备注明确产品关系待确认；确认是其他工具后再按实际实体拆分。
+
+本轮的可核实结果来自另行打开的一手资料：[证据摘要](evidence/2026-10-31-source-extract.md)、[公开信息与读取状态快照](evidence/2026-10-31-research-snapshot.json)。
+
+- **Tooliva 的模板合同仍然成立。** 当前工作台引导写明「模板决定部件结构和已有动画」。界面选中「黑铠巨刃斗士」，显示 7 个动作、44 个部件；模板画面仍提示加载中，因此只确认显示文字，没有确认动画已渲染，也没有清点全库。[S10]
+- **官方教程仍说明形象、部件、校准、返工和多皮肤导出。** 其步骤是选模板 → 生成候选角色 → 生成整套部件 → 对照动画校准 → 修正变换/镜像/Warp/分割边界 → 部件返工或增加武器款式 → 导出共享 JSON、Atlas 与各皮肤 PNG。教程描述不等于本轮完成了生成或导出。[S11]
+- **普通切图、序列帧和骨骼动画要按资产类型选择。** Tooliva 官方文章明确说切片 ZIP 不等于已绑定的 Spine 工程，拆成多个完整姿势 PNG 与拆成手臂、躯干等部件的用途不同；缺少的遮挡画面和关节连接需要另外处理。[S12]
+- **本轮补充一个提供代码及 Claude Skill 的候选。** `GenielabsOpenSource/spine-animation-ai` 当时 616 stars；其部件定位、骨骼 JSON 和已有骨骼换肤流程可直接查源码，但采用 **PolyForm Noncommercial 1.0.0**，商业用途需要另行许可。它是比较对象，不是新视频所用工具的已确认映射。[S13]
+
+### 本轮新增同类比较：Spine Animation AI
+
+核实提交：[`702b71689cac826efee942ee4564fef9560d6ef8`](https://github.com/GenielabsOpenSource/spine-animation-ai/commit/702b71689cac826efee942ee4564fef9560d6ef8)，提交日期 2026-08-26 UTC；616 stars 为本轮 GitHub 采样，后续会变化。[S13]
+
+实际源码区分两种起点：[S14]
+
+1. **从角色图/部件开始。** `split_character.py` 可调用 Gemini 生成拆分图集，再用 OpenCV 连通区域分割得到部件；已有透明部件时可以跳过这一段。`position_parts.py` 用 SIFT 特征、FLANN 匹配和 RANSAC 相似变换求位置、缩放和旋转，小部件匹配失败时退到多尺度模板匹配，再根据重叠区与参考图的颜色接近程度计算显示顺序。源码对顺序采用得分排序；不把 README 的「拓扑排序」文字当成实际实现。`build_spine_json.py` 按输入的骨骼、slots、attachments 和动作配置生成声明为 Spine `4.2.0` 的 JSON，内置 idle、walk、run、wave、jump、attack，并允许自定义时间轴。它需要骨骼配置和验收，不能据此证明任何输入都自动得到正确绑定。
+2. **从已有 Spine 骨骼开始。** `reskin-app` 打开 JSON/Atlas/PNG，使用 Gemini 重绘外观、分割遮罩并重打包皮肤，沿用原骨骼。其文档要求 Gemini API key 和可达的 SAM-3 分割服务；当前 `pipeline.py` 还区分 atlas 与 exploded 合成路径。文档中的完整换肤结果未在本机运行，不承诺缺少服务时仍可完成同样效果。
+
+| 路线 | 起点与输出 | 已确认的区别 | 本轮实测范围 |
+| --- | --- | --- | --- |
+| Tooliva | 选模板，生成角色部件，导出 JSON/Atlas/PNG | 模板决定结构与已有动作，提供网页校准与返工 | 当前界面文字和官方教程；未创建任务 |
+| Spine Animation AI | 角色图或分件 + 参考/骨骼配置；生成 Spine 4.2 JSON、图集及预览 | 有可查看的 Python 脚本和 Claude Skill；非商业许可，部分路径需要模型/分割服务 | README、许可、相关脚本；未运行 |
+| God Mode AI | 官网宣称单图分层、自动绑定，导出 Spine 3.5–4.2 JSON/Atlas/PNG 或视频 | 另一在线候选；产品宣称的通用绑定不能作为 Tooliva 的能力 | 本轮重新读取官网；未生成或导出 |
+
+Tooliva Spine 工作台没有确认的开源实现和 stars，不能数值比较「哪个比它星数更高」。本轮检索到的 616-star 项目更适合研究本地制作流程；是否适合项目取决于输入结构、运行结果、模型依赖和实际许可。两种在线产品也没有经过同图质量对照。[S13–S15]
+
+**输出验收仍需实际文件。** Spine 官方文档区分 Import Project 与 Import Data；可导入的骨骼 JSON 不等于原生 `.spine` 工程。当前重新读取的 JSON 文档要求骨骼、slots、skins、animations 等数据；运行时使用还有独立 Spine 授权合同。此前未验证的 `.spine` 原生工程、导出版本与引擎兼容性仍然待核实。[S16]
 
 ## 原始线索
 
@@ -117,6 +151,8 @@ God Mode AI 的导出范围只是其官方页面说明，不作为 Tooliva 的�
 
 ## 待核实事项
 
+- 2026-10-31 新视频的正文、演示范围与所用工具；目前只有分享文本和作品 ID，不确认它就是 Tooliva。
+- Spine Animation AI 本地流程的输出质量、模型/分割服务可用性及商业许可；本轮只读代码，不以 README 演示替代运行。
 - 实际单皮肤/多皮肤包、原生 .spine 文件、目标版本与在 Unity/Godot/Cocos 的运行结果。
 - AI 模型、服务器处理和分割/映射实现；当前未取得工作台源码。
 - 模板数量、每个模板支持的动作、单次积分、免费试用与导出权限。
@@ -135,7 +171,15 @@ God Mode AI 的导出范围只是其官方页面说明，不作为 Tooliva 的�
 | S7 | [Spine Runtimes License](https://en.esotericsoftware.com/spine-runtimes-license) | 页面更新 2025-04-05，查阅 2026-10-26；独立运行时授权 |
 | S8 | [Tooliva 桌面工具 README](https://github.com/ChinaCaesar/Tooliva/blob/2d5bb4f821ba04923211561c67b2376808350886/readme.md) | 查阅 2026-10-26；另一个同品牌桌面工具，非已确认的 Spine 工作台源码 |
 | S9 | [God Mode AI 官网](https://www.godmodeai.co/) | 查阅 2026-10-26；相似在线产品的官方宣称，未实测 |
+| S10 | [Tooliva 当前工作台](https://toolivaai.com/ai-studio/spine-workbench) | 重新读取 2026-10-31；引导仍明确模板结构与已有动画，单个模板文字为 7 动作/44 部件；图像加载未完成 |
+| S11 | [当前官方图文教程](https://toolivaai.com/zh/tutorials/spine-workbench-guide) | 重新全文读取 2026-10-31；形象、部件、校准、返工、多皮肤 JSON/Atlas/PNG |
+| S12 | [AI 切图与 Spine 分件](https://toolivaai.com/zh/blog/seo-ai-sprite-cutting-vs-spine-parts) | 页面日期 2026-10-17，查阅 2026-10-31；动作帧与部件不同，切片不等于骨骼绑定 |
+| S13 | [Spine Animation AI README](https://github.com/GenielabsOpenSource/spine-animation-ai/blob/702b71689cac826efee942ee4564fef9560d6ef8/README.md) · [LICENSE](https://github.com/GenielabsOpenSource/spine-animation-ai/blob/702b71689cac826efee942ee4564fef9560d6ef8/LICENSE) · [仓库 API](https://api.github.com/repos/GenielabsOpenSource/spine-animation-ai) | 核实提交 2026-08-26 UTC，查阅 2026-10-31；616 stars、Claude Skill、非商业许可 |
+| S14 | [split_character.py](https://github.com/GenielabsOpenSource/spine-animation-ai/blob/702b71689cac826efee942ee4564fef9560d6ef8/scripts/split_character.py) · [position_parts.py](https://github.com/GenielabsOpenSource/spine-animation-ai/blob/702b71689cac826efee942ee4564fef9560d6ef8/scripts/position_parts.py) · [build_spine_json.py](https://github.com/GenielabsOpenSource/spine-animation-ai/blob/702b71689cac826efee942ee4564fef9560d6ef8/scripts/build_spine_json.py) · [Reskin README](https://github.com/GenielabsOpenSource/spine-animation-ai/blob/702b71689cac826efee942ee4564fef9560d6ef8/reskin-app/README.md) · [pipeline.py](https://github.com/GenielabsOpenSource/spine-animation-ai/blob/702b71689cac826efee942ee4564fef9560d6ef8/reskin-app/app/backend/reskin/pipeline.py) | 查阅 2026-10-31；部件定位、模板动作、4.2 格式转换、已有骨骼换肤与依赖 |
+| S15 | [God Mode AI 当前官网](https://www.godmodeai.co/) | 重新读取 2026-10-31；产品宣称单图分层/绑定，JSON/Atlas/PNG 及 Spine 3.5–4.2 导出，未实测 |
+| S16 | [当前 Spine Import](https://en.esotericsoftware.com/spine-import) · [JSON 格式](https://en.esotericsoftware.com/spine-json-format) · [Runtimes License](https://en.esotericsoftware.com/spine-runtimes-license) | 重新读取 2026-10-31；工程与数据区别、结构字段、独立运行时合同；许可页更新日期 2025-04-05 |
 
 ## 更新记录
 
 - 2026-10-26：读取原视频与官网工作台/教程，确认模板生成和多皮肤流程，记录源工程、代码和引擎实测缺口。
+- 2026-10-31：保留原条目与旧来源；新增同作者 Spine 分享作为待核实关联线索，记录新视频读取失败；重新查阅当前工作台、官方教程与 Spine 文档，补充 616-star Spine Animation AI 的代码路径和非商业许可比较。目录条目数不增加。

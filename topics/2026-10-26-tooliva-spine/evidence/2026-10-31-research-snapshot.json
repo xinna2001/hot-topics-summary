@@ -1,0 +1,93 @@
+{
+  "checked_at": "2026-10-31T12:10:46.412112+00:00",
+  "input": {
+    "short_url": "https://v.douyin.com/pv8XkhA5D7I/",
+    "canonical_url": "https://www.douyin.com/video/7702771710579199241",
+    "share_author": "开发工程师彭飞",
+    "share_title_truncated": "用 AI，把角色创意变成 Spine 动画 有了角...",
+    "product_identity": "unconfirmed",
+    "read_scope": "share text and redirect only",
+    "native_detail_received": false,
+    "browser_detail_count": 0,
+    "browser_media_count": 0,
+    "video_downloaded": false,
+    "video_watched": false
+  },
+  "tooliva": {
+    "workbench_url": "https://toolivaai.com/ai-studio/?__aiStudioPath=%2Fai-studio%2Fspine-workbench",
+    "guide_quote": "模板决定部件结构和已有动画。",
+    "selected_template": "黑铠巨刃斗士",
+    "displayed_animations": 7,
+    "displayed_parts": 44,
+    "image_and_animation_loaded": false,
+    "tutorial_reread": true,
+    "resource_created": false,
+    "generation_run": false,
+    "export_run": false,
+    "engine_import_run": false,
+    "export_package_documented": [
+      "JSON",
+      "Atlas",
+      "per-skin PNG"
+    ]
+  },
+  "alternative": {
+    "full_name": "GenielabsOpenSource/spine-animation-ai",
+    "html_url": "https://github.com/GenielabsOpenSource/spine-animation-ai",
+    "stargazers_count": 616,
+    "created_at": "2026-02-24T19:25:45Z",
+    "pushed_at": "2026-08-26T14:35:50Z",
+    "default_branch": "main",
+    "commit": "702b71689cac826efee942ee4564fef9560d6ef8",
+    "commit_date": "2026-08-26T14:35:50Z",
+    "license": "PolyForm Noncommercial 1.0.0"
+  },
+  "alternative_research_scope": "README, license and relevant source inspected; code and models not run",
+  "alternative_implementation": {
+    "positioning": "SIFT+FLANN+RANSAC similarity transform with template-matching fallback",
+    "z_order": "overlap color scores sorted by depth; not a topological sort",
+    "skeleton_json_version": "4.2.0",
+    "presets": [
+      "idle",
+      "walk",
+      "run",
+      "wave",
+      "jump",
+      "attack"
+    ],
+    "full_image_splitting": "Gemini generation followed by OpenCV connected components",
+    "reskin_requirements_documented": [
+      "existing Spine JSON/Atlas/PNG",
+      "Gemini API key",
+      "SAM-3 HTTP service"
+    ],
+    "license": "PolyForm Noncommercial 1.0.0"
+  },
+  "source_extract_hashes": {
+    "tooliva-guide-current.txt": {
+      "characters": 1956,
+      "sha256": "db845566c97c968aa7be07c88185ac4dd9526f33296df0f0470a1bb47be65a37"
+    },
+    "parts-vs-frames.txt": {
+      "characters": 2604,
+      "sha256": "7b692611bc2d66c09c0dd5710adb56e26d297fd6eae7b84a00c8e3a8001587e0"
+    },
+    "godmode.txt": {
+      "characters": 6434,
+      "sha256": "9e2b626b72c9f6a0fa55ea5e2455ceab7b965150c43689e516eb85f28e15d614"
+    },
+    "spine-json.txt": {
+      "characters": 29032,
+      "sha256": "effca43c1086bdf854c0e031113da4b394c9dc28b103cad9a5659f474895f6ff"
+    },
+    "spine-import.txt": {
+      "characters": 5872,
+      "sha256": "5272cee74c192b1308e604cfd3784a4cccbbd2e37cd55fb32cc89808b1071c4c"
+    },
+    "spine-license.txt": {
+      "characters": 2046,
+      "sha256": "7b77ba7e68c5776d3c22ef0e5536adaf870e0155a76835c00affa78d622feec4"
+    }
+  },
+  "index_handling": "Update existing Spine topic as unconfirmed related input; keep previous sources and order"
+}
