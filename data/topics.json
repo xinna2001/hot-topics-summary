@@ -456,6 +456,27 @@
       ],
       "created_at": "2026-10-30T07:00:33+00:00",
       "updated_at": "2026-10-30T07:00:33+00:00"
+    },
+    {
+      "id": "2026-10-31-pixelfx-pixel-art-effects",
+      "name": "pixelfx：244 个代码驱动像素特效与 Agent 制作流程",
+      "report": "topics/2026-10-31-pixelfx-pixel-art-effects/README.md",
+      "sources": [
+        {
+          "kind": "douyin",
+          "url": "https://v.douyin.com/Fy_L6_5nKBI/",
+          "title": "代码侦探：开源像素风游戏特效库 pixelfx：232 个像...",
+          "note": "用户分享文本标题截断；原视频媒体和完整正文未读取成功，当前官方源码为244个效果"
+        },
+        {
+          "kind": "douyin",
+          "url": "https://www.douyin.com/video/7702725079376891177",
+          "title": "抖音完整作品链接",
+          "note": "由原短链跳转确认；作品ID 7702725079376891177；发布日期未取得"
+        }
+      ],
+      "created_at": "2026-10-31T10:08:38+00:00",
+      "updated_at": "2026-10-31T10:08:38+00:00"
     }
   ]
 }

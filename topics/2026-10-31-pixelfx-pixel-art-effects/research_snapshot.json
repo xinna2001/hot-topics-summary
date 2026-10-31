@@ -1,0 +1,195 @@
+{
+  "checked_at": "2026-10-31T10:05:42.873477+00:00",
+  "repositories": [
+    {
+      "full_name": "patch-gg/pixelfx",
+      "html_url": "https://github.com/patch-gg/pixelfx",
+      "description": "232 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
+      "stargazers_count": 579,
+      "created_at": "2026-10-30T06:43:25Z",
+      "pushed_at": "2026-10-31T08:44:14Z",
+      "default_branch": "main",
+      "homepage": "https://patch-gg.github.io/pixelfx/",
+      "license": "MIT",
+      "commit": "a84159688af3ca37a4be05a0d422b94451b2e24e",
+      "commit_date": "2026-10-31T08:41:17Z"
+    },
+    {
+      "full_name": "Ttanasart-pt/Pixel-Composer",
+      "html_url": "https://github.com/Ttanasart-pt/Pixel-Composer",
+      "description": "Node base VFX editor for pixel art.",
+      "stargazers_count": 1431,
+      "created_at": "2022-01-13T04:26:29Z",
+      "pushed_at": "2026-10-31T04:41:03Z",
+      "default_branch": "main",
+      "homepage": null,
+      "license": "MIT",
+      "commit": "9d4c9c679b705acac50815debde7ae41880684e2",
+      "commit_date": "2026-10-31T04:40:50Z"
+    },
+    {
+      "full_name": "aarthificial/pixelgraphics",
+      "html_url": "https://github.com/aarthificial/pixelgraphics",
+      "description": "A collection of pixel art visual effects",
+      "stargazers_count": 400,
+      "created_at": "2021-06-14T20:56:15Z",
+      "pushed_at": "2024-05-21T09:31:19Z",
+      "default_branch": "master",
+      "homepage": null,
+      "license": "MIT",
+      "commit": "5d5d2dab89b2455f0ae33b7e15b8628d1f583551",
+      "commit_date": "2022-06-10T19:52:16Z"
+    }
+  ],
+  "effect_inventory": {
+    "total": 244,
+    "categories": {
+      "arcane": 12,
+      "critters": 12,
+      "explosions": 12,
+      "fire": 12,
+      "holy": 10,
+      "ice": 10,
+      "impacts": 11,
+      "lightning": 11,
+      "melee": 12,
+      "moves": 12,
+      "nature": 13,
+      "pickups": 11,
+      "projectiles": 13,
+      "scifi": 12,
+      "shadow": 12,
+      "spawn": 10,
+      "status": 13,
+      "transitions": 10,
+      "ui": 12,
+      "water": 12,
+      "weather": 12
+    },
+    "pure": 112,
+    "simulated": 132,
+    "acts": 73
+  },
+  "douyin_read": {
+    "video_id": "7702725079376891177",
+    "detail_received": false,
+    "media_downloaded": false,
+    "reason": "Native downloader API returned no aweme_detail; complete caption and media not available"
+  },
+  "sample_checker": {
+    "tested_ids": [
+      "fire/campfire",
+      "ice/frost-nova",
+      "water/waterfall",
+      "ui/coin-collect",
+      "moves/fireball-throw"
+    ],
+    "pass": 5,
+    "fail": 0,
+    "warnings": 0,
+    "scope": "Sample only; not a full-library acceptance test"
+  },
+  "exports": [
+    {
+      "id": "fire/campfire",
+      "frames": 90,
+      "fps": 30,
+      "frame_size": [
+        128,
+        128
+      ],
+      "png_size": [
+        1280,
+        1152
+      ],
+      "loop": true,
+      "atlas_filename_matches": true,
+      "rectangles_in_bounds": true,
+      "transparency_verified": true,
+      "sha256": "f21206bb721dbf765838fcfaaa3fcd6676168ef9c064615849a41b9467a922db"
+    },
+    {
+      "id": "ice/frost-nova",
+      "frames": 103,
+      "fps": 30,
+      "frame_size": [
+        288,
+        192
+      ],
+      "png_size": [
+        2592,
+        2304
+      ],
+      "loop": false,
+      "atlas_filename_matches": true,
+      "rectangles_in_bounds": true,
+      "transparency_verified": true,
+      "sha256": "574f6d7db881749c24e9cb69a1f0f1f0c934af8fc3038e9636278e609bca0615"
+    },
+    {
+      "id": "water/waterfall",
+      "frames": 60,
+      "fps": 30,
+      "frame_size": [
+        144,
+        136
+      ],
+      "png_size": [
+        1152,
+        1088
+      ],
+      "loop": true,
+      "atlas_filename_matches": true,
+      "rectangles_in_bounds": true,
+      "transparency_verified": true,
+      "sha256": "9e58fa2c1e1fae18e14dadb265b97c1c5affaf5b90c5ba5839f64d3a72d5991b"
+    },
+    {
+      "id": "ui/coin-collect",
+      "frames": 75,
+      "fps": 30,
+      "frame_size": [
+        176,
+        116
+      ],
+      "png_size": [
+        1408,
+        1160
+      ],
+      "loop": false,
+      "atlas_filename_matches": true,
+      "rectangles_in_bounds": true,
+      "transparency_verified": true,
+      "sha256": "6e70b33a01ed89c5bc380a35fb3d09939aff35a5f50243c02b55204604bf3c2f"
+    },
+    {
+      "id": "moves/fireball-throw (whole act)",
+      "frames": 224,
+      "fps": 30,
+      "png_size": [
+        4784,
+        4608
+      ],
+      "actual_png_filename": "moves-fireball-throw.sheet.png",
+      "json_meta_image": "fireball-throw.png",
+      "atlas_filename_matches": false
+    }
+  ],
+  "video": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 736,
+        "height": 512,
+        "r_frame_rate": "60/1",
+        "nb_frames": "464"
+      }
+    ],
+    "format": {
+      "duration": "7.733333",
+      "size": "527532"
+    }
+  }
+}
