@@ -1,0 +1,89 @@
+{
+  "checked_at": "2026-11-01 Asia/Shanghai",
+  "source_video": {
+    "short_url": "https://v.douyin.com/GZElqphwX8g/",
+    "url": "https://www.douyin.com/video/7702859683211529526",
+    "id": "7702859683211529526",
+    "author": "志哥AI物联网手册",
+    "description": "3D打印直播间程序开源啦 刚开发出来的新鲜的#抖音直播 #3D打印机 #直播 #虚拟头像直播 #头像打印 \n3D打印头像直播开源程序：rhfbgfgfdg999999/3d-printer-live",
+    "published_at": "2026-10-31 23:49:53 Asia/Shanghai",
+    "duration_seconds": 43.072993,
+    "bytes": 5406989,
+    "sampled_frames_seconds": [
+      0,
+      12,
+      24,
+      36
+    ],
+    "reading_scope": "browser metadata and description; video downloaded; four exact keyframes inspected; no full audio transcription"
+  },
+  "upstream": {
+    "repo": "rhfbgfgfdg999999/3d-printer-live",
+    "sha": "b3130fad6ab33c4bf0268d1b4ec1f2e910ea6688",
+    "stars": 6,
+    "license": "MIT",
+    "created_at": "2026-10-31T15:56:38Z",
+    "pushed_at": "2026-10-31T15:59:57Z"
+  },
+  "comparisons": [
+    {
+      "repo": "saermart/DouyinLiveWebFetcher",
+      "branch": "main",
+      "sha": "40a904bdb0561a5a9c958a95634a29681cc4fbf4",
+      "stars": 1888,
+      "license": "AGPL-3.0",
+      "checked_at": "2026-11-01 Asia/Shanghai"
+    },
+    {
+      "repo": "zerodytrash/TikTok-Live-Connector",
+      "branch": "ts-rewrite",
+      "sha": "c10b040f4cb9771abd986ce51457d9f162f145c8",
+      "stars": 2247,
+      "license": "AGPL-3.0",
+      "checked_at": "2026-11-01 Asia/Shanghai"
+    }
+  ],
+  "verification": {
+    "upstream_checks": {
+      "command": "node --test bridge.test.mjs idle-fill.test.mjs auto-demo.test.mjs demo-rules.test.mjs",
+      "total": 30,
+      "pass": 30,
+      "fail": 0,
+      "scope": "existing parser/rule cases and code-fragment checks; no live-platform verification"
+    },
+    "browser": {
+      "environment": {
+        "platform": "darwin",
+        "node": "v24.16.0",
+        "local_only": true
+      },
+      "http_port": 50685,
+      "page_errors": [],
+      "steps": [
+        {
+          "name": "WebGL canvas and demo print completed",
+          "count": "1"
+        },
+        {
+          "name": "Synthetic WebSocket comment and gift reach UI",
+          "comments": "1",
+          "gifts": "1",
+          "queue": "研究用模拟送礼者 · 大头像 1/2 · 插队\n#1\n研究用模拟送礼者 · 大头像 2/2 · 插队\n#2"
+        },
+        {
+          "name": "Comment prints 1 and beer prints 2",
+          "completed": "3",
+          "history": "研究用模拟送礼者\n礼物·啤酒 · 大图 · 85分 · 13:05:35\n85分\n研究用模拟送礼者\n礼物·啤酒 · 大图 · 73分 · 13:05:33\n73分\n研究用模拟观众\n评论 · 小图 · 85分 · 13:05:31\n85分\n西瓜甜不甜\n自动演示 · 小图 · 83分 · 13:05:30\n83分"
+        }
+      ],
+      "status": "pass"
+    },
+    "limitations": [
+      "real livestream connection not executed",
+      "Windows WebView2 not executed",
+      "Kuaishou and TikTok adapter not verified",
+      "no real OBS or platform broadcast",
+      "standard quality only; no performance benchmark"
+    ]
+  }
+}
