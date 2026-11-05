@@ -33,6 +33,7 @@
 | OhMyGame：AI 游戏工作室与 beta 5 升级 | [查看详细信息](topics/2026-10-30-ohmygame-ai-game-studio/README.md) | [Di Huang：开源AI游戏工作室OhMyGame大升级 升级到B...](https://v.douyin.com/gl2zfm54JjA/)<br>[抖音完整作品链接](https://www.douyin.com/video/7702344031505879461) |
 | pixelfx：244 个代码驱动像素特效与 Agent 制作流程 | [查看详细信息](topics/2026-10-31-pixelfx-pixel-art-effects/README.md) | [代码侦探：开源像素风游戏特效库 pixelfx：232 个像...](https://v.douyin.com/Fy_L6_5nKBI/)<br>[抖音完整作品链接](https://www.douyin.com/video/7702725079376891177) |
 | 头像打印机：直播互动驱动的虚拟 3D 打印与数据桥 | [查看详细信息](topics/2026-11-01-avatar-printer-live/README.md) | [志哥AI物联网手册：3D打印直播间程序开源啦](https://v.douyin.com/GZElqphwX8g/)<br>[3D打印直播间程序开源啦](https://www.douyin.com/video/7702859683211529526) |
+| HowToGetAlongWithGirls：恋爱教练 Skill、文件记忆与同类选型 | [查看详细信息](topics/2026-11-05-dating-coach-skills/README.md) | [西兰花费算力：找到了个小众项目](https://v.douyin.com/Bw7Sgs5gzLs/)<br>[抖音完整图文链接](https://www.douyin.com/note/7701033373204017650) |
 <!-- HOT_TOPICS:END -->
 
 详细页说明：它是什么、技术如何实现、关联开源项目和官方资料、复现条件、限制，以及仍需核实的说法。关键结论附来源和查阅日期，区分已核实事实、作者宣称和推测。
