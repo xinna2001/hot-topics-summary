@@ -1,0 +1,92 @@
+{
+  "checked_at": "2026-11-05T13:30:39.138837+00:00",
+  "source": {
+    "short_url": "https://v.douyin.com/Bw7Sgs5gzLs/",
+    "canonical_url": "https://www.douyin.com/note/7701033373204017650",
+    "author": "西兰花费算力",
+    "published_at": "2026-10-27T01:42:38+08:00",
+    "read_scope": "网页正文与1张加载的图文原图；未读取原作者实际安装环境或完整评论",
+    "image_sha256": "6ba34105bb009f4697be07eb4cad3a594b2951fc7f88c9ea57a7e3381f191859",
+    "project_name_confirmed": "HowToGetAlongWithGirls",
+    "specific_repository_owner_confirmed": false
+  },
+  "repositories": [
+    {
+      "full_name": "Mayuqi-crypto/HowToGetAlongWithGirls",
+      "html_url": "https://github.com/Mayuqi-crypto/HowToGetAlongWithGirls",
+      "created_at": "2026-06-28T15:05:14Z",
+      "pushed_at": "2026-07-04T01:18:22Z",
+      "default_branch": "master",
+      "stargazers_count": 192,
+      "sha": "af0897f4b55897624a19de48374d436906e26461",
+      "commit_date": "2026-07-04T01:18:19Z",
+      "license": null
+    },
+    {
+      "full_name": "Imzl-zl/HowToGetAlongWithGirls",
+      "html_url": "https://github.com/Imzl-zl/HowToGetAlongWithGirls",
+      "created_at": "2026-06-29T04:51:02Z",
+      "pushed_at": "2026-06-29T03:02:13Z",
+      "default_branch": "master",
+      "stargazers_count": 28,
+      "sha": "2440f4b4a523f7abbb45ffb5a4e2139f1be92f79",
+      "commit_date": "2026-06-29T03:02:13Z",
+      "license": null
+    },
+    {
+      "full_name": "tomwong001/qingsheng-skill",
+      "html_url": "https://github.com/tomwong001/qingsheng-skill",
+      "created_at": "2026-03-12T13:34:36Z",
+      "pushed_at": "2026-09-29T03:47:53Z",
+      "default_branch": "main",
+      "stargazers_count": 196,
+      "sha": "fd762df2e0ce4b8ec68b0087ba7178761045bd1a",
+      "commit_date": "2026-09-29T03:47:52Z",
+      "license": "MIT"
+    },
+    {
+      "full_name": "shengjidaguai-china/goutoujunshi",
+      "html_url": "https://github.com/shengjidaguai-china/goutoujunshi",
+      "created_at": "2026-07-20T14:58:48Z",
+      "pushed_at": "2026-09-20T12:23:53Z",
+      "default_branch": "main",
+      "stargazers_count": 9237,
+      "sha": "6db7354a4002dc7c448a9c87ffdad8132570c9d3",
+      "commit_date": "2026-09-15T05:49:39Z",
+      "license": "MIT"
+    }
+  ],
+  "static_validation": {
+    "kind": "static_asset_checks_not_model_tests",
+    "checks": {
+      "all_nine_chinese_reference_files_present": true,
+      "all_explicit_reference_paths_present": true,
+      "skill_name_is_dating_coach": true,
+      "source_tree_has_no_model_or_service_implementation": true,
+      "coach_command_absent": true,
+      "standalone_license_absent": true,
+      "publish_script_not_install_script": true,
+      "twelve_manual_test_cases_documented": true
+    },
+    "passed": 8,
+    "total": 8,
+    "missing_reference_paths": [],
+    "reference_files": [
+      ".claude/skills/dating-coach/references/chat-analysis.md",
+      ".claude/skills/dating-coach/references/damage-control.md",
+      ".claude/skills/dating-coach/references/hard-value-reality.md",
+      ".claude/skills/dating-coach/references/knowledge-base.md",
+      ".claude/skills/dating-coach/references/lifecycle.md",
+      ".claude/skills/dating-coach/references/profile-template.md",
+      ".claude/skills/dating-coach/references/realistic-scenarios.md",
+      ".claude/skills/dating-coach/references/self-diagnosis.md",
+      ".claude/skills/dating-coach/references/signal-patterns.md"
+    ]
+  },
+  "execution": {
+    "installed_into_host": false,
+    "model_inference_run": false,
+    "upstream_test_plan_run": false,
+    "publish_script_run": false
+  }
+}
