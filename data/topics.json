@@ -531,6 +531,21 @@
       ],
       "created_at": "2026-11-05T13:34:57+00:00",
       "updated_at": "2026-11-05T13:34:57+00:00"
+    },
+    {
+      "id": "2026-11-07-github-light-novel-libraries",
+      "name": "GitHub 轻小说文库：资源库、阅读器与 EPUB 工具选型",
+      "report": "topics/2026-11-07-github-light-novel-libraries/README.md",
+      "sources": [
+        {
+          "kind": "web",
+          "url": "https://github.com/search?q=%E8%BD%BB%E5%B0%8F%E8%AF%B4%E6%96%87%E5%BA%93&type=repositories",
+          "title": "用户关键词的可复查检索入口（非原帖）",
+          "note": "用户原话：热点信息汇总:github轻小说文库；未提供链接或截图。此URL是根据关键词构造的GitHub检索入口，不是用户提供的原始链接，不代表已确认某个具体仓库；检索候选及一手证据仅列于详细报告。"
+        }
+      ],
+      "created_at": "2026-11-07T05:29:50+00:00",
+      "updated_at": "2026-11-07T05:29:50+00:00"
     }
   ]
 }
