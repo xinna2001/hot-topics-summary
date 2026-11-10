@@ -35,6 +35,7 @@
 | 头像打印机：直播互动驱动的虚拟 3D 打印与数据桥 | [查看详细信息](topics/2026-11-01-avatar-printer-live/README.md) | [志哥AI物联网手册：3D打印直播间程序开源啦](https://v.douyin.com/GZElqphwX8g/)<br>[3D打印直播间程序开源啦](https://www.douyin.com/video/7702859683211529526) |
 | HowToGetAlongWithGirls：恋爱教练 Skill、文件记忆与同类选型 | [查看详细信息](topics/2026-11-05-dating-coach-skills/README.md) | [西兰花费算力：找到了个小众项目](https://v.douyin.com/Bw7Sgs5gzLs/)<br>[抖音完整图文链接](https://www.douyin.com/note/7701033373204017650) |
 | GitHub 轻小说文库：资源库、阅读器与 EPUB 工具选型 | [查看详细信息](topics/2026-11-07-github-light-novel-libraries/README.md) | [用户关键词的可复查检索入口（非原帖）](https://github.com/search?q=%E8%BD%BB%E5%B0%8F%E8%AF%B4%E6%96%87%E5%BA%93&type=repositories) |
+| Swarm Rebuild：网页快照重演与模拟多光标动画 | [查看详细信息](topics/2026-11-10-swarm-rebuild/README.md) | [Nihao：这个真的很帅啊（Swarm Rebuild）](https://v.douyin.com/JR01E2TvsnQ/)<br>[Nihao 原作品完整链接](https://www.douyin.com/video/7705646017802518394) |
 <!-- HOT_TOPICS:END -->
 
 详细页说明：它是什么、技术如何实现、关联开源项目和官方资料、复现条件、限制，以及仍需核实的说法。关键结论附来源和查阅日期，区分已核实事实、作者宣称和推测。
