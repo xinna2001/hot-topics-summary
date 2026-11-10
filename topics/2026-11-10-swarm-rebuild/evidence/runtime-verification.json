@@ -1,0 +1,36 @@
+{
+  "source_commit": "3d49e0ac96172eb6af7ae8229b2152121bed2092",
+  "source_sha256": "6a30f19daaa182d52673035feaeae775c398fa426655cc71a87a451fe00c7bfe",
+  "browser": "Chrome/157.0.8103.50",
+  "method": "Direct CDP injection of unchanged swarm.js into local official demo; not installed extension, no service-worker/captureVisibleTab test",
+  "started": {
+    "running": true,
+    "items": 63,
+    "tasks": 61,
+    "cursors": 18,
+    "shadowRoot": true,
+    "done": 17
+  },
+  "completed": {
+    "complete": true,
+    "done": 61,
+    "total": 61,
+    "status": "Rebuilt by 18 agents in 3.9s"
+  },
+  "checks": {
+    "model_nonempty": true,
+    "animation_completed": true,
+    "body_unchanged": true,
+    "input_preserved": true,
+    "same_original_main": true,
+    "overlay_removed": true,
+    "app_stopped": true,
+    "no_external_http_requests_during_animation": true,
+    "no_runtime_exceptions": true
+  },
+  "requests_during_animation": [
+    "http://127.0.0.1:57696/favicon.ico",
+    "data:image/png;base64,[inline data omitted]"
+  ],
+  "runtime_exceptions": []
+}
