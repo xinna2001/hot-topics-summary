@@ -37,6 +37,7 @@
 | GitHub 轻小说文库：资源库、阅读器与 EPUB 工具选型 | [查看详细信息](topics/2026-11-07-github-light-novel-libraries/README.md) | [用户关键词的可复查检索入口（非原帖）](https://github.com/search?q=%E8%BD%BB%E5%B0%8F%E8%AF%B4%E6%96%87%E5%BA%93&type=repositories) |
 | Swarm Rebuild：网页快照重演与模拟多光标动画 | [查看详细信息](topics/2026-11-10-swarm-rebuild/README.md) | [Nihao：这个真的很帅啊（Swarm Rebuild）](https://v.douyin.com/JR01E2TvsnQ/)<br>[Nihao 原作品完整链接](https://www.douyin.com/video/7705646017802518394) |
 | Petalwake：Claude Fable 5.2 制作的 3D 扫帚飞行游戏 | [查看详细信息](topics/2026-11-11-claude-fable-3d-flight-game/README.md) | [为了即将到来的时刻：Claude Fable 5.2 AI游戏](https://v.douyin.com/AwzPvnN73AU/)<br>[Claude Fable 5.2 AI游戏（抖音原作品）](https://www.douyin.com/video/7706789737599634714)<br>[Petalwake 原游戏源码](https://github.com/jjcm/petalwake)<br>[Petalwake 第一版试玩](https://petalwake.non.io/) |
+| 单文件 WebGL FPS：Three.js r180 架构与枪感、碰撞、美术差距复盘 | [查看详细信息](topics/2026-11-11-single-file-webgl-fps/README.md) | 截图提供，原链接待补（会话 HTML 素材与实机截图；未提供公开原始链接，参考游戏作者及许可证待核实；来源与两套实现的区别见详细页） |
 <!-- HOT_TOPICS:END -->
 
 详细页说明：它是什么、技术如何实现、关联开源项目和官方资料、复现条件、限制，以及仍需核实的说法。关键结论附来源和查阅日期，区分已核实事实、作者宣称和推测。

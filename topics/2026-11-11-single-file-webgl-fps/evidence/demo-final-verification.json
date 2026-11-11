@@ -1,0 +1,150 @@
+{
+  "sha256": "a705ac8a3329aae190be895a74094d3278404b7e27889a4fcfee180d2c3ed5fd",
+  "bytes": 598178,
+  "checks": [
+    {
+      "name": "container collision blocks movement",
+      "passed": true,
+      "data": [
+        -14,
+        0,
+        14.4165
+      ]
+    },
+    {
+      "name": "buffered short Space press jumps and lands",
+      "passed": true
+    },
+    {
+      "name": "landing on crate top",
+      "passed": true
+    },
+    {
+      "name": "solid cover blocks hitscan",
+      "passed": true,
+      "data": {
+        "mode": "playing",
+        "elapsed": 2.4328,
+        "ammo": 21,
+        "reserve": 144,
+        "health": 100,
+        "links": 0,
+        "kills": 0,
+        "shots": 3,
+        "hits": 0,
+        "reloading": false,
+        "enemies": 1,
+        "position": [
+          14,
+          0,
+          12
+        ],
+        "frameMs": 41.28662129683266,
+        "calls": 173,
+        "triangles": 141531
+      }
+    },
+    {
+      "name": "enemy projectile deals actual damage",
+      "passed": true,
+      "data": {
+        "mode": "playing",
+        "elapsed": 2.9325999999999985,
+        "ammo": 21,
+        "reserve": 144,
+        "health": 91,
+        "links": 0,
+        "kills": 0,
+        "shots": 3,
+        "hits": 0,
+        "reloading": false,
+        "enemies": 2,
+        "position": [
+          0,
+          0,
+          25
+        ],
+        "frameMs": 40.65840276279941,
+        "calls": 235,
+        "triangles": 158351
+      }
+    },
+    {
+      "name": "quality tiers, audio switch, help panel",
+      "passed": true
+    },
+    {
+      "name": "final build three-link extraction regression",
+      "passed": true,
+      "data": {
+        "mode": "won",
+        "elapsed": 8.498199999999999,
+        "ammo": 21,
+        "reserve": 240,
+        "health": 100,
+        "links": 3,
+        "kills": 0,
+        "shots": 3,
+        "hits": 0,
+        "reloading": false,
+        "enemies": 9,
+        "position": [
+          0,
+          0,
+          27
+        ],
+        "frameMs": 31.653960590680487,
+        "calls": 433,
+        "triangles": 172283
+      }
+    },
+    {
+      "name": "normal offline file boots without QA actions",
+      "passed": true,
+      "data": {
+        "mode": "playing",
+        "elapsed": 4.2166999999999994,
+        "ammo": 24,
+        "reserve": 144,
+        "health": 100,
+        "links": 0,
+        "kills": 0,
+        "shots": 0,
+        "hits": 0,
+        "reloading": false,
+        "enemies": 3,
+        "position": [
+          0,
+          0,
+          17.916500000000013
+        ],
+        "frameMs": 47.322462090424594,
+        "calls": 253,
+        "triangles": 151759
+      }
+    }
+  ],
+  "errors": [],
+  "remote": [],
+  "final": {
+    "mode": "playing",
+    "elapsed": 4.266699999999999,
+    "ammo": 24,
+    "reserve": 144,
+    "health": 100,
+    "links": 0,
+    "kills": 0,
+    "shots": 0,
+    "hits": 0,
+    "reloading": false,
+    "enemies": 3,
+    "position": [
+      0,
+      0,
+      17.916500000000013
+    ],
+    "frameMs": 50.09756360680756,
+    "calls": 266,
+    "triangles": 162559
+  }
+}
