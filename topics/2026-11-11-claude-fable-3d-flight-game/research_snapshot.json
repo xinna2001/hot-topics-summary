@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-11-11",
+  "timezone": "Asia/Shanghai",
+  "research_status": "partially_verified",
+  "original": {
+    "short_url": "https://v.douyin.com/AwzPvnN73AU/",
+    "canonical_url": "https://www.douyin.com/video/7706789737599634714",
+    "aweme_id": "7706789737599634714",
+    "publisher": "为了即将到来的时刻",
+    "published_at": "2026-11-11T14:00:19+08:00",
+    "credited_handle": "@pwnies",
+    "developer_identity_verified": false,
+    "full_description_read": true,
+    "complete_media_downloaded": true,
+    "media_duration_seconds": 96.942993,
+    "media_resolution": [1020, 576],
+    "sampled_frame_seconds": [0, 4, 8, 16, 24, 32, 40, 44, 48, 56, 64, 72, 80, 88, 94],
+    "all_frames_reviewed": false,
+    "audio_transcription_performed": false,
+    "publisher_claims": {
+      "model": "Claude Fable 5.2",
+      "development_hours_approx": 4,
+      "follow_up_prompts": true,
+      "video_generator_for_visual_direction": true,
+      "subscription_usd_per_month": 200,
+      "subscription_usage_fraction_approx": 0.2,
+      "fraction_denominator_and_period_verified": false,
+      "browser_playable_claim_at_seconds": 4,
+      "open_source_and_1060_claim_at_seconds": 48,
+      "independently_verified": false
+    },
+    "observations": [
+      "Third-person witch character over flower fields, grassy island and ocean",
+      "Camera roll, altitude changes, wake or particle effects and cliffs",
+      "Wind-seed prompt and collection counter at second 44",
+      "HUD speed values are not rendering FPS measurements",
+      "Multiple clips and changing letterboxing; not an uninterrupted acceptance test"
+    ],
+    "public_playable_url": null,
+    "original_repository": null,
+    "original_license": null,
+    "original_game_engine": null,
+    "playtested": false,
+    "publisher_public_profile_read": true,
+    "original_x_profile_read": false
+  },
+  "model": {
+    "official_overview": "https://platform.claude.com/docs/en/models/fable-5-2/overview",
+    "official_announcement": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "release_date_on_both_pages": "2026-11-09",
+    "api_id": "claude-fable-5-2",
+    "max_context_tokens": 1000000,
+    "max_sync_output_tokens": 128000,
+    "base_usd_per_million_input_tokens": 8,
+    "base_usd_per_million_output_tokens": 40,
+    "api_default_effort": "high",
+    "claude_code_min_version_from_docs": "2.1.321",
+    "api_called_in_this_research": false
+  },
+  "subscription_context": {
+    "source": "https://support.claude.com/en/articles/17728952-what-is-the-ultra-plan",
+    "current_200_usd_web_plan": "Ultra",
+    "former_name": "Max 20x",
+    "overall_weekly_limit": true,
+    "separate_fable_weekly_limit": true,
+    "verified_ultra_has_no_five_hour_limit": true,
+    "publisher_actual_plan_verified": false,
+    "40_usd_actual_project_cost_established": false
+  },
+  "reference_repositories": [
+    {
+      "repository": "anthropics/claude-code",
+      "commit": "e379c8eca0af5b02a49bf8e784aeefdd1308de6f",
+      "branch": "main",
+      "license_file": "LICENSE.md",
+      "license_summary": "Anthropic Commercial Terms; not MIT",
+      "read_files": ["README.md", "LICENSE.md"],
+      "relationship": "Optional coding agent; not confirmed in original workflow",
+      "executed": false
+    },
+    {
+      "repository": "mrdoob/three.js",
+      "commit": "1d8985944e2d96cb5e5c3fda8d033fe871bea9b0",
+      "branch": "dev",
+      "package_version": "0.187.0",
+      "latest_release": "r187",
+      "latest_release_published_at": "2026-10-30T08:03:18Z",
+      "license": "MIT",
+      "read_files": ["README.md", "LICENSE", "package.json", "src/objects/InstancedMesh.js", "examples/jsm/objects/Water.js", "examples/webgl_shaders_ocean.html"],
+      "relationship": "Source-backed independent browser reproduction candidate, not original stack attribution",
+      "executed": false
+    },
+    {
+      "repository": "WhiteTowerAI/ohmygame",
+      "commit": "620f50fd9a45280490095eb41785ea313c1b903e",
+      "branch": "main",
+      "package_version": "0.0.0-beta.5.6",
+      "license": "Apache-2.0",
+      "read_files": ["README.zh-CN.md", "LICENSE", "package.json"],
+      "relationship": "Related AI game studio already archived separately; not confirmed in original workflow",
+      "executed": false
+    }
+  ],
+  "acquisition_notes": [
+    "Installed single-video downloader returned one failure and no success",
+    "Browser rendered original description and captured detail through normal page requests",
+    "Public player media URL returned HTTP 200 and video/mp4",
+    "Targeted source searches did not yield a confirmed original game; no claim of exhaustive search",
+    "X credited profile fetch failed; no login, CAPTCHA bypass or access-control bypass attempted"
+  ],
+  "not_performed": ["Original game execution", "Model inference", "Installation of related projects", "Performance benchmarking", "Original development timing or billing validation"],
+  "public_evidence_policy": "Only sanitized observations and fixed source metadata are published. No cookies, raw account/profile responses, temporary browser state, entire video or unrelated personal information."
+}
