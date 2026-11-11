@@ -600,6 +600,21 @@
       ],
       "created_at": "2026-11-11T12:43:26+00:00",
       "updated_at": "2026-11-11T13:41:58+00:00"
+    },
+    {
+      "id": "2026-11-11-single-file-webgl-fps",
+      "name": "单文件 WebGL FPS：Three.js r180 架构与枪感、碰撞、美术差距复盘",
+      "report": "topics/2026-11-11-single-file-webgl-fps/README.md",
+      "sources": [
+        {
+          "kind": "screenshot",
+          "url": null,
+          "title": "会话中的 HTML 游戏与实机截图",
+          "note": "会话 HTML 素材与实机截图；未提供公开原始链接，参考游戏作者及许可证待核实；来源与两套实现的区别见详细页"
+        }
+      ],
+      "created_at": "2026-11-11T14:11:28+00:00",
+      "updated_at": "2026-11-11T14:14:51+00:00"
     }
   ]
 }

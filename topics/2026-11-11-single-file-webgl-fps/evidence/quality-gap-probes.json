@@ -1,0 +1,152 @@
+{
+  "method": "Isolated Chrome, 1440x900 DPR1. Source files unchanged. Screenshots use live renderer. Controlled probes temporarily replace collision fixtures and drive real update functions at specified dt; not end-to-end mouse latency or a subjective playtest.",
+  "reference": {
+    "live": {
+      "state": "playing",
+      "stats": {
+        "calls": 495,
+        "tris": 2914736,
+        "geos": 199,
+        "tex": 144,
+        "programs": 116,
+        "res": [
+          1440,
+          900
+        ],
+        "scale": 1,
+        "advanced": true,
+        "softShadows": true,
+        "fps": 13.5,
+        "state": "playing"
+      },
+      "quality": {
+        "name": "high",
+        "scale": 1,
+        "msaa": 4,
+        "shadow": 4096,
+        "tex": 1024,
+        "volSteps": 24,
+        "ao": true,
+        "planar": 0.5,
+        "bloom": true,
+        "motionBlur": true,
+        "rain": 1
+      },
+      "weapon": {
+        "tris": 53136,
+        "meshes": 13
+      },
+      "physicsBoxes": 557,
+      "playerStart": [
+        -32,
+        0,
+        6
+      ],
+      "playerHeight": 1.8
+    },
+    "controlled": {
+      "smallStep": {
+        "position": [
+          1,
+          0,
+          -3.8000000000000025
+        ],
+        "maximumHeight": 0.2
+      },
+      "overheadPassage": {
+        "position": [
+          1,
+          0,
+          -3.8000000000000025
+        ],
+        "maximumHeight": 0
+      },
+      "firstFrameForwardDistance": 0.009444444444444445,
+      "releaseCoastDistance": 0.24666666666666615,
+      "cadence": [
+        {
+          "fps": 60,
+          "seconds": 6,
+          "shots": 72,
+          "meanInterval": 0.08333333333333334
+        },
+        {
+          "fps": 30,
+          "seconds": 6,
+          "shots": 73,
+          "meanInterval": 0.08287037037037037
+        },
+        {
+          "fps": 20,
+          "seconds": 6,
+          "shots": 73,
+          "meanInterval": 0.08263888888888889
+        }
+      ]
+    }
+  },
+  "demo": {
+    "live": {
+      "mode": "playing",
+      "elapsed": 0.7,
+      "ammo": 24,
+      "reserve": 144,
+      "health": 100,
+      "links": 0,
+      "kills": 0,
+      "shots": 0,
+      "hits": 0,
+      "reloading": false,
+      "enemies": 0,
+      "position": [
+        0,
+        0,
+        25
+      ],
+      "frameMs": 48.38366929625877,
+      "calls": 159,
+      "triangles": 140027
+    },
+    "controlled": {
+      "smallStep": {
+        "position": [
+          1,
+          0,
+          -0.583333333333328
+        ],
+        "maximumHeight": 0
+      },
+      "overheadPassage": {
+        "position": [
+          1,
+          0,
+          -0.5833333333333347
+        ],
+        "maximumHeight": 0
+      },
+      "firstFrameForwardDistance": 0.08333333333333484,
+      "releaseCoastDistance": 0,
+      "cadence": [
+        {
+          "fps": 60,
+          "seconds": 6,
+          "shots": 52,
+          "meanInterval": 0.11666666666666667
+        },
+        {
+          "fps": 30,
+          "seconds": 6,
+          "shots": 45,
+          "meanInterval": 0.13333333333333333
+        },
+        {
+          "fps": 20,
+          "seconds": 6,
+          "shots": 40,
+          "meanInterval": 0.15000000000000002
+        }
+      ]
+    }
+  },
+  "errors": []
+}
