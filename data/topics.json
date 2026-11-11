@@ -570,24 +570,36 @@
     },
     {
       "id": "2026-11-11-claude-fable-3d-flight-game",
-      "name": "Claude Fable 5.2：AI 辅助 3D 飞行游戏与视觉参考工作流",
+      "name": "Petalwake：Claude Fable 5.2 制作的 3D 扫帚飞行游戏",
       "report": "topics/2026-11-11-claude-fable-3d-flight-game/README.md",
       "sources": [
         {
           "kind": "douyin",
           "url": "https://v.douyin.com/AwzPvnN73AU/",
           "title": "为了即将到来的时刻：Claude Fable 5.2 AI游戏",
-          "note": "用户原分享短链；作品 ID 7706789737599634714；完整简介及96.943秒视频的15个时间点画面已读取；约4小时、200美元月套餐20%、视频生成器引导视觉方向均为发布者宣称，未取得工程、原作者调用日志或账单。"
+          "note": "用户原分享短链；作品ID 7706789737599634714；完整简介及15个时间点画面已读取；现已定位jjcm/petalwake并用画面和特征文字核对，时间/用量/1060性能宣称尚未独立验证。"
         },
         {
           "kind": "douyin",
           "url": "https://www.douyin.com/video/7706789737599634714",
           "title": "Claude Fable 5.2 AI游戏（抖音原作品）",
-          "note": "由原短链跳转解析，浏览器作品详情核对；发布时间2026-11-11 14:00:19 Asia/Shanghai；花海/海岛/小女巫飞行演示；署名@pwnies、网页可玩、工程开源及1060硬件宣称尚未独立验证，公开可玩URL未取得；Three.js等为复现候选，不是已确认作者技术栈。"
+          "note": "由原短链解析并由详情核对；发布时间2026-11-11 14:00:19 Asia/Shanghai；对应游戏Petalwake，源码MIT、JavaScript/Three.js r187/WebGL2；第一版试玩入口和主JS与8b773736固定revision字节一致；未实测。"
+        },
+        {
+          "kind": "web",
+          "url": "https://github.com/jjcm/petalwake",
+          "title": "Petalwake 原游戏源码",
+          "note": "已确认与原片对应的公开原工程；不是相似技术参考；截图、风之种子完整提示、The Sisters与The Open Hand交叉核对；main已加入第二版内容。"
+        },
+        {
+          "kind": "web",
+          "url": "https://petalwake.non.io/",
+          "title": "Petalwake 第一版试玩",
+          "note": "原仓库README给出的第一版入口；网页与主JS已读取且与固定第一版revision字节一致，未运行或操作游戏。"
         }
       ],
       "created_at": "2026-11-11T12:43:26+00:00",
-      "updated_at": "2026-11-11T12:43:26+00:00"
+      "updated_at": "2026-11-11T13:41:58+00:00"
     }
   ]
 }

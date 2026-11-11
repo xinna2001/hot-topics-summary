@@ -2,7 +2,7 @@
   "schema_version": 1,
   "checked_on": "2026-11-11",
   "timezone": "Asia/Shanghai",
-  "research_status": "partially_verified",
+  "research_status": "original_source_verified_runtime_and_cost_untested",
   "original": {
     "short_url": "https://v.douyin.com/AwzPvnN73AU/",
     "canonical_url": "https://www.douyin.com/video/7706789737599634714",
@@ -14,8 +14,27 @@
     "full_description_read": true,
     "complete_media_downloaded": true,
     "media_duration_seconds": 96.942993,
-    "media_resolution": [1020, 576],
-    "sampled_frame_seconds": [0, 4, 8, 16, 24, 32, 40, 44, 48, 56, 64, 72, 80, 88, 94],
+    "media_resolution": [
+      1020,
+      576
+    ],
+    "sampled_frame_seconds": [
+      0,
+      4,
+      8,
+      16,
+      24,
+      32,
+      40,
+      44,
+      48,
+      56,
+      64,
+      72,
+      80,
+      88,
+      94
+    ],
     "all_frames_reviewed": false,
     "audio_transcription_performed": false,
     "publisher_claims": {
@@ -37,13 +56,16 @@
       "HUD speed values are not rendering FPS measurements",
       "Multiple clips and changing letterboxing; not an uninterrupted acceptance test"
     ],
-    "public_playable_url": null,
-    "original_repository": null,
-    "original_license": null,
-    "original_game_engine": null,
+    "public_playable_url": "https://petalwake.non.io/",
+    "original_repository": "https://github.com/jjcm/petalwake",
+    "original_license": "MIT",
+    "original_game_engine": "JavaScript / Three.js r187 / WebGL2",
     "playtested": false,
     "publisher_public_profile_read": true,
-    "original_x_profile_read": false
+    "original_x_profile_read": false,
+    "game_name": "Petalwake",
+    "game_attribution_verified": true,
+    "second_version_url": "https://petalwake.non.io/v2"
   },
   "model": {
     "official_overview": "https://platform.claude.com/docs/en/models/fable-5-2/overview",
@@ -75,8 +97,11 @@
       "branch": "main",
       "license_file": "LICENSE.md",
       "license_summary": "Anthropic Commercial Terms; not MIT",
-      "read_files": ["README.md", "LICENSE.md"],
-      "relationship": "Optional coding agent; not confirmed in original workflow",
+      "read_files": [
+        "README.md",
+        "LICENSE.md"
+      ],
+      "relationship": "Coding tool named by the original game README; no independent full-session trace validation",
       "executed": false
     },
     {
@@ -87,8 +112,15 @@
       "latest_release": "r187",
       "latest_release_published_at": "2026-10-30T08:03:18Z",
       "license": "MIT",
-      "read_files": ["README.md", "LICENSE", "package.json", "src/objects/InstancedMesh.js", "examples/jsm/objects/Water.js", "examples/webgl_shaders_ocean.html"],
-      "relationship": "Source-backed independent browser reproduction candidate, not original stack attribution",
+      "read_files": [
+        "README.md",
+        "LICENSE",
+        "package.json",
+        "src/objects/InstancedMesh.js",
+        "examples/jsm/objects/Water.js",
+        "examples/webgl_shaders_ocean.html"
+      ],
+      "relationship": "Actual original game rendering library verified through import map and package; original uses custom water and meadow shaders",
       "executed": false
     },
     {
@@ -97,7 +129,11 @@
       "branch": "main",
       "package_version": "0.0.0-beta.5.6",
       "license": "Apache-2.0",
-      "read_files": ["README.zh-CN.md", "LICENSE", "package.json"],
+      "read_files": [
+        "README.zh-CN.md",
+        "LICENSE",
+        "package.json"
+      ],
       "relationship": "Related AI game studio already archived separately; not confirmed in original workflow",
       "executed": false
     }
@@ -106,9 +142,69 @@
     "Installed single-video downloader returned one failure and no success",
     "Browser rendered original description and captured detail through normal page requests",
     "Public player media URL returned HTTP 200 and video/mp4",
-    "Targeted source searches did not yield a confirmed original game; no claim of exhaustive search",
-    "X credited profile fetch failed; no login, CAPTCHA bypass or access-control bypass attempted"
+    "Initial broad searches did not locate original source; follow-up The Open Hand code search found jjcm/petalwake, verified with screenshots, distinctive strings and live v1 source bytes",
+    "X credited profile fetch failed; no login, CAPTCHA bypass or access-control bypass attempted",
+    "Source confirmation did not execute code, generate art or use paid model services"
   ],
-  "not_performed": ["Original game execution", "Model inference", "Installation of related projects", "Performance benchmarking", "Original development timing or billing validation"],
-  "public_evidence_policy": "Only sanitized observations and fixed source metadata are published. No cookies, raw account/profile responses, temporary browser state, entire video or unrelated personal information."
+  "not_performed": [
+    "Original game execution",
+    "Model inference",
+    "Installation of related projects",
+    "Performance benchmarking",
+    "Original development timing or billing validation"
+  ],
+  "public_evidence_policy": "Only sanitized observations and fixed source metadata are published. No cookies, raw account/profile responses, temporary browser state, entire video or unrelated personal information.",
+  "source_confirmation": {
+    "checked_on": "2026-11-11",
+    "repository": "jjcm/petalwake",
+    "source_author": "Jacob Miller",
+    "default_branch": "main",
+    "current_commit": "25443cef0eba802052d9ef24c94ba3c4157b6f2e",
+    "first_version_commit": "8b773736f40388e88218a82ff9ed69608592acd6",
+    "github_tree_truncated": false,
+    "source_entry": "src/main.js",
+    "launcher": "python3 tools/serve.py",
+    "build_step_required": false,
+    "git_lfs_filter_present": false,
+    "game_executed": false,
+    "evidence": [
+      {
+        "kind": "visual",
+        "file": "screenshots/meadow_wake.jpg",
+        "result": "Matches witch, flower field, ocean, sky and wake in original video"
+      },
+      {
+        "kind": "code",
+        "file": "src/main.js",
+        "line": 308,
+        "result": "Exact original wind-seed prompt"
+      },
+      {
+        "kind": "code",
+        "file": "src/main.js",
+        "line": 392,
+        "result": "The Sisters region"
+      },
+      {
+        "kind": "code",
+        "file": "tools/places/west_layout.py",
+        "line": 320,
+        "result": "The Open Hand place"
+      }
+    ],
+    "live_v1_byte_comparison": [
+      {
+        "file": "index.html",
+        "sha256": "e255a1e025809b398e0836177687d6f91685d5bf5b22e930667d0ff31a7f7082",
+        "bytes": 2226,
+        "live_equals_pinned_github": true
+      },
+      {
+        "file": "src/main.js",
+        "sha256": "fbd71bffaea91825342945a06bf2a89c0c988bde411ebd388ecece2895089585",
+        "bytes": 18991,
+        "live_equals_pinned_github": true
+      }
+    ]
+  }
 }
