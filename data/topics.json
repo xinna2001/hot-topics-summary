@@ -615,6 +615,27 @@
       ],
       "created_at": "2026-11-11T14:11:28+00:00",
       "updated_at": "2026-11-11T14:14:51+00:00"
+    },
+    {
+      "id": "2026-11-13-deeptutor-ai-tutor",
+      "name": "DeepTutor：知识库、交互式教材与自适应学习助手",
+      "report": "topics/2026-11-13-deeptutor-ai-tutor/README.md",
+      "sources": [
+        {
+          "kind": "douyin",
+          "url": "https://v.douyin.com/YCY4n6Enh74/",
+          "title": "企鹅加德：ai家教界最高的山",
+          "note": "用户原始短链；作品ID 7707504463086814683；完整40.833秒视频已下载并抽样查看11个时间点，确认HKUDS/DeepTutor；视频主要为动画示意，应用与教学效果未实测。"
+        },
+        {
+          "kind": "douyin",
+          "url": "https://www.douyin.com/video/7707504463086814683",
+          "title": "抖音原作品完整链接",
+          "note": "由原短链解析并由公开详情核对；发布时间2026-11-13 12:13:45 Asia/Shanghai；第40秒明确HKUDS/DeepTutor，已核查v1.7.2及固定main源码。"
+        }
+      ],
+      "created_at": "2026-11-13T05:12:16+00:00",
+      "updated_at": "2026-11-13T05:12:16+00:00"
     }
   ]
 }

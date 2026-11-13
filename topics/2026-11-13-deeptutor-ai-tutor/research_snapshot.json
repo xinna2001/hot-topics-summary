@@ -1,0 +1,292 @@
+{
+  "checked_at": "2026-11-13",
+  "timezone": "Asia/Shanghai",
+  "status": "source-and-code-verified-runtime-unverified",
+  "source": {
+    "short_url": "https://v.douyin.com/YCY4n6Enh74/",
+    "canonical_url": "https://www.douyin.com/video/7707504463086814683",
+    "aweme_id": "7707504463086814683",
+    "author": "企鹅加德",
+    "published_at": "2026-11-13T12:13:45+08:00",
+    "description": "ai家教界最高的山 #ai #学习 #家教 #开源 #vibecoding",
+    "duration_seconds": 40.833333,
+    "bytes": 2612492,
+    "video_sha256": "a2237f86567c6231a08a6550b665f5cf8e3a0b4f1b26b24c5d05c312dd9dbee6",
+    "sampled_frame_seconds": [
+      0,
+      4,
+      8,
+      12,
+      16,
+      20,
+      24,
+      28,
+      32,
+      36,
+      40
+    ],
+    "read_scope": "web body, public detail, full media download, sampled frames; no complete listening or ASR",
+    "identity_evidence": "40s frame explicitly names HKUDS / DeepTutor",
+    "demonstration_type": "repository introduction and illustrative animated feature cards, not a full app execution test"
+  },
+  "repositories": [
+    {
+      "full_name": "HKUDS/DeepTutor",
+      "html_url": "https://github.com/HKUDS/DeepTutor",
+      "default_branch": "main",
+      "stargazers_count": 58717,
+      "created_at": "2025-12-28T15:35:54Z",
+      "pushed_at": "2026-11-07T15:18:10Z",
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+      "sha": "60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db",
+      "license": "Apache-2.0",
+      "tree_truncated": false,
+      "latest_release": {
+        "tag_name": "v1.7.2",
+        "published_at": "2026-11-06T08:42:06Z",
+        "html_url": "https://github.com/HKUDS/DeepTutor/releases/tag/v1.7.2"
+      },
+      "fetched_files": [
+        "README.md",
+        "LICENSE",
+        "pyproject.toml",
+        "requirements.txt"
+      ]
+    },
+    {
+      "full_name": "JushBJJ/Mr.-Ranedeer-AI-Tutor",
+      "html_url": "https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor",
+      "default_branch": "main",
+      "stargazers_count": 29536,
+      "created_at": "2023-03-31T12:37:26Z",
+      "pushed_at": "2025-09-30T08:08:00Z",
+      "description": "A GPT-4 AI Tutor Prompt for customizable personalized learning experiences.",
+      "sha": "ea29bcf196d28e70eb31100d00b108ebbacceb96",
+      "license": null,
+      "tree_truncated": false,
+      "latest_release": {
+        "tag_name": "v2.7-Reboot",
+        "published_at": "2023-11-09T22:42:32Z",
+        "html_url": "https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor/releases/tag/v2.7-Reboot"
+      },
+      "fetched_files": [
+        "README.md"
+      ]
+    },
+    {
+      "full_name": "Nutlope/llamatutor",
+      "html_url": "https://github.com/Nutlope/llamatutor",
+      "default_branch": "main",
+      "stargazers_count": 2054,
+      "created_at": "2024-07-19T00:56:25Z",
+      "pushed_at": "2026-10-23T16:41:49Z",
+      "description": "An AI personal tutor built with Llama 3.1",
+      "sha": "e29ac56679d60140b451466b2b17151cb000d88a",
+      "license": null,
+      "tree_truncated": false,
+      "latest_release": null,
+      "fetched_files": [
+        "README.md",
+        "package.json"
+      ]
+    }
+  ],
+  "evidence_files": [
+    {
+      "repo": "HKUDS/DeepTutor",
+      "path": "web/package.json",
+      "commit": "60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db",
+      "sha256": "8d2a44caf01492330b4b179edffcdf3e3a8fdb5dcde91b177fd3c3daff70e8cf",
+      "url": "https://github.com/HKUDS/DeepTutor/blob/60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db/web/package.json"
+    },
+    {
+      "repo": "HKUDS/DeepTutor",
+      "path": "deeptutor/api/main.py",
+      "commit": "60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db",
+      "sha256": "0e3d97fc249ca4dc5d2220147eccb9ab00922862f44734a298ff360b1bc3dc63",
+      "url": "https://github.com/HKUDS/DeepTutor/blob/60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db/deeptutor/api/main.py"
+    },
+    {
+      "repo": "HKUDS/DeepTutor",
+      "path": "deeptutor/tools/rag_tool.py",
+      "commit": "60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db",
+      "sha256": "4188fd3e2d8969b33d512244ca2ab574427c12f94140a912f42161f91a3fcd96",
+      "url": "https://github.com/HKUDS/DeepTutor/blob/60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db/deeptutor/tools/rag_tool.py"
+    },
+    {
+      "repo": "HKUDS/DeepTutor",
+      "path": "deeptutor/services/rag/service.py",
+      "commit": "60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db",
+      "sha256": "a839c9577c7ae7a67958f764521d4369274f2fb9507e4499852470fa55318732",
+      "url": "https://github.com/HKUDS/DeepTutor/blob/60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db/deeptutor/services/rag/service.py"
+    },
+    {
+      "repo": "HKUDS/DeepTutor",
+      "path": "deeptutor/agents/question/pipeline.py",
+      "commit": "60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db",
+      "sha256": "a35c4bacc87256269d5dbfdb14fc0b25399f8130294dc98a5c74acc7e861cbe5",
+      "url": "https://github.com/HKUDS/DeepTutor/blob/60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db/deeptutor/agents/question/pipeline.py"
+    },
+    {
+      "repo": "HKUDS/DeepTutor",
+      "path": "deeptutor/agents/visualize/pipeline.py",
+      "commit": "60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db",
+      "sha256": "e9ae617b7f7a49f843d9f428902bac9239049bf6d62587122faad20b9d1f7d13",
+      "url": "https://github.com/HKUDS/DeepTutor/blob/60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db/deeptutor/agents/visualize/pipeline.py"
+    },
+    {
+      "repo": "HKUDS/DeepTutor",
+      "path": "deeptutor/capabilities/mastery/tools.py",
+      "commit": "60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db",
+      "sha256": "98a5d531a89680704efb2412411f8a485744e6eeaf8f762052c44b0a5c730c1c",
+      "url": "https://github.com/HKUDS/DeepTutor/blob/60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db/deeptutor/capabilities/mastery/tools.py"
+    },
+    {
+      "repo": "HKUDS/DeepTutor",
+      "path": "deeptutor/capabilities/mastery/loop.py",
+      "commit": "60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db",
+      "sha256": "018036841aeddc4c1ec88e3fbb050927a598f611274008f6bcf296d1c5bb497e",
+      "url": "https://github.com/HKUDS/DeepTutor/blob/60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db/deeptutor/capabilities/mastery/loop.py"
+    },
+    {
+      "repo": "HKUDS/DeepTutor",
+      "path": "deeptutor/capabilities/mastery/pipeline.py",
+      "commit": "60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db",
+      "sha256": "3ce136494bf30a71b595e4f1fe531f05f65a07a0d9e3f7744eb53ce8567b0c74",
+      "url": "https://github.com/HKUDS/DeepTutor/blob/60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db/deeptutor/capabilities/mastery/pipeline.py"
+    },
+    {
+      "repo": "HKUDS/DeepTutor",
+      "path": "deeptutor/services/sandbox/config.py",
+      "commit": "60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db",
+      "sha256": "377a8df583cc80fa21561e5f94d9580db109f534b25341e95a1e006089471dff",
+      "url": "https://github.com/HKUDS/DeepTutor/blob/60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db/deeptutor/services/sandbox/config.py"
+    },
+    {
+      "repo": "HKUDS/DeepTutor",
+      "path": "docs-for-dev/DATA_STORAGE.md",
+      "commit": "60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db",
+      "sha256": "45aaf00808fabe79b04981940a10592239728f59504fc127d8a79971f2918574",
+      "url": "https://github.com/HKUDS/DeepTutor/blob/60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db/docs-for-dev/DATA_STORAGE.md"
+    },
+    {
+      "repo": "HKUDS/DeepTutor",
+      "path": "assets/README/README_CN.md",
+      "commit": "60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db",
+      "sha256": "27b3be1c7f9b9401938ca7bf01eee3a123992ab4c1dc1e1e3beb7fc9ba865506",
+      "url": "https://github.com/HKUDS/DeepTutor/blob/60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db/assets/README/README_CN.md"
+    },
+    {
+      "repo": "JushBJJ/Mr.-Ranedeer-AI-Tutor",
+      "path": "Mr_Ranedeer.txt",
+      "commit": "ea29bcf196d28e70eb31100d00b108ebbacceb96",
+      "sha256": "c09558416a1449f0a1260b0b08379dd02e96aa05117fbad9175f263caf3dc3c3",
+      "url": "https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor/blob/ea29bcf196d28e70eb31100d00b108ebbacceb96/Mr_Ranedeer.txt"
+    },
+    {
+      "repo": "Nutlope/llamatutor",
+      "path": "app/api/getChat/route.ts",
+      "commit": "e29ac56679d60140b451466b2b17151cb000d88a",
+      "sha256": "f6b43d74cea0bec2381d3da6fd09e8ef0b7bb66a9dd9a2cf3443eb460ebe6e16",
+      "url": "https://github.com/Nutlope/llamatutor/blob/e29ac56679d60140b451466b2b17151cb000d88a/app/api/getChat/route.ts"
+    },
+    {
+      "repo": "Nutlope/llamatutor",
+      "path": "app/api/getSources/route.ts",
+      "commit": "e29ac56679d60140b451466b2b17151cb000d88a",
+      "sha256": "1272859721e70750b0b1beef893a00a30d3eb2c847a86828e79676a3b7346bf1",
+      "url": "https://github.com/Nutlope/llamatutor/blob/e29ac56679d60140b451466b2b17151cb000d88a/app/api/getSources/route.ts"
+    },
+    {
+      "repo": "HKUDS/DeepTutor",
+      "path": "deeptutor/book/blocks/interactive.py",
+      "commit": "60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db",
+      "sha256": "3c41f17e3de6ba57648587164f3614ea5753891bbc9b4a065ed23977a3669bf3",
+      "url": "https://github.com/HKUDS/DeepTutor/blob/60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db/deeptutor/book/blocks/interactive.py"
+    },
+    {
+      "repo": "HKUDS/DeepTutor",
+      "path": "deeptutor/learning/service.py",
+      "commit": "60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db",
+      "sha256": "d47937cabc16f7e093cb1043a7652e722b6cde9d980acb3f8715e27f47636794",
+      "url": "https://github.com/HKUDS/DeepTutor/blob/60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db/deeptutor/learning/service.py"
+    },
+    {
+      "repo": "HKUDS/DeepTutor",
+      "path": "deeptutor/learning/mastery.py",
+      "commit": "60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db",
+      "sha256": "1ad23b09afe70f89fe652bc31a893db57702e00f6869d16daca7fe1dc7698758",
+      "url": "https://github.com/HKUDS/DeepTutor/blob/60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db/deeptutor/learning/mastery.py"
+    },
+    {
+      "repo": "HKUDS/DeepTutor",
+      "path": "README.md",
+      "commit": "60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db",
+      "sha256": "d8f70a59cd54c13abf7444c5f744ab182fee167b4dc42caff8867acb153856b5",
+      "url": "https://github.com/HKUDS/DeepTutor/blob/60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db/README.md"
+    },
+    {
+      "repo": "HKUDS/DeepTutor",
+      "path": "LICENSE",
+      "commit": "60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db",
+      "sha256": "cd2f54e1e5066644023203dcbd956776a9f4ef6eb8b6225afe1ffa2d380fede4",
+      "url": "https://github.com/HKUDS/DeepTutor/blob/60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db/LICENSE"
+    },
+    {
+      "repo": "HKUDS/DeepTutor",
+      "path": "pyproject.toml",
+      "commit": "60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db",
+      "sha256": "b20d0883b9f5d5b75573e69fa3a604c0c1bd76d0bb935bb4fc022c900b639827",
+      "url": "https://github.com/HKUDS/DeepTutor/blob/60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db/pyproject.toml"
+    },
+    {
+      "repo": "HKUDS/DeepTutor",
+      "path": "requirements.txt",
+      "commit": "60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db",
+      "sha256": "93c9c9467427d9dee549e72762a23aec64a1b781b656112116085dce8aa1d4c9",
+      "url": "https://github.com/HKUDS/DeepTutor/blob/60fb3bdfddb30b7740c7ce3bd9b28d908f2af6db/requirements.txt"
+    },
+    {
+      "repo": "JushBJJ/Mr.-Ranedeer-AI-Tutor",
+      "path": "README.md",
+      "commit": "ea29bcf196d28e70eb31100d00b108ebbacceb96",
+      "sha256": "3db5fdf9ed06d29ad9ab36eb1049c6cd3f0114e3d2915df374808fe5ab35aee5",
+      "url": "https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor/blob/ea29bcf196d28e70eb31100d00b108ebbacceb96/README.md"
+    },
+    {
+      "repo": "Nutlope/llamatutor",
+      "path": "README.md",
+      "commit": "e29ac56679d60140b451466b2b17151cb000d88a",
+      "sha256": "fa84f0faf43b86717b3e5f7c9b48b0ac1db7bfcc4c852946dc7e0b7768b35e70",
+      "url": "https://github.com/Nutlope/llamatutor/blob/e29ac56679d60140b451466b2b17151cb000d88a/README.md"
+    },
+    {
+      "repo": "Nutlope/llamatutor",
+      "path": "package.json",
+      "commit": "e29ac56679d60140b451466b2b17151cb000d88a",
+      "sha256": "dd2790c5c42fc22845eae4421933a4217234a90e2831f8231df98def409d7c58",
+      "url": "https://github.com/Nutlope/llamatutor/blob/e29ac56679d60140b451466b2b17151cb000d88a/package.json"
+    }
+  ],
+  "paper": {
+    "url": "https://arxiv.org/abs/2604.26962",
+    "title": "DeepTutor: Towards Agentic Personalized Tutoring",
+    "first_submitted": "2026-04-10",
+    "latest_revision": "2026-07-09",
+    "version": "v3",
+    "read_scope": "abstract and submission history only",
+    "evaluation_status": "author-reported, not independently reproduced"
+  },
+  "not_executed": [
+    "DeepTutor install or launch",
+    "LLM/embedding calls",
+    "tutor QA or quiz generation",
+    "real learner evaluation",
+    "alternative apps"
+  ],
+  "limitations": [
+    "not a global quality ranking",
+    "self-hosting does not imply no cloud data transmission",
+    "licenses not found in pinned alternative repository trees"
+  ]
+}
