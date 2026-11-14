@@ -636,6 +636,27 @@
       ],
       "created_at": "2026-11-13T05:12:16+00:00",
       "updated_at": "2026-11-13T05:12:16+00:00"
+    },
+    {
+      "id": "2026-11-14-python-terminal-eye-to-space",
+      "name": "眼睛到爱心星空：Python 字符画与终端动画",
+      "report": "topics/2026-11-14-python-terminal-eye-to-space/README.md",
+      "sources": [
+        {
+          "kind": "douyin",
+          "url": "https://v.douyin.com/DreQzf0md9E/",
+          "title": "肮：你的眼里藏着什么",
+          "note": "用户原始短链；作品ID 7707535886544209290；30.1秒原视频已下载探测，查看启动画面及全时段30个采样画面；未听音/转写、未实测动画程序。"
+        },
+        {
+          "kind": "douyin",
+          "url": "https://www.douyin.com/video/7707535886544209290",
+          "title": "抖音原作品完整链接",
+          "note": "由原短链解析且公开详情核实；发布时间2026-11-13 14:15:42 Asia/Shanghai；启动命令python eye_to_space.py；近似GitHub代码的作者归属与许可未核实。"
+        }
+      ],
+      "created_at": "2026-11-14T15:03:52+00:00",
+      "updated_at": "2026-11-14T15:03:52+00:00"
     }
   ]
 }
