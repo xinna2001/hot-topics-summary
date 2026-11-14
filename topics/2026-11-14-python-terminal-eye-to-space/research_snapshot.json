@@ -1,0 +1,401 @@
+{
+  "schema_version": 1,
+  "topic_id": "2026-11-14-python-terminal-eye-to-space",
+  "checked_at": "2026-11-14T23:03:52.230641+08:00",
+  "status": "partially_verified",
+  "input": {
+    "shortlink": "https://v.douyin.com/DreQzf0md9E/",
+    "canonical_url": "https://www.douyin.com/video/7707535886544209290"
+  },
+  "video": {
+    "video_id": "7707535886544209290",
+    "desc": "你的眼里藏着什么#vibecoding #Python #终端动画 #程序员浪漫",
+    "author": "肮",
+    "published_at": "2026-11-13T14:15:42+08:00",
+    "duration_ms": 30100,
+    "statistics": {
+      "digg_count": 14247,
+      "comment_count": 781,
+      "collect_count": 1465,
+      "share_count": 2635
+    },
+    "downloaded_bytes": 7402602,
+    "ffprobe_duration_seconds": 30.1,
+    "codec": "h264",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "sha256": "91a0edbaafcefd89bd2a40ebb53f948578395cfadc6c25c12c828e84e37d748b",
+    "inspected_times_seconds": [
+      0.15,
+      0.5,
+      1.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5,
+      6.5,
+      7.5,
+      8.5,
+      9.5,
+      10.5,
+      11.5,
+      12.5,
+      13.5,
+      14.5,
+      15.5,
+      16.5,
+      17.5,
+      18.5,
+      19.5,
+      20.5,
+      21.5,
+      22.5,
+      23.5,
+      24.5,
+      25.5,
+      26.5,
+      27.5,
+      28.5,
+      29.5
+    ],
+    "read_scope": "Public description and exact-ID detail; launch frame and one-second sampling across video. No full listening or ASR. No continuous frame-by-frame viewing.",
+    "launch_command": "python eye_to_space.py"
+  },
+  "repositories": [
+    {
+      "full_name": "kolk42254-code/ai-ml-goal",
+      "html_url": "https://github.com/kolk42254-code/ai-ml-goal",
+      "description": null,
+      "stargazers_count": 1,
+      "default_branch": "main",
+      "created_at": "2026-10-13T16:02:12Z",
+      "pushed_at": "2026-11-11T06:17:43Z",
+      "archived": false,
+      "license": null,
+      "commit": "54ad9aa5a40ee2c797beb869136d392e88d5d309",
+      "commit_date": "2026-10-28T17:50:25Z",
+      "tree_truncated": false,
+      "queried_at": "2026-11-14T23:03:52.230641+08:00",
+      "license_audit": "GitHub license null; complete pinned tree has no path containing licen; no original-video attribution established."
+    },
+    {
+      "full_name": "peterbrittain/asciimatics",
+      "html_url": "https://github.com/peterbrittain/asciimatics",
+      "description": "A cross platform package to do curses-like operations, plus higher level APIs and widgets to create text UIs and ASCII art animations",
+      "stargazers_count": 4309,
+      "default_branch": "master",
+      "created_at": "2015-04-15T20:18:41Z",
+      "pushed_at": "2026-07-04T13:05:35Z",
+      "archived": false,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "commit": "bf0cea87b50439e40a5c7b708d64da4195314a60",
+      "commit_date": "2026-07-04T13:05:06Z",
+      "tree_truncated": false,
+      "queried_at": "2026-11-14T23:03:52.230641+08:00",
+      "latest_github_release": {
+        "tag": "1.15.0",
+        "published_at": "2023-10-25T15:29:54Z",
+        "url": "https://github.com/peterbrittain/asciimatics/releases/tag/1.15.0"
+      }
+    },
+    {
+      "full_name": "ChrisBuilds/terminaltexteffects",
+      "html_url": "https://github.com/ChrisBuilds/terminaltexteffects",
+      "description": "TerminalTextEffects (TTE) is a terminal visual effects engine, application, and Python library.",
+      "stargazers_count": 4303,
+      "default_branch": "main",
+      "created_at": "2023-07-24T20:28:05Z",
+      "pushed_at": "2026-11-02T19:48:42Z",
+      "archived": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "commit": "3eac3eded0b9bca2e2a878102ebb9e7b2d8c9d25",
+      "commit_date": "2026-11-02T19:45:23Z",
+      "tree_truncated": false,
+      "queried_at": "2026-11-14T23:03:52.230641+08:00",
+      "latest_github_release": {
+        "tag": "release-0.15.0",
+        "published_at": "2026-05-10T01:52:07Z",
+        "url": "https://github.com/ChrisBuilds/terminaltexteffects/releases/tag/release-0.15.0"
+      }
+    },
+    {
+      "full_name": "ryan4yin/video2chars",
+      "html_url": "https://github.com/ryan4yin/video2chars",
+      "description": "Convert video to ascii art animation.",
+      "stargazers_count": 229,
+      "default_branch": "master",
+      "created_at": "2018-05-21T04:14:04Z",
+      "pushed_at": "2024-02-08T10:52:40Z",
+      "archived": false,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "commit": "a3092cc0b2bd4311359e5f630dda0e36ad271be0",
+      "commit_date": "2024-02-08T10:52:10Z",
+      "tree_truncated": false,
+      "queried_at": "2026-11-14T23:03:52.230641+08:00"
+    }
+  ],
+  "downloaded_source_fingerprints": [
+    {
+      "repo": "kolk42254-code/ai-ml-goal",
+      "commit": "54ad9aa5a40ee2c797beb869136d392e88d5d309",
+      "path": "README.md",
+      "url": "https://github.com/kolk42254-code/ai-ml-goal/blob/54ad9aa5a40ee2c797beb869136d392e88d5d309/README.md",
+      "sha256": "43831b9ebf7483b238e59f76adc7e8ab0f06224f35c8de4366bde5f2e26887f4",
+      "bytes": 1702
+    },
+    {
+      "repo": "kolk42254-code/ai-ml-goal",
+      "commit": "54ad9aa5a40ee2c797beb869136d392e88d5d309",
+      "path": "Projects_by_AI/Eye_animation/eye_to_space2.py",
+      "url": "https://github.com/kolk42254-code/ai-ml-goal/blob/54ad9aa5a40ee2c797beb869136d392e88d5d309/Projects_by_AI/Eye_animation/eye_to_space2.py",
+      "sha256": "7bb264f604c14d0edbd6782b2d8d858b2bb0150c926d8947f7096f8681ac604f",
+      "bytes": 54547
+    },
+    {
+      "repo": "kolk42254-code/ai-ml-goal",
+      "commit": "54ad9aa5a40ee2c797beb869136d392e88d5d309",
+      "path": "Projects_by_AI/Eye_animation/eye_to_space3.py",
+      "url": "https://github.com/kolk42254-code/ai-ml-goal/blob/54ad9aa5a40ee2c797beb869136d392e88d5d309/Projects_by_AI/Eye_animation/eye_to_space3.py",
+      "sha256": "3d3408382df8ac26263225c070281d95df97e9f412c8d6b508fbb647e85875b9",
+      "bytes": 72912
+    },
+    {
+      "repo": "kolk42254-code/ai-ml-goal",
+      "commit": "54ad9aa5a40ee2c797beb869136d392e88d5d309",
+      "path": "Projects_by_AI/Eye_animation/Eye_with_heart.py",
+      "url": "https://github.com/kolk42254-code/ai-ml-goal/blob/54ad9aa5a40ee2c797beb869136d392e88d5d309/Projects_by_AI/Eye_animation/Eye_with_heart.py",
+      "sha256": "d3a1df4e1a0fe16561c2b2c54722cd7a3a8e5f98128681fcb5d06e8908b4e0a7",
+      "bytes": 12165
+    },
+    {
+      "repo": "peterbrittain/asciimatics",
+      "commit": "bf0cea87b50439e40a5c7b708d64da4195314a60",
+      "path": "README.rst",
+      "url": "https://github.com/peterbrittain/asciimatics/blob/bf0cea87b50439e40a5c7b708d64da4195314a60/README.rst",
+      "sha256": "686686399dd2ee994f93a727a33d97fd479ebe722e857694abd9c9884e6dee59",
+      "bytes": 6734
+    },
+    {
+      "repo": "peterbrittain/asciimatics",
+      "commit": "bf0cea87b50439e40a5c7b708d64da4195314a60",
+      "path": "LICENSE",
+      "url": "https://github.com/peterbrittain/asciimatics/blob/bf0cea87b50439e40a5c7b708d64da4195314a60/LICENSE",
+      "sha256": "d6ca31cbfc2544e453f82b7b792c2b209c811283fd906870174f7b8983ea7891",
+      "bytes": 11345
+    },
+    {
+      "repo": "peterbrittain/asciimatics",
+      "commit": "bf0cea87b50439e40a5c7b708d64da4195314a60",
+      "path": "setup.py",
+      "url": "https://github.com/peterbrittain/asciimatics/blob/bf0cea87b50439e40a5c7b708d64da4195314a60/setup.py",
+      "sha256": "2f3756f2fce43778d33152203768a351b249a6b33a7a1deb4b074e1870e89a4f",
+      "bytes": 826
+    },
+    {
+      "repo": "peterbrittain/asciimatics",
+      "commit": "bf0cea87b50439e40a5c7b708d64da4195314a60",
+      "path": "asciimatics/renderers/images.py",
+      "url": "https://github.com/peterbrittain/asciimatics/blob/bf0cea87b50439e40a5c7b708d64da4195314a60/asciimatics/renderers/images.py",
+      "sha256": "85cc0116896dc631257a4a84ad947e249754798707d084e54e499568d85c82a4",
+      "bytes": 6508
+    },
+    {
+      "repo": "peterbrittain/asciimatics",
+      "commit": "bf0cea87b50439e40a5c7b708d64da4195314a60",
+      "path": "asciimatics/effects.py",
+      "url": "https://github.com/peterbrittain/asciimatics/blob/bf0cea87b50439e40a5c7b708d64da4195314a60/asciimatics/effects.py",
+      "sha256": "cd725ca27fecbc51b8f03d200456a910c861702b719ea83b1d37b9f445ce2cb2",
+      "bytes": 40258
+    },
+    {
+      "repo": "peterbrittain/asciimatics",
+      "commit": "bf0cea87b50439e40a5c7b708d64da4195314a60",
+      "path": "asciimatics/screen.py",
+      "url": "https://github.com/peterbrittain/asciimatics/blob/bf0cea87b50439e40a5c7b708d64da4195314a60/asciimatics/screen.py",
+      "sha256": "87be8c690c0d43ceea2d71e7fbbc3b33e2ab09ea48d384c4a0ea9030272df8e2",
+      "bytes": 106535
+    },
+    {
+      "repo": "peterbrittain/asciimatics",
+      "commit": "bf0cea87b50439e40a5c7b708d64da4195314a60",
+      "path": "samples/particles.py",
+      "url": "https://github.com/peterbrittain/asciimatics/blob/bf0cea87b50439e40a5c7b708d64da4195314a60/samples/particles.py",
+      "sha256": "9960a9e87a510ff0aa45633246afd65fed1c11f0b4d6357e7c6e4057a62f4d93",
+      "bytes": 4272
+    },
+    {
+      "repo": "ChrisBuilds/terminaltexteffects",
+      "commit": "3eac3eded0b9bca2e2a878102ebb9e7b2d8c9d25",
+      "path": "README.md",
+      "url": "https://github.com/ChrisBuilds/terminaltexteffects/blob/3eac3eded0b9bca2e2a878102ebb9e7b2d8c9d25/README.md",
+      "sha256": "09c4d8e1eb71c402f38e492f27e44d0f50e29981df19b4ada7e29755b5c0cd39",
+      "bytes": 10695
+    },
+    {
+      "repo": "ChrisBuilds/terminaltexteffects",
+      "commit": "3eac3eded0b9bca2e2a878102ebb9e7b2d8c9d25",
+      "path": "LICENSE",
+      "url": "https://github.com/ChrisBuilds/terminaltexteffects/blob/3eac3eded0b9bca2e2a878102ebb9e7b2d8c9d25/LICENSE",
+      "sha256": "3fcebf231b8ef157211a2f334431563e7227984f5f7187baa98d227246bab5c4",
+      "bytes": 1072
+    },
+    {
+      "repo": "ChrisBuilds/terminaltexteffects",
+      "commit": "3eac3eded0b9bca2e2a878102ebb9e7b2d8c9d25",
+      "path": "pyproject.toml",
+      "url": "https://github.com/ChrisBuilds/terminaltexteffects/blob/3eac3eded0b9bca2e2a878102ebb9e7b2d8c9d25/pyproject.toml",
+      "sha256": "fc64f70cbec794f242c25242ce049dbd78409d8464a142d3b027d076fcabbf45",
+      "bytes": 7273
+    },
+    {
+      "repo": "ChrisBuilds/terminaltexteffects",
+      "commit": "3eac3eded0b9bca2e2a878102ebb9e7b2d8c9d25",
+      "path": "terminaltexteffects/engine/terminal.py",
+      "url": "https://github.com/ChrisBuilds/terminaltexteffects/blob/3eac3eded0b9bca2e2a878102ebb9e7b2d8c9d25/terminaltexteffects/engine/terminal.py",
+      "sha256": "748177e093906a345c3e5bbcef884ece687355c276be23adf3ece4fdac6aa081",
+      "bytes": 85030
+    },
+    {
+      "repo": "ChrisBuilds/terminaltexteffects",
+      "commit": "3eac3eded0b9bca2e2a878102ebb9e7b2d8c9d25",
+      "path": "terminaltexteffects/engine/motion.py",
+      "url": "https://github.com/ChrisBuilds/terminaltexteffects/blob/3eac3eded0b9bca2e2a878102ebb9e7b2d8c9d25/terminaltexteffects/engine/motion.py",
+      "sha256": "c0174acc29cb09d767e157312b7747b9038659725d3220959b3ae8d1c3e8303c",
+      "bytes": 52457
+    },
+    {
+      "repo": "ChrisBuilds/terminaltexteffects",
+      "commit": "3eac3eded0b9bca2e2a878102ebb9e7b2d8c9d25",
+      "path": "terminaltexteffects/engine/animation.py",
+      "url": "https://github.com/ChrisBuilds/terminaltexteffects/blob/3eac3eded0b9bca2e2a878102ebb9e7b2d8c9d25/terminaltexteffects/engine/animation.py",
+      "sha256": "92ad053a405b82aaf0bb202c20932d433a80ae8137300a2474f6c7ec28324b5c",
+      "bytes": 53330
+    },
+    {
+      "repo": "ChrisBuilds/terminaltexteffects",
+      "commit": "3eac3eded0b9bca2e2a878102ebb9e7b2d8c9d25",
+      "path": "terminaltexteffects/effects/effect_expand.py",
+      "url": "https://github.com/ChrisBuilds/terminaltexteffects/blob/3eac3eded0b9bca2e2a878102ebb9e7b2d8c9d25/terminaltexteffects/effects/effect_expand.py",
+      "sha256": "ada19ccfd52ff0ebe6a5ed567b323fedf59aabe3611f23b0041c6092c0000cd3",
+      "bytes": 8707
+    },
+    {
+      "repo": "ChrisBuilds/terminaltexteffects",
+      "commit": "3eac3eded0b9bca2e2a878102ebb9e7b2d8c9d25",
+      "path": "terminaltexteffects/effects/effect_rings.py",
+      "url": "https://github.com/ChrisBuilds/terminaltexteffects/blob/3eac3eded0b9bca2e2a878102ebb9e7b2d8c9d25/terminaltexteffects/effects/effect_rings.py",
+      "sha256": "d5808f5d9a27f07841a9a51ab48b94d8cc7c5bcfc1917ea357a935b313d6225e",
+      "bytes": 21814
+    },
+    {
+      "repo": "ryan4yin/video2chars",
+      "commit": "a3092cc0b2bd4311359e5f630dda0e36ad271be0",
+      "path": "README.md",
+      "url": "https://github.com/ryan4yin/video2chars/blob/a3092cc0b2bd4311359e5f630dda0e36ad271be0/README.md",
+      "sha256": "e60adc7ab0277bf5ae4852b1f4556bbb9e130f08daf965ca772e06382ed9ed8c",
+      "bytes": 2444
+    },
+    {
+      "repo": "ryan4yin/video2chars",
+      "commit": "a3092cc0b2bd4311359e5f630dda0e36ad271be0",
+      "path": "LICENSE",
+      "url": "https://github.com/ryan4yin/video2chars/blob/a3092cc0b2bd4311359e5f630dda0e36ad271be0/LICENSE",
+      "sha256": "5fd8bfdc4a1430245030a6a7f73dceee6eb0a0424c47f8defdf480983c29de88",
+      "bytes": 1065
+    },
+    {
+      "repo": "ryan4yin/video2chars",
+      "commit": "a3092cc0b2bd4311359e5f630dda0e36ad271be0",
+      "path": "pyproject.toml",
+      "url": "https://github.com/ryan4yin/video2chars/blob/a3092cc0b2bd4311359e5f630dda0e36ad271be0/pyproject.toml",
+      "sha256": "5caaf8d36d227f29a6bd9cdf182280e2c04710d70f730bb9b8e82ffb9058342f",
+      "bytes": 980
+    },
+    {
+      "repo": "ryan4yin/video2chars",
+      "commit": "a3092cc0b2bd4311359e5f630dda0e36ad271be0",
+      "path": "doc/README-zh-cn.md",
+      "url": "https://github.com/ryan4yin/video2chars/blob/a3092cc0b2bd4311359e5f630dda0e36ad271be0/doc/README-zh-cn.md",
+      "sha256": "5cd7c4deb177a87c829d70215f624bae40647daa2e20ca6319ca621877f5bc53",
+      "bytes": 2033
+    },
+    {
+      "repo": "peterbrittain/asciimatics",
+      "commit": "bf0cea87b50439e40a5c7b708d64da4195314a60",
+      "path": "pyproject.toml",
+      "url": "https://github.com/peterbrittain/asciimatics/blob/bf0cea87b50439e40a5c7b708d64da4195314a60/pyproject.toml",
+      "sha256": "dce05346b9523577be778be3a1403d05f1124b31a6373f4d05c3232407a30c0d",
+      "bytes": 1856
+    },
+    {
+      "repo": "ryan4yin/video2chars",
+      "commit": "a3092cc0b2bd4311359e5f630dda0e36ad271be0",
+      "path": "video2chars/__init__.py",
+      "url": "https://github.com/ryan4yin/video2chars/blob/a3092cc0b2bd4311359e5f630dda0e36ad271be0/video2chars/__init__.py",
+      "sha256": "8db49753082fde5a49955f687d753e99de3c94eaef2aed81d82594c186d06d24",
+      "bytes": 1169
+    },
+    {
+      "repo": "ryan4yin/video2chars",
+      "commit": "a3092cc0b2bd4311359e5f630dda0e36ad271be0",
+      "path": "video2chars/converter.py",
+      "url": "https://github.com/ryan4yin/video2chars/blob/a3092cc0b2bd4311359e5f630dda0e36ad271be0/video2chars/converter.py",
+      "sha256": "8d145d26530496cd90dc59cc4eb8687fd41a562cc3992df035a9aa2d9743ca7a",
+      "bytes": 3179
+    }
+  ],
+  "source_read_scope": "Focused scene, starfield, glyph mapping, cache, terminal and playback sections in eye_to_space3.py; window-version header/architecture in eye_to_space2.py; README/licenses/dependencies; asciimatics Print, Stars and image renderers; TTE engine class/function entries and terminal lifecycle/timing; video2chars CLI and converter. Downloaded source is not necessarily read in full.",
+  "official_docs": [
+    {
+      "url": "https://learn.microsoft.com/en-us/windows/console/console-virtual-terminal-sequences",
+      "http_status": 200,
+      "read_sections": [
+        "VT processing",
+        "cursor positioning",
+        "extended colors"
+      ]
+    },
+    {
+      "url": "https://docs.python.org/3/library/shutil.html#shutil.get_terminal_size",
+      "http_status": 200,
+      "read_sections": [
+        "terminal size environment variables and fallback"
+      ]
+    }
+  ],
+  "runtime_validation": {
+    "animation_installed": false,
+    "animation_executed": false,
+    "models_called": false,
+    "performance_measured": false,
+    "media_download_and_ffprobe": true
+  },
+  "provenance_limits": [
+    "Candidate code not confirmed as original author project",
+    "Candidate timeline 14.25 seconds differs from video 30.1 seconds",
+    "Candidate has no identified license",
+    "vibecoding does not identify tool/model/prompt",
+    "TTE main development features not all released in 0.15.0"
+  ],
+  "acquisition_notes": "Installed downloader reported Success=0/Failed=1 despite exit0; exact public detail recovered with isolated temporary Chrome process; no browser/cookie/profile data published."
+}
