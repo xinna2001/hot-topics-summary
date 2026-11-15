@@ -1,0 +1,350 @@
+{
+  "checked_at": "2026-11-15T07:40:19.762998+00:00",
+  "timezone": "Asia/Shanghai",
+  "topic_id": "2026-11-15-small-magic-wizard-sandbox",
+  "research_scope": "original metadata, publisher link screenshot, eleven sampled video frames, selected pinned source sections and licenses; no game/build/ASR/model calls",
+  "video": {
+    "short_url": "https://v.douyin.com/XAelPajEvmw/",
+    "url": "https://www.douyin.com/video/7708132655045441946",
+    "id": "7708132655045441946",
+    "publisher": "最佳故事人",
+    "published_at": "2026-11-15T07:00:00+08:00",
+    "duration_seconds": 54.752653,
+    "bytes": 19626510,
+    "sha256": "bdf32de7509c2c16726a452d0876edad3dd9cc3a8644db16f80810dec76ce65c",
+    "width": 1280,
+    "height": 720,
+    "codecs": [
+      "h264",
+      "aac"
+    ],
+    "sampled_approx_seconds": [
+      2.5,
+      7.5,
+      12.5,
+      17.5,
+      22.5,
+      27.5,
+      32.5,
+      37.5,
+      42.5,
+      47.5,
+      52.5
+    ],
+    "full_continuous_viewing": false,
+    "audio_listened_or_asr": false
+  },
+  "original_project": {
+    "name": "Small Magic",
+    "owner": "blendi",
+    "game_url": "https://patch.gg/games/blendi/small-magic",
+    "play_url": "https://patch.gg/play/blendi/small-magic",
+    "source_url": "https://patch.gg/games/blendi/small-magic/source",
+    "clone_url": "https://git.patch.gg/blendi/small-magic.git",
+    "main_commit": "70252753137776f81de8dbb0518586300c027f74",
+    "version": "1.0.4",
+    "version_published_at": "2026-11-15T05:27:26.307Z",
+    "code_license": "MIT",
+    "platform_art_license": "LicenseRef-Proprietary",
+    "runtime_reproduced": false,
+    "build_run": false,
+    "actual_breakable_body_count": null,
+    "dev_model_and_one_day_claim": "publisher assertion; no original model logs or timing evidence"
+  },
+  "source_files": [
+    {
+      "path": "README.md",
+      "api_url": "https://patch.gg/api/v1/projects/blendi/small-magic/repo/file?path=README.md&ref=70252753137776f81de8dbb0518586300c027f74",
+      "commit": "70252753137776f81de8dbb0518586300c027f74",
+      "git_blob": "5d53a6e7d4e8088e6408d0ef0da715eb5ce39b25",
+      "sha256": "bf2d749f4bb01053f94321854d74d76b7d88fadf17a55ab0e2d3c16e727defd0",
+      "bytes": 4441,
+      "source_url": "https://patch.gg/games/blendi/small-magic/source?path=README.md&ref=70252753137776f81de8dbb0518586300c027f74"
+    },
+    {
+      "path": "LICENSE",
+      "api_url": "https://patch.gg/api/v1/projects/blendi/small-magic/repo/file?path=LICENSE&ref=70252753137776f81de8dbb0518586300c027f74",
+      "commit": "70252753137776f81de8dbb0518586300c027f74",
+      "git_blob": "fb9221170b24f044beb857b1ad448d1717a25783",
+      "sha256": "766db5265472c2b543561b16ef986a69b2a8f4eae576c45c78250c8d123eb5df",
+      "bytes": 1655,
+      "source_url": "https://patch.gg/games/blendi/small-magic/source?path=LICENSE&ref=70252753137776f81de8dbb0518586300c027f74"
+    },
+    {
+      "path": "LICENCE-NOTES.md",
+      "api_url": "https://patch.gg/api/v1/projects/blendi/small-magic/repo/file?path=LICENCE-NOTES.md&ref=70252753137776f81de8dbb0518586300c027f74",
+      "commit": "70252753137776f81de8dbb0518586300c027f74",
+      "git_blob": "304018094405053b0f59d5a71878e0f2f041ee4a",
+      "sha256": "3cf3c9136d0ae44dc6655b8791be838f0aeb3b053d7864c000e4a0b8bc18d6c9",
+      "bytes": 1206,
+      "source_url": "https://patch.gg/games/blendi/small-magic/source?path=LICENCE-NOTES.md&ref=70252753137776f81de8dbb0518586300c027f74"
+    },
+    {
+      "path": "MISSING_ASSETS.md",
+      "api_url": "https://patch.gg/api/v1/projects/blendi/small-magic/repo/file?path=MISSING_ASSETS.md&ref=70252753137776f81de8dbb0518586300c027f74",
+      "commit": "70252753137776f81de8dbb0518586300c027f74",
+      "git_blob": "f8a027e126a7c906b9ed5dd11535ed94fc0ca9d5",
+      "sha256": "6ab8cabe606e087ec6031fef102a3a6cb065b9f32572e100a0ec511de3bc17c8",
+      "bytes": 9649,
+      "source_url": "https://patch.gg/games/blendi/small-magic/source?path=MISSING_ASSETS.md&ref=70252753137776f81de8dbb0518586300c027f74"
+    },
+    {
+      "path": "package.json",
+      "api_url": "https://patch.gg/api/v1/projects/blendi/small-magic/repo/file?path=package.json&ref=70252753137776f81de8dbb0518586300c027f74",
+      "commit": "70252753137776f81de8dbb0518586300c027f74",
+      "git_blob": "dda67ab9cd2e3dfe497e6c18cb80c52a763b1565",
+      "sha256": "f22c4d371f05176fb999a5b01329a7cdd3f875988ed91f23e16cc8a904d5fa87",
+      "bytes": 298,
+      "source_url": "https://patch.gg/games/blendi/small-magic/source?path=package.json&ref=70252753137776f81de8dbb0518586300c027f74"
+    },
+    {
+      "path": "patch.json",
+      "api_url": "https://patch.gg/api/v1/projects/blendi/small-magic/repo/file?path=patch.json&ref=70252753137776f81de8dbb0518586300c027f74",
+      "commit": "70252753137776f81de8dbb0518586300c027f74",
+      "git_blob": "be0544a75ec95c93402cc5d80a2a45fc2723a0dc",
+      "sha256": "eb04e5a7f6a7f813dc024c29b4bc23b33e7a5b4892bbcb104545bd37644fc7f9",
+      "bytes": 165,
+      "source_url": "https://patch.gg/games/blendi/small-magic/source?path=patch.json&ref=70252753137776f81de8dbb0518586300c027f74"
+    },
+    {
+      "path": "build.mjs",
+      "api_url": "https://patch.gg/api/v1/projects/blendi/small-magic/repo/file?path=build.mjs&ref=70252753137776f81de8dbb0518586300c027f74",
+      "commit": "70252753137776f81de8dbb0518586300c027f74",
+      "git_blob": "28b1fa3bc0d1b04b807d85475739e7b4f59d19aa",
+      "sha256": "cc40c28354acd3f8f35260faec127ae6e1fc21126aefba114f487cc44a4ad5ca",
+      "bytes": 1568,
+      "source_url": "https://patch.gg/games/blendi/small-magic/source?path=build.mjs&ref=70252753137776f81de8dbb0518586300c027f74"
+    },
+    {
+      "path": "src/main.js",
+      "api_url": "https://patch.gg/api/v1/projects/blendi/small-magic/repo/file?path=src%2Fmain.js&ref=70252753137776f81de8dbb0518586300c027f74",
+      "commit": "70252753137776f81de8dbb0518586300c027f74",
+      "git_blob": "f0f028a0c0acf3c0f647ddff5dfc8068047e6d66",
+      "sha256": "2e3657f1aa31ce13338c267f40857caa7e6cff63e3102670dfedcb32a654f4c9",
+      "bytes": 18489,
+      "source_url": "https://patch.gg/games/blendi/small-magic/source?path=src%2Fmain.js&ref=70252753137776f81de8dbb0518586300c027f74"
+    },
+    {
+      "path": "src/spells.js",
+      "api_url": "https://patch.gg/api/v1/projects/blendi/small-magic/repo/file?path=src%2Fspells.js&ref=70252753137776f81de8dbb0518586300c027f74",
+      "commit": "70252753137776f81de8dbb0518586300c027f74",
+      "git_blob": "3483f63c02ea37bf46f4d2680b1e0809548071f9",
+      "sha256": "06731f8df6b86fc6a0948e958cff8c596878c562cba05073b1a72c04079b1740",
+      "bytes": 33354,
+      "source_url": "https://patch.gg/games/blendi/small-magic/source?path=src%2Fspells.js&ref=70252753137776f81de8dbb0518586300c027f74"
+    },
+    {
+      "path": "src/structures.js",
+      "api_url": "https://patch.gg/api/v1/projects/blendi/small-magic/repo/file?path=src%2Fstructures.js&ref=70252753137776f81de8dbb0518586300c027f74",
+      "commit": "70252753137776f81de8dbb0518586300c027f74",
+      "git_blob": "ae905239ea4dec0e7169e7e708cf83542c489c2f",
+      "sha256": "72fb067baf9b612472be4468f4fad7575f4eb0556f1e2f33ea9f9c2ff66de322",
+      "bytes": 29685,
+      "source_url": "https://patch.gg/games/blendi/small-magic/source?path=src%2Fstructures.js&ref=70252753137776f81de8dbb0518586300c027f74"
+    },
+    {
+      "path": "src/ruin.js",
+      "api_url": "https://patch.gg/api/v1/projects/blendi/small-magic/repo/file?path=src%2Fruin.js&ref=70252753137776f81de8dbb0518586300c027f74",
+      "commit": "70252753137776f81de8dbb0518586300c027f74",
+      "git_blob": "e33afc6b65d091f355ece8adce68f4b444fcc6b3",
+      "sha256": "a80f60edc78a13cf711f5beda577b2e4dab2a23ef22f39a489f0e50a816840cc",
+      "bytes": 43030,
+      "source_url": "https://patch.gg/games/blendi/small-magic/source?path=src%2Fruin.js&ref=70252753137776f81de8dbb0518586300c027f74"
+    },
+    {
+      "path": "src/blast.js",
+      "api_url": "https://patch.gg/api/v1/projects/blendi/small-magic/repo/file?path=src%2Fblast.js&ref=70252753137776f81de8dbb0518586300c027f74",
+      "commit": "70252753137776f81de8dbb0518586300c027f74",
+      "git_blob": "b57a525fe6e684ccece71937dce50c3e3b207f61",
+      "sha256": "fc265acec7770500496791ccdd8bb19755fdb8df22ba83a0f7060363bd49ff51",
+      "bytes": 25561,
+      "source_url": "https://patch.gg/games/blendi/small-magic/source?path=src%2Fblast.js&ref=70252753137776f81de8dbb0518586300c027f74"
+    },
+    {
+      "path": "src/hole.js",
+      "api_url": "https://patch.gg/api/v1/projects/blendi/small-magic/repo/file?path=src%2Fhole.js&ref=70252753137776f81de8dbb0518586300c027f74",
+      "commit": "70252753137776f81de8dbb0518586300c027f74",
+      "git_blob": "c0268e8b6e15518b833e63e3c677d52b282bca79",
+      "sha256": "469beddb543553d1779654a19cead777b82ac71e781715cde9b9eaf283c7fdc5",
+      "bytes": 16913,
+      "source_url": "https://patch.gg/games/blendi/small-magic/source?path=src%2Fhole.js&ref=70252753137776f81de8dbb0518586300c027f74"
+    },
+    {
+      "path": "src/twister.js",
+      "api_url": "https://patch.gg/api/v1/projects/blendi/small-magic/repo/file?path=src%2Ftwister.js&ref=70252753137776f81de8dbb0518586300c027f74",
+      "commit": "70252753137776f81de8dbb0518586300c027f74",
+      "git_blob": "8c26ef4e7a6ede2d379e6469a8b0bdf36380a30c",
+      "sha256": "bf908daea879e901e0ac949fb084046f11ac3290a4749e996e8da0ef8d6bb230",
+      "bytes": 31757,
+      "source_url": "https://patch.gg/games/blendi/small-magic/source?path=src%2Ftwister.js&ref=70252753137776f81de8dbb0518586300c027f74"
+    },
+    {
+      "path": "src/fire.js",
+      "api_url": "https://patch.gg/api/v1/projects/blendi/small-magic/repo/file?path=src%2Ffire.js&ref=70252753137776f81de8dbb0518586300c027f74",
+      "commit": "70252753137776f81de8dbb0518586300c027f74",
+      "git_blob": "e5a2434d1a2fd507c554ded093c55b9246beb90e",
+      "sha256": "7b69da85a2f792201d2108fbbf4c83bc6f70853e4b41bf2cd35cbb3b3aa7b49d",
+      "bytes": 13224,
+      "source_url": "https://patch.gg/games/blendi/small-magic/source?path=src%2Ffire.js&ref=70252753137776f81de8dbb0518586300c027f74"
+    },
+    {
+      "path": "src/sound.js",
+      "api_url": "https://patch.gg/api/v1/projects/blendi/small-magic/repo/file?path=src%2Fsound.js&ref=70252753137776f81de8dbb0518586300c027f74",
+      "commit": "70252753137776f81de8dbb0518586300c027f74",
+      "git_blob": "71c5a5fc729ce4533aa1f352b1750689ceb83dec",
+      "sha256": "fbcc0b105aa15464bc89e34396f79467c5ec4a36f43cd56136a39d6d7ef9da60",
+      "bytes": 79295,
+      "source_url": "https://patch.gg/games/blendi/small-magic/source?path=src%2Fsound.js&ref=70252753137776f81de8dbb0518586300c027f74"
+    },
+    {
+      "path": "src/meadow/world.js",
+      "api_url": "https://patch.gg/api/v1/projects/blendi/small-magic/repo/file?path=src%2Fmeadow%2Fworld.js&ref=70252753137776f81de8dbb0518586300c027f74",
+      "commit": "70252753137776f81de8dbb0518586300c027f74",
+      "git_blob": "f88bcef444cf725ddb6900ce13d923d93f505257",
+      "sha256": "daaf959139681c7937dda296940a92533968507065548d27b55ca257728bf13f",
+      "bytes": 49490,
+      "source_url": "https://patch.gg/games/blendi/small-magic/source?path=src%2Fmeadow%2Fworld.js&ref=70252753137776f81de8dbb0518586300c027f74"
+    },
+    {
+      "path": "public/CREDITS.md",
+      "api_url": "https://patch.gg/api/v1/projects/blendi/small-magic/repo/file?path=public%2FCREDITS.md&ref=70252753137776f81de8dbb0518586300c027f74",
+      "commit": "70252753137776f81de8dbb0518586300c027f74",
+      "git_blob": "85a1296bcbff51f93b1585e6b91b9c89279005de",
+      "sha256": "5fa5ea759870d29d86f355b81990cafcc834c9c85f79c6b05ffb0ea5fef95de3",
+      "bytes": 1177,
+      "source_url": "https://patch.gg/games/blendi/small-magic/source?path=public%2FCREDITS.md&ref=70252753137776f81de8dbb0518586300c027f74"
+    },
+    {
+      "path": "tools/gaps.mjs",
+      "api_url": "https://patch.gg/api/v1/projects/blendi/small-magic/repo/file?path=tools%2Fgaps.mjs&ref=70252753137776f81de8dbb0518586300c027f74",
+      "commit": "70252753137776f81de8dbb0518586300c027f74",
+      "git_blob": "ccfb4f85f18f4cd83d8af09bf439cfcc85cc7dd4",
+      "sha256": "e1a42c9c647c4e39f702d88e1e61de96d960db33bb7f5081a64a1d06c4a5638b",
+      "bytes": 4847,
+      "source_url": "https://patch.gg/games/blendi/small-magic/source?path=tools%2Fgaps.mjs&ref=70252753137776f81de8dbb0518586300c027f74"
+    },
+    {
+      "path": "vendor/three-avbd/VENDOR.md",
+      "api_url": "https://patch.gg/api/v1/projects/blendi/small-magic/repo/file?path=vendor%2Fthree-avbd%2FVENDOR.md&ref=70252753137776f81de8dbb0518586300c027f74",
+      "commit": "70252753137776f81de8dbb0518586300c027f74",
+      "git_blob": "2418c4317720b5f1c4e09fcaec8322c69bd31d17",
+      "sha256": "8829cff611c0d70efbb218a9b62182afa9296770d6e1eda1590344e61e36a6f4",
+      "bytes": 1857,
+      "source_url": "https://patch.gg/games/blendi/small-magic/source?path=vendor%2Fthree-avbd%2FVENDOR.md&ref=70252753137776f81de8dbb0518586300c027f74"
+    },
+    {
+      "path": "vendor/three-avbd/LICENSE",
+      "api_url": "https://patch.gg/api/v1/projects/blendi/small-magic/repo/file?path=vendor%2Fthree-avbd%2FLICENSE&ref=70252753137776f81de8dbb0518586300c027f74",
+      "commit": "70252753137776f81de8dbb0518586300c027f74",
+      "git_blob": "3d203e0a37261b714bc5a2e25f32eedab76836c9",
+      "sha256": "001e6e522d708b77dbb07b3295f94febf060150ca2672c5c6efb2be6d9438873",
+      "bytes": 1088,
+      "source_url": "https://patch.gg/games/blendi/small-magic/source?path=vendor%2Fthree-avbd%2FLICENSE&ref=70252753137776f81de8dbb0518586300c027f74"
+    },
+    {
+      "path": "vendor/three-avbd/THIRD_PARTY_NOTICES.md",
+      "api_url": "https://patch.gg/api/v1/projects/blendi/small-magic/repo/file?path=vendor%2Fthree-avbd%2FTHIRD_PARTY_NOTICES.md&ref=70252753137776f81de8dbb0518586300c027f74",
+      "commit": "70252753137776f81de8dbb0518586300c027f74",
+      "git_blob": "487dd334203d74074fb0771ecb219ae2069350ae",
+      "sha256": "48e48ac5fd4d312ae2f7450c3b8d7102f01fc5e1a585480258c04b93334ade51",
+      "bytes": 7122,
+      "source_url": "https://patch.gg/games/blendi/small-magic/source?path=vendor%2Fthree-avbd%2FTHIRD_PARTY_NOTICES.md&ref=70252753137776f81de8dbb0518586300c027f74"
+    },
+    {
+      "path": "src/physics/structure.ts",
+      "api_url": "https://patch.gg/api/v1/projects/blendi/small-magic/repo/file?path=src%2Fphysics%2Fstructure.ts&ref=70252753137776f81de8dbb0518586300c027f74",
+      "commit": "70252753137776f81de8dbb0518586300c027f74",
+      "git_blob": "ea6d1bfcea996594f0dcdd61af1ae63823bb1faa",
+      "sha256": "3bf68bb47c82679e5f22e3232b18ee5b134511ee0d950b84cc2506fd18c4922f",
+      "bytes": 14728,
+      "source_url": "https://patch.gg/games/blendi/small-magic/source?path=src%2Fphysics%2Fstructure.ts&ref=70252753137776f81de8dbb0518586300c027f74"
+    },
+    {
+      "path": "src/physics/builder.ts",
+      "api_url": "https://patch.gg/api/v1/projects/blendi/small-magic/repo/file?path=src%2Fphysics%2Fbuilder.ts&ref=70252753137776f81de8dbb0518586300c027f74",
+      "commit": "70252753137776f81de8dbb0518586300c027f74",
+      "git_blob": "c4d037d56d5ce7765e492fe560302746ce311315",
+      "sha256": "40799f54360bb22f983ee027e9269e674cb8bc0f7fdb8c44d943d55ce73e333f",
+      "bytes": 13337,
+      "source_url": "https://patch.gg/games/blendi/small-magic/source?path=src%2Fphysics%2Fbuilder.ts&ref=70252753137776f81de8dbb0518586300c027f74"
+    },
+    {
+      "path": "src/paint.js",
+      "api_url": "https://patch.gg/api/v1/projects/blendi/small-magic/repo/file?path=src%2Fpaint.js&ref=70252753137776f81de8dbb0518586300c027f74",
+      "commit": "70252753137776f81de8dbb0518586300c027f74",
+      "git_blob": "b6d1b147a5e21bd1342b8feab7d32757c7d4ae17",
+      "sha256": "e03d0fbb202bce07d4e3ff435d1e3a1cd0342c52f9e96c0789d937b90bd242a3",
+      "bytes": 15522,
+      "source_url": "https://patch.gg/games/blendi/small-magic/source?path=src%2Fpaint.js&ref=70252753137776f81de8dbb0518586300c027f74"
+    },
+    {
+      "path": "vite.config.mjs",
+      "api_url": "https://patch.gg/api/v1/projects/blendi/small-magic/repo/file?path=vite.config.mjs&ref=70252753137776f81de8dbb0518586300c027f74",
+      "commit": "70252753137776f81de8dbb0518586300c027f74",
+      "git_blob": "4e8a2e8b5fbff7f9045d9febe5247861107b6ea4",
+      "sha256": "dc286818934947533b4d1566b802b0552af4d6fa2e8321b070730f8b7ed68825",
+      "bytes": 1110,
+      "source_url": "https://patch.gg/games/blendi/small-magic/source?path=vite.config.mjs&ref=70252753137776f81de8dbb0518586300c027f74"
+    },
+    {
+      "path": "tools/serve.mjs",
+      "api_url": "https://patch.gg/api/v1/projects/blendi/small-magic/repo/file?path=tools%2Fserve.mjs&ref=70252753137776f81de8dbb0518586300c027f74",
+      "commit": "70252753137776f81de8dbb0518586300c027f74",
+      "git_blob": "0ef77af63d47c88e7e2064de6c6a684378556e4d",
+      "sha256": "142e34f7817ffdbfe6831f315ae82c8c657178b79ce8d1c4b1df1af9dd6b2888",
+      "bytes": 1542,
+      "source_url": "https://patch.gg/games/blendi/small-magic/source?path=tools%2Fserve.mjs&ref=70252753137776f81de8dbb0518586300c027f74"
+    }
+  ],
+  "successful_source_files": 27,
+  "source_fetch_not_found": [
+    {
+      "path": "src/physics/index.js",
+      "status": 404
+    }
+  ],
+  "related_project_snapshots": [
+    {
+      "repository": "BabylonJS/Babylon.js",
+      "commit": "c221550275c9072f1c35f19398130dbd9cd4cfb1",
+      "stars": 26364,
+      "license": "Apache-2.0",
+      "readme_url": "https://github.com/BabylonJS/Babylon.js/blob/c221550275c9072f1c35f19398130dbd9cd4cfb1/README.md"
+    },
+    {
+      "repository": "dimforge/rapier",
+      "commit": "475caa3ff4646fd9a796b67d14116256f4962bc7",
+      "stars": 6072,
+      "license": "Apache-2.0",
+      "readme_url": "https://github.com/dimforge/rapier/blob/475caa3ff4646fd9a796b67d14116256f4962bc7/README.md"
+    },
+    {
+      "repository": "jjcm/petalwake",
+      "commit": "25443cef0eba802052d9ef24c94ba3c4157b6f2e",
+      "stars": 68,
+      "license": "MIT",
+      "readme_url": "https://github.com/jjcm/petalwake/blob/25443cef0eba802052d9ef24c94ba3c4157b6f2e/README.md"
+    },
+    {
+      "repository": "sbobyn/three-avbd",
+      "commit": "f3d8c48cc640b8f29899e43c5655a90cebfbb4d8",
+      "stars": 161,
+      "license": "MIT",
+      "readme_url": "https://github.com/sbobyn/three-avbd/blob/f3d8c48cc640b8f29899e43c5655a90cebfbb4d8/README.md"
+    }
+  ],
+  "acquisition": {
+    "downloader": "exit0 but Success0/Failed1; media not obtained by downloader",
+    "video_recovery": "isolated Chrome, exact video detail response, verified stream download",
+    "public_repo_clone": "server did not support partial filter; transfer stalled and was stopped; no complete clone or execution",
+    "source_recovery": "unauthenticated public repo/tree and repo/file APIs; all recorded files matched requested commit",
+    "play_test": "wrapper page read; game iframe HTTPS request had SSL timeout; game not executed"
+  },
+  "pending": [
+    "all seven spells runtime acceptance",
+    "actual destructible/fixed/tree counts and performance",
+    "original development post and Fable request/timing/cost logs",
+    "UI art reuse authorization and full independent Sonniss-license reading",
+    "complete dependency build and stale Rapier notice audit"
+  ]
+}

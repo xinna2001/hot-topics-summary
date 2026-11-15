@@ -40,6 +40,7 @@
 | 单文件 WebGL FPS：Three.js r180 架构与枪感、碰撞、美术差距复盘 | [查看详细信息](topics/2026-11-11-single-file-webgl-fps/README.md) | 截图提供，原链接待补（会话 HTML 素材与实机截图；未提供公开原始链接，参考游戏作者及许可证待核实；来源与两套实现的区别见详细页） |
 | DeepTutor：知识库、交互式教材与自适应学习助手 | [查看详细信息](topics/2026-11-13-deeptutor-ai-tutor/README.md) | [企鹅加德：ai家教界最高的山](https://v.douyin.com/YCY4n6Enh74/)<br>[抖音原作品完整链接](https://www.douyin.com/video/7707504463086814683) |
 | 眼睛到爱心星空：Python 字符画与终端动画 | [查看详细信息](topics/2026-11-14-python-terminal-eye-to-space/README.md) | [肮：你的眼里藏着什么](https://v.douyin.com/DreQzf0md9E/)<br>[抖音原作品完整链接](https://www.douyin.com/video/7707535886544209290) |
+| Small Magic：纯代码场景与 WebGPU 破坏物理的巫师沙盒 | [查看详细信息](topics/2026-11-15-small-magic-wizard-sandbox/README.md) | [最佳故事人：blendi 用 fable 5.2 制作巫师沙盒](https://v.douyin.com/XAelPajEvmw/)<br>[Small Magic 巫师沙盒（抖音原作品）](https://www.douyin.com/video/7708132655045441946) |
 <!-- HOT_TOPICS:END -->
 
 详细页说明：它是什么、技术如何实现、关联开源项目和官方资料、复现条件、限制，以及仍需核实的说法。关键结论附来源和查阅日期，区分已核实事实、作者宣称和推测。

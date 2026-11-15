@@ -657,6 +657,27 @@
       ],
       "created_at": "2026-11-14T15:03:52+00:00",
       "updated_at": "2026-11-14T15:03:52+00:00"
+    },
+    {
+      "id": "2026-11-15-small-magic-wizard-sandbox",
+      "name": "Small Magic：纯代码场景与 WebGPU 破坏物理的巫师沙盒",
+      "report": "topics/2026-11-15-small-magic-wizard-sandbox/README.md",
+      "sources": [
+        {
+          "kind": "douyin",
+          "url": "https://v.douyin.com/XAelPajEvmw/",
+          "title": "最佳故事人：blendi 用 fable 5.2 制作巫师沙盒",
+          "note": "原始分享短链"
+        },
+        {
+          "kind": "douyin",
+          "url": "https://www.douyin.com/video/7708132655045441946",
+          "title": "Small Magic 巫师沙盒（抖音原作品）",
+          "note": "原短链解析得到的同一作品，作品 ID 7708132655045441946"
+        }
+      ],
+      "created_at": "2026-11-15T07:40:20+00:00",
+      "updated_at": "2026-11-15T07:40:20+00:00"
     }
   ]
 }
