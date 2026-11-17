@@ -1,0 +1,420 @@
+{
+  "checked_date": "2026-11-17",
+  "timezone": "Asia/Shanghai",
+  "topic": "Dash fighter / fly",
+  "video": {
+    "shortlink": "https://v.douyin.com/yc_GihotvsA/",
+    "url": "https://www.douyin.com/video/7708679164118830371",
+    "author": "Enter.AI",
+    "description": "32KB代码手搓像素战斗机飞行 仅用32KB代码手搓3D空战体验！开发者Dash用纯2D“精灵堆叠”技术打造极简像素战斗机演示，零3D引擎依赖，支持俯视、追尾与座舱HUD三视角无缝切换，网页打开即飞！#前端开发  #图形学  #像素风  #游戏开发  #CreativeCoding",
+    "published_at": "2026-11-16T16:12:18+08:00",
+    "duration_seconds": 32.933333,
+    "bytes": 9981414,
+    "sha256": "68e2d787b6a5383e5fb105119f17cd1cd9e0d652ffdb4fd6390ac85b22d65e71",
+    "sampled_seconds": [
+      0,
+      3,
+      6,
+      9,
+      12,
+      15,
+      18,
+      21,
+      24,
+      27,
+      30
+    ],
+    "read_scope": "metadata, description, page text, sampled frames and enlarged frame at 12s; no complete listening, ASR or continuous viewing"
+  },
+  "project": {
+    "id": "frag_1eb8944c-57b1-42ca-a909-5c2d7e517c24",
+    "name": "fighter",
+    "description": "Pixel-art fighter jet built by sprite stacking, over stacked islands. Space cycles overhead, chase and cockpit views; click rolls, hold fires the thrusters; fly from the wavetops to high altitude.",
+    "slug": "fly",
+    "revision": 44,
+    "publishedRevision": 43,
+    "byteSize": 3183871,
+    "assetCount": 32,
+    "linkAccess": "remix",
+    "passwordProtected": false,
+    "visibility": "public"
+  },
+  "anonymous_viewer": {
+    "signedIn": false,
+    "member": false,
+    "canRemix": true
+  },
+  "variant_metadata": [
+    {
+      "id": "var_10179fd7-f851-4414-a40e-69a68137c5e9",
+      "name": "fighterv2",
+      "entrySlug": "fighter-jet-eject",
+      "sourceSha256": "9e51d28f31907014ef953f3fedf244d8581fafa0ecca263350d0d657578b774f",
+      "sourceByteSize": 48795
+    }
+  ],
+  "assets_metadata": [
+    {
+      "logicalPath": "assets/jet-four-views.png",
+      "mime": "image/png",
+      "byteSize": 689268,
+      "sha256": "038f5cb2e905170a6b781b31040b647f2f47e8ea2bf2c62a7cb960e11e628766"
+    },
+    {
+      "logicalPath": "assets/pilot-four-views.png",
+      "mime": "image/png",
+      "byteSize": 862083,
+      "sha256": "55dad4a02aeb4b433a9f876fa0b5716842fee181bb9bcc02bde17ddaf238cd5c"
+    },
+    {
+      "logicalPath": "assets/sounds/afterburner.mp3",
+      "mime": "audio/mpeg",
+      "byteSize": 84889,
+      "sha256": "235076efb38f366ee38dc6ff36b78d9f98f87dfd453ac3b19df2465e0d94052b"
+    },
+    {
+      "logicalPath": "assets/sounds/alarm.mp3",
+      "mime": "audio/mpeg",
+      "byteSize": 32592,
+      "sha256": "062bb317dbb4c1466d9ed425054671438577e311310edb064712f25d63c9cdbf"
+    },
+    {
+      "logicalPath": "assets/sounds/blast.mp3",
+      "mime": "audio/mpeg",
+      "byteSize": 42832,
+      "sha256": "b893cc2323b11ba918881ee80db653958fccf2c5b1c1045f5d0ef66ccf31994d"
+    },
+    {
+      "logicalPath": "assets/sounds/canopy.mp3",
+      "mime": "audio/mpeg",
+      "byteSize": 28934,
+      "sha256": "ea7fb48360f4069bd8c08ced717d068c530143ddde7018f08efcbce53fdcfaf6"
+    },
+    {
+      "logicalPath": "assets/sounds/chute.mp3",
+      "mime": "audio/mpeg",
+      "byteSize": 27472,
+      "sha256": "f3e0fbe7347bb4694b20e28d9622ca06590e283bf8ded76c6e1be1d120519148"
+    },
+    {
+      "logicalPath": "assets/sounds/cloud.mp3",
+      "mime": "audio/mpeg",
+      "byteSize": 17232,
+      "sha256": "0b7755d4fd9ef52378da4ebda462ca9989a6ca5d079e09fbbd1927e840d35a12"
+    },
+    {
+      "logicalPath": "assets/sounds/eject.mp3",
+      "mime": "audio/mpeg",
+      "byteSize": 35517,
+      "sha256": "f84d442c5c0411aa3101a39357ef9b427271a1d01fda1e41604996d730f28f18"
+    },
+    {
+      "logicalPath": "assets/sounds/empty.mp3",
+      "mime": "audio/mpeg",
+      "byteSize": 17179,
+      "sha256": "9c5a07e6e18c4ac7662588a8fe26004457f7e0644e04ef8cdb70b937ab281182"
+    },
+    {
+      "logicalPath": "assets/sounds/engine.mp3",
+      "mime": "audio/mpeg",
+      "byteSize": 84889,
+      "sha256": "c2ca7bbefc6740cc1a567869747fd1bf9b896d8e4119279f3d86052b3d8638e4"
+    },
+    {
+      "logicalPath": "assets/sounds/explosion.mp3",
+      "mime": "audio/mpeg",
+      "byteSize": 63677,
+      "sha256": "ef4700e8e87bcd8fbdb36e6888469619ad2ad47b3518f5c4eef5b4a6c90ea85a"
+    },
+    {
+      "logicalPath": "assets/sounds/flyby.mp3",
+      "mime": "audio/mpeg",
+      "byteSize": 46489,
+      "sha256": "46db8a6288bdad0da903a48c243ae519833cfd7a9ea681a233d963bc9808c0ee"
+    },
+    {
+      "logicalPath": "assets/sounds/gun.mp3",
+      "mime": "audio/mpeg",
+      "byteSize": 36405,
+      "sha256": "e582c5252bdce028e4561e0d827b9dc48bb3fd13a53e324da927b453bb854ff2"
+    },
+    {
+      "logicalPath": "assets/sounds/guntail.mp3",
+      "mime": "audio/mpeg",
+      "byteSize": 23449,
+      "sha256": "5353f38abb88373868774e93ac4027c63a7e96c5ab7a58a9db0559028d3d8137"
+    },
+    {
+      "logicalPath": "assets/sounds/hit.mp3",
+      "mime": "audio/mpeg",
+      "byteSize": 15037,
+      "sha256": "57cbc9609beb7397726e20ad73de1d841cd0e90dbfdb0c5a32f221caa2542482"
+    },
+    {
+      "logicalPath": "assets/sounds/kick.mp3",
+      "mime": "audio/mpeg",
+      "byteSize": 42832,
+      "sha256": "67bd9d775adc1631d120dbb7f53ebcbc72aee1e795e4fbbdf7f6075486b78833"
+    },
+    {
+      "logicalPath": "assets/sounds/missile.mp3",
+      "mime": "audio/mpeg",
+      "byteSize": 35517,
+      "sha256": "5e1147751ba13c598d3b02dfbf9c99a754532ba8cc54272dd0c284cc3cfe7f9f"
+    },
+    {
+      "logicalPath": "assets/sounds/radio-in1.mp3",
+      "mime": "audio/mpeg",
+      "byteSize": 26950,
+      "sha256": "dedc07ac38981ee0a968de8e3b2b56c51b7ac906c308b78d9933417bbfe2abad"
+    },
+    {
+      "logicalPath": "assets/sounds/radio-in2.mp3",
+      "mime": "audio/mpeg",
+      "byteSize": 27734,
+      "sha256": "832888a41bd9b536cb594dc76b3c4c522e6b94d5b01f55fce9b7b7d324462bbc"
+    },
+    {
+      "logicalPath": "assets/sounds/radio-in3.mp3",
+      "mime": "audio/mpeg",
+      "byteSize": 25122,
+      "sha256": "9a13bf81a0d5dbc3c17c61296fd5a546d00ec7eeccae68841fff41f1abb7207d"
+    },
+    {
+      "logicalPath": "assets/sounds/radio-out1.mp3",
+      "mime": "audio/mpeg",
+      "byteSize": 24599,
+      "sha256": "3abe814479dcfb8e940b0a1c578d1bed58f511edd558cd330f0903fff26a64bd"
+    },
+    {
+      "logicalPath": "assets/sounds/radio-out2.mp3",
+      "mime": "audio/mpeg",
+      "byteSize": 25905,
+      "sha256": "b8e2fa3ec8f88a8be39cdc47805c62573353814890ff2fb32ee2daa8caafef1c"
+    },
+    {
+      "logicalPath": "assets/sounds/radio-out3.mp3",
+      "mime": "audio/mpeg",
+      "byteSize": 24077,
+      "sha256": "31fb910a2de964c65f5a3574d40dbe86e47bd3ccbf1c8b6f23bd54722d9021ef"
+    },
+    {
+      "logicalPath": "assets/sounds/reload.mp3",
+      "mime": "audio/mpeg",
+      "byteSize": 24702,
+      "sha256": "b07a5276b7a569180ad6536452d54583929315e45800866e2d8c07f72cc8127c"
+    },
+    {
+      "logicalPath": "assets/sounds/roll.mp3",
+      "mime": "audio/mpeg",
+      "byteSize": 23449,
+      "sha256": "5107901d435566f2c133fe8cf05e006e54314ceeaa97092ef9a3c338ae1e9d79"
+    },
+    {
+      "logicalPath": "assets/sounds/seat.mp3",
+      "mime": "audio/mpeg",
+      "byteSize": 16134,
+      "sha256": "7e5ede3d8072afc589778efa117c843b41443d77350323eb7ee930f00228b8ef"
+    },
+    {
+      "logicalPath": "assets/sounds/slowmo.mp3",
+      "mime": "audio/mpeg",
+      "byteSize": 25643,
+      "sha256": "3bcb5dfbd66676c327909043bf494e01566709679124ca18110218268eab1a97"
+    },
+    {
+      "logicalPath": "assets/sounds/splash.mp3",
+      "mime": "audio/mpeg",
+      "byteSize": 63677,
+      "sha256": "4dc53cee0d461a83fb9eab604eabe249f0eea24754ff59d9efe2e3f8ea48d469"
+    },
+    {
+      "logicalPath": "assets/sounds/swish.mp3",
+      "mime": "audio/mpeg",
+      "byteSize": 9186,
+      "sha256": "8889df96457a810c6f7e105a1f98abe50a31730041bdc53c4e77acbff1b6191b"
+    },
+    {
+      "logicalPath": "assets/sounds/wake.mp3",
+      "mime": "audio/mpeg",
+      "byteSize": 70992,
+      "sha256": "0b3e7ff0e98b31fc124f39175297fb4c50c26578ba40cfe642f946be90aa6e62"
+    },
+    {
+      "logicalPath": "assets/sounds/wind.mp3",
+      "mime": "audio/mpeg",
+      "byteSize": 84889,
+      "sha256": "d5ffa55afa02117246c7b2e4dbd727ffd92ca0c1dbd3c9367fe4d930c236c27c"
+    }
+  ],
+  "asset_size_sum": 2659352,
+  "source_receipts": [
+    {
+      "path": "src/components/fighter-jet-eject.tsx",
+      "version_query": "v=62ba7fa637f1bf928a7b0a2160cef13fd9f42f0c1feabf564bc86f439b904b2d",
+      "bytes": 47996,
+      "sha256": "6da2a03970b2e7631d8e02d2f07bef2a8b563e70724ba858bc348d291ab2e4ef",
+      "content_type": "text/javascript; charset=utf-8",
+      "status": 200
+    },
+    {
+      "path": "src/lib/eject/scene.ts",
+      "version_query": "v=db15afbc5e9e1488534cc203cbf4aec1b37c7f8a927b916099c1594cc5a27f55",
+      "bytes": 208545,
+      "sha256": "6fd81cbc5f7e9c803bf8c88961a6bfc08df47af72c0609a0697413e51f466bad",
+      "content_type": "text/javascript; charset=utf-8",
+      "status": 200
+    },
+    {
+      "path": "src/lib/flame-layer.ts",
+      "version_query": "v=fed7971be4bec7b2677fac9c8362659f1c71e5b8c1db92782292551234bb28bc",
+      "bytes": 9370,
+      "sha256": "7435b7e4234e48877f5725d99da4335243b3ebc0272e6e212f9d0170d88bac1b",
+      "content_type": "text/javascript; charset=utf-8",
+      "status": 200
+    },
+    {
+      "path": "src/lib/sound.ts",
+      "version_query": "v=4ef701ea980eb64f05361d1b0451d03bac32e96ee688a352672094dc4857d3c2",
+      "bytes": 15951,
+      "sha256": "e6fdbccba77f383c48988c45b3d4f54ef892a4299cf56e5181c77f2c8b287525",
+      "content_type": "text/javascript; charset=utf-8",
+      "status": 200
+    },
+    {
+      "path": "src/lib/eject/tutorial.ts",
+      "version_query": "v=94e82a57a2cdfe68d97c7599b1b78eb0b163e69722b41a863f77a9cf11b5a3ee",
+      "bytes": 11178,
+      "sha256": "25e72c65713bbd1d2f098b3f08e45c67331a4ba1ea95550f12a5a8fe8e4e4056",
+      "content_type": "text/javascript; charset=utf-8",
+      "status": 200
+    },
+    {
+      "path": "src/lib/jet-model.ts",
+      "version_query": "v=a0cd024d6694faa1ab4403b2613f0df65f542270954fd119f6b4d611908f7b73",
+      "bytes": 7945,
+      "sha256": "410c9cb213f815e916ea79fe6ee6a0cd323e2775cb0046cad1e0dd0751438c63",
+      "content_type": "text/javascript; charset=utf-8",
+      "status": 200
+    },
+    {
+      "path": "src/lib/pilot-model.ts",
+      "version_query": "v=248cab24d5de3d6778034234d1846709dd8a727882df1840412cc9e1a4b43c53",
+      "bytes": 9584,
+      "sha256": "b461f4ddf7d0e59f3944ffc07ab32ca5f6cb66d2c15d26c87908863993c25f3e",
+      "content_type": "text/javascript; charset=utf-8",
+      "status": 200
+    },
+    {
+      "path": "src/lib/voxel-sprite.ts",
+      "version_query": "v=e3859d92344f2f891eee66f32d797734637b02cc9111ec10bc2e8591a516e7ea",
+      "bytes": 8245,
+      "sha256": "0afe2f4d1abc82d1d69f47e7855c6b6d560cf262682144ac6232bb9ab68eec0c",
+      "content_type": "text/javascript; charset=utf-8",
+      "status": 200
+    },
+    {
+      "path": "src/lib/post.ts",
+      "version_query": "v=48b655027dfe65e1c0b32d651edbab7b912ac57581e0869fad4f8b8cd16678d8",
+      "bytes": 6606,
+      "sha256": "2ab2f167b05eea9afa013fba4d565f784e6ee3a6fcf44e3ff26b86d999d09d8b",
+      "content_type": "text/javascript; charset=utf-8",
+      "status": 200
+    },
+    {
+      "path": "src/lib/cockpit.ts",
+      "version_query": "v=17e4b30d9971e952b5018446481c3e668842856126324f91b84ff48eae1c5795",
+      "bytes": 48934,
+      "sha256": "37275c868efdd1f280437e8f79847c6ed90c035860c7897003c5d79da0cf1544",
+      "content_type": "text/javascript; charset=utf-8",
+      "status": 200
+    },
+    {
+      "path": "src/main.tsx",
+      "bytes": 7915,
+      "sha256": "757dec9261b20777067b51192a293a02681ed72dd94753ad61f68af6d94a31a0",
+      "status": 200
+    },
+    {
+      "path": "/fragment-host/1/host.js",
+      "bytes": 771000,
+      "sha256": "8f58a4b6fe610728e6a53cfafc62035886c7b1bcdb8b379903e791637dd716cb",
+      "status": 200
+    },
+    {
+      "path": "preview HTML",
+      "bytes": 1091,
+      "sha256": "a80943eda0fb0d8b90b16478dd30f3dab95060d0a3127f3594685a78fcf062a0",
+      "status": 200
+    }
+  ],
+  "business_module_response_count": 10,
+  "business_module_decoded_bytes": 374354,
+  "source_note": "Public preview serves readable transformed JavaScript under ts/tsx paths, not original authoring TS/TSX or a complete export. Query version hashes and authoring source hash are recorded separately from decoded HTTP response sha256. Ephemeral preview signatures not retained here.",
+  "limits": {
+    "runtime_acceptance": false,
+    "original_32kb_build_verified": false,
+    "github_original_found": false,
+    "open_source_license_identified": false,
+    "forge_remix_or_export_executed": false,
+    "full_media_or_asset_license_audit": false
+  },
+  "current_code_observations": {
+    "scene": "software pixel renderer in Canvas 2D",
+    "model_dimensions": [
+      34,
+      46,
+      13
+    ],
+    "world": "seeded multi-octave value noise and height columns",
+    "cameras": [
+      "top",
+      "chase",
+      "cockpit"
+    ],
+    "host_dependencies": {
+      "react": "19.2.8",
+      "react-dom": "19.2.8"
+    },
+    "optional_webgl": "flame-layer.ts createFlameLayer for realistic flame style; default pixel; no blanket zero-WebGL claim"
+  },
+  "comparisons": [
+    {
+      "repo": "loktar00/sprite-stacking",
+      "sha": "25a6cfdc8b8f142b4cc297dd34bba24841d12213",
+      "stars": 4,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      }
+    },
+    {
+      "repo": "StanislavPetrovV/SpriteStacking",
+      "sha": "1cf2aee5374f47ccb99e963065b62754754ed353",
+      "stars": 38,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      }
+    },
+    {
+      "repo": "x3cca/Shader-Stacker",
+      "sha": "21d86ab62140b0d08ea217982036e3cb184afed5",
+      "stars": 71,
+      "license": {
+        "key": "mpl-2.0",
+        "name": "Mozilla Public License 2.0",
+        "spdx_id": "MPL-2.0",
+        "url": "https://api.github.com/licenses/mpl-2.0",
+        "node_id": "MDc6TGljZW5zZTE0"
+      }
+    }
+  ],
+  "acquisition_note": "Installed downloader failed detail fetch HTTP403 (exit0 but Success0/Failed1); exact-video isolated Chrome capture recovered media. Public Forge browser reads used no cookies; business HTTP fetches used exact observed preview/import URLs."
+}
