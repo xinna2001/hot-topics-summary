@@ -1,0 +1,103 @@
+{
+  "research_date": "2026-11-17",
+  "timezone": "Asia/Shanghai",
+  "scope": "public sources and original design recommendations; no original application runtime test",
+  "sources": [
+    {
+      "id": "canvas-animation",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_animations",
+      "status": 200,
+      "sha256": "8898d75914a4200eba75517acfbaed553207461a5d54e188d8c5d31903785727",
+      "text_chars": 14961
+    },
+    {
+      "id": "pixel-rendering",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/imageSmoothingEnabled",
+      "status": 200,
+      "sha256": "705da30b044640c445f707eb28875f090006f59787a0fd7843ff4c56be8d5055",
+      "text_chars": 6609
+    },
+    {
+      "id": "unity-load",
+      "url": "https://docs.unity3d.com/6000.3/Documentation/ScriptReference/SceneManagement.SceneManager.LoadSceneAsync.html",
+      "status": 200,
+      "sha256": "3c5ca31c3e428fc87f64c31640620801d4df42f1acb3b8b99570e696e635115a",
+      "text_chars": 12261
+    },
+    {
+      "id": "pixelfx-readme",
+      "url": "https://raw.githubusercontent.com/patch-gg/pixelfx/a84159688af3ca37a4be05a0d422b94451b2e24e/README.md",
+      "status": 200,
+      "sha256": "13c79f072779bd376a3b87ca34298d4b14b989ff2418a2d848f00786ed678916",
+      "text_chars": 11168
+    },
+    {
+      "id": "pixelfx-core",
+      "url": "https://raw.githubusercontent.com/patch-gg/pixelfx/a84159688af3ca37a4be05a0d422b94451b2e24e/src/core/fx.js",
+      "status": 200,
+      "sha256": "a959c5f7b1c15ba8e07cb26e5b1ccc0bce0aef54ca14cf01f9d6e794cf4e5a0b",
+      "text_chars": 5107
+    },
+    {
+      "id": "pixelfx-license",
+      "url": "https://raw.githubusercontent.com/patch-gg/pixelfx/a84159688af3ca37a4be05a0d422b94451b2e24e/LICENSE",
+      "status": 200,
+      "sha256": "0a77565a50c3462831244452f129c38d2adc4fd07897cbeba8adc943f958604e",
+      "text_chars": 1093
+    },
+    {
+      "id": "pixelfx-notice",
+      "url": "https://raw.githubusercontent.com/patch-gg/pixelfx/a84159688af3ca37a4be05a0d422b94451b2e24e/NOTICE.md",
+      "status": 200,
+      "sha256": "d12932473f98b1a3f0b5820ae23d568b52e39294ba7c2d60c0649a93a808af3b",
+      "text_chars": 620
+    }
+  ],
+  "project_context": {
+    "head": "d818b56",
+    "read": [
+      "AGENTS.md",
+      "README.md",
+      "TASKS.md",
+      "docs/README.md",
+      "docs/01-game-outline.md",
+      "docs/04-code-references.md",
+      "docs/06-open-questions.md"
+    ],
+    "decision_status": "recommendations only; project repo, rules, game code and skill not modified"
+  },
+  "runtime_status": "original games and loading component not run",
+  "private_data_published": false,
+  "video": {
+    "id": "7708429720253497721",
+    "author": "闻远",
+    "published": "2026-11-16T00:04:14+08:00",
+    "duration_seconds": 68.171995,
+    "bytes": 5326986,
+    "sha256": "d69d7ea7f3c27049114465d847892e0da35d4e320dff5ff25c90e8521f575fae",
+    "sampled_seconds": [
+      0,
+      5,
+      10,
+      13,
+      16,
+      20,
+      24,
+      28,
+      32,
+      36,
+      40,
+      44,
+      48,
+      52,
+      56,
+      60,
+      64,
+      67
+    ],
+    "audio_listening_or_asr": false,
+    "source_code_and_license_obtained": false
+  },
+  "pixel_reference_commit": "a84159688af3ca37a4be05a0d422b94451b2e24e",
+  "acquisition_status": "installed downloader reported failure; isolated browser read public detail; media download and ffprobe succeeded"
+}
