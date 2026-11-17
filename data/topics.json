@@ -699,6 +699,57 @@
       ],
       "created_at": "2026-11-17T04:42:43+00:00",
       "updated_at": "2026-11-17T04:42:43+00:00"
+    },
+    {
+      "id": "2026-11-17-wenyuan-pixel-loading",
+      "name": "闻远的三款像素加载动画：进度叙事与游戏接入",
+      "report": "topics/2026-11-17-wenyuan-pixel-loading/README.md",
+      "sources": [
+        {
+          "kind": "douyin",
+          "url": "https://v.douyin.com/FhH5fWka-ps/",
+          "title": "闻远：我做了3个最近很火的像素风加载动画",
+          "note": "用户原分享短链；完整简介、68.172秒媒体及18个时间点画面已读取；原作者源码/独立预览/许可未取得。"
+        },
+        {
+          "kind": "douyin",
+          "url": "https://www.douyin.com/video/7708429720253497721",
+          "title": "抖音原作品完整链接",
+          "note": "由短链解析且公开详情核对；发布时间2026-11-16 00:04:14 Asia/Shanghai；片头国外参考不算闻远第四款原创。"
+        }
+      ],
+      "created_at": "2026-11-17T15:36:36+00:00",
+      "updated_at": "2026-11-17T15:36:36+00:00"
+    },
+    {
+      "id": "2026-11-17-probably-stolen-shop-design",
+      "name": "深空当铺：交易判断与武器店、寿司酒馆的取舍",
+      "report": "topics/2026-11-17-probably-stolen-shop-design/README.md",
+      "sources": [
+        {
+          "kind": "web",
+          "url": "https://store.steampowered.com/app/4348910/Probably_Stolen__Cyberpunk_Shopkeeper_Sim/?l=schinese",
+          "title": "深空当铺：可能是偷的（官方 Steam 页面）",
+          "note": "用户仅给游戏名称；此为查证后确认的官方原作入口，不是用户提供的视频。正式版2026-10-28发行；未试玩，建议未修改第一款游戏大纲。"
+        }
+      ],
+      "created_at": "2026-11-17T15:37:10+00:00",
+      "updated_at": "2026-11-17T15:37:10+00:00"
+    },
+    {
+      "id": "2026-11-17-slay-the-spire-dungeon-design",
+      "name": "杀戮尖塔：构筑路线与动作地牢的借鉴边界",
+      "report": "topics/2026-11-17-slay-the-spire-dungeon-design/README.md",
+      "sources": [
+        {
+          "kind": "web",
+          "url": "https://store.steampowered.com/app/646570/Slay_the_Spire/?l=schinese",
+          "title": "Slay the Spire 一代（官方 Steam 页面）",
+          "note": "用户仅给游戏名称；此为确认的一代官方原作入口，不混入二代。官方定位及二手系统资料已读，未试玩，未替换夜勤人或改动当前战斗规则。"
+        }
+      ],
+      "created_at": "2026-11-17T15:37:10+00:00",
+      "updated_at": "2026-11-17T15:37:10+00:00"
     }
   ]
 }

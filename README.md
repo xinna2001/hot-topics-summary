@@ -42,6 +42,9 @@
 | 眼睛到爱心星空：Python 字符画与终端动画 | [查看详细信息](topics/2026-11-14-python-terminal-eye-to-space/README.md) | [肮：你的眼里藏着什么](https://v.douyin.com/DreQzf0md9E/)<br>[抖音原作品完整链接](https://www.douyin.com/video/7707535886544209290) |
 | Small Magic：纯代码场景与 WebGPU 破坏物理的巫师沙盒 | [查看详细信息](topics/2026-11-15-small-magic-wizard-sandbox/README.md) | [最佳故事人：blendi 用 fable 5.2 制作巫师沙盒](https://v.douyin.com/XAelPajEvmw/)<br>[Small Magic 巫师沙盒（抖音原作品）](https://www.douyin.com/video/7708132655045441946) |
 | Dash fighter：精灵堆叠像素战斗机与32KB源码核查 | [查看详细信息](topics/2026-11-17-dash-sprite-stacking-flight/README.md) | [Enter.AI：32KB代码手搓像素战斗机飞行](https://v.douyin.com/yc_GihotvsA/)<br>[抖音原作品](https://www.douyin.com/video/7708679164118830371) |
+| 闻远的三款像素加载动画：进度叙事与游戏接入 | [查看详细信息](topics/2026-11-17-wenyuan-pixel-loading/README.md) | [闻远：我做了3个最近很火的像素风加载动画](https://v.douyin.com/FhH5fWka-ps/)<br>[抖音原作品完整链接](https://www.douyin.com/video/7708429720253497721) |
+| 深空当铺：交易判断与武器店、寿司酒馆的取舍 | [查看详细信息](topics/2026-11-17-probably-stolen-shop-design/README.md) | [深空当铺：可能是偷的（官方 Steam 页面）](https://store.steampowered.com/app/4348910/Probably_Stolen__Cyberpunk_Shopkeeper_Sim/?l=schinese) |
+| 杀戮尖塔：构筑路线与动作地牢的借鉴边界 | [查看详细信息](topics/2026-11-17-slay-the-spire-dungeon-design/README.md) | [Slay the Spire 一代（官方 Steam 页面）](https://store.steampowered.com/app/646570/Slay_the_Spire/?l=schinese) |
 <!-- HOT_TOPICS:END -->
 
 详细页说明：它是什么、技术如何实现、关联开源项目和官方资料、复现条件、限制，以及仍需核实的说法。关键结论附来源和查阅日期，区分已核实事实、作者宣称和推测。

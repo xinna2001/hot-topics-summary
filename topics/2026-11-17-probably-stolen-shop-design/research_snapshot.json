@@ -1,0 +1,69 @@
+{
+  "research_date": "2026-11-17",
+  "timezone": "Asia/Shanghai",
+  "scope": "public sources and original design recommendations; no original application runtime test",
+  "sources": [
+    {
+      "id": "pawn-steam",
+      "url": "https://store.steampowered.com/app/4348910/Probably_Stolen__Cyberpunk_Shopkeeper_Sim/?l=schinese",
+      "resolved_url": "https://store.steampowered.com/app/4348910/Probably_Stolen__Cyberpunk_Shopkeeper_Sim/?l=schinese",
+      "status": 200,
+      "sha256": "fbe3fbde777ff34707758eff58861b636a257ea54e1330bad2811683caedabfc",
+      "text_chars": 4015
+    },
+    {
+      "id": "dave-steam",
+      "url": "https://store.steampowered.com/app/1868140/DAVE_THE_DIVER/?l=schinese",
+      "resolved_url": "https://store.steampowered.com/app/1868140/DAVE_THE_DIVER/?l=schinese",
+      "status": 200,
+      "sha256": "12e4a2d35be0402524be02da9323fb0acdcc4bc9a0f7a0235ddc79e7fd0c8b2b",
+      "text_chars": 3964
+    },
+    {
+      "id": "moonlighter-steam",
+      "url": "https://store.steampowered.com/app/606150/Moonlighter/?l=schinese",
+      "resolved_url": "https://store.steampowered.com/app/606150/Moonlighter/?l=schinese",
+      "status": 200,
+      "sha256": "a78341f60e0617a5a88922e887a475c9c6d9f84fcd18d035db8ac366ed7edd1f",
+      "text_chars": 5720
+    },
+    {
+      "id": "pawn-press",
+      "url": "https://www.gamespress.com/ja-JP/TINYBUILD-SMUGGLES-PROBABLY-STOLEN-THE-GRITTY-PIXEL-ART-CYBERPUNK-SHOP",
+      "resolved_url": "https://www.gamespress.com/ja-JP/TINYBUILD-SMUGGLES-PROBABLY-STOLEN-THE-GRITTY-PIXEL-ART-CYBERPUNK-SHOP",
+      "status": 200,
+      "sha256": "2c6a3d398bda7bf827be8107ee13b4d2f26f8c1cfc82d90edff7545bab5206d5",
+      "text_chars": 6654
+    },
+    {
+      "id": "pawn-review",
+      "url": "https://probablystolenguide.com/zh-hans/guides/beginner-guide/",
+      "resolved_url": "https://probablystolenguide.com/zh-hans/guides/beginner-guide/",
+      "status": 200,
+      "sha256": "22f6fb9e58c23b8d9d23d626bf5b1a77f5e80794b87c003cfd843626999842e6",
+      "text_chars": 12081
+    },
+    {
+      "id": "dave-playstation",
+      "url": "https://www.playstation.com/en-us/games/dave-the-diver/",
+      "status": 200,
+      "sha256": "7e2cd9e777ecd74e8f34410ab2782175afe8964bb0261f8334191bbf88d8af20",
+      "text_chars": 8703
+    }
+  ],
+  "project_context": {
+    "head": "d818b56",
+    "read": [
+      "AGENTS.md",
+      "README.md",
+      "TASKS.md",
+      "docs/README.md",
+      "docs/01-game-outline.md",
+      "docs/04-code-references.md",
+      "docs/06-open-questions.md"
+    ],
+    "decision_status": "recommendations only; project repo, rules, game code and skill not modified"
+  },
+  "runtime_status": "original games and loading component not run",
+  "private_data_published": false
+}

@@ -1,0 +1,67 @@
+{
+  "research_date": "2026-11-17",
+  "timezone": "Asia/Shanghai",
+  "scope": "public sources and original design recommendations; no original application runtime test",
+  "sources": [
+    {
+      "id": "spire-steam",
+      "url": "https://store.steampowered.com/app/646570/Slay_the_Spire/?l=schinese",
+      "resolved_url": "https://store.steampowered.com/app/646570/Slay_the_Spire/?l=schinese",
+      "status": 200,
+      "sha256": "2d935515ef91b20f5f33525e358587a6c057e718b5cfc4ffb9bc60c9bf721622",
+      "text_chars": 4107
+    },
+    {
+      "id": "moonlighter-steam",
+      "url": "https://store.steampowered.com/app/606150/Moonlighter/?l=schinese",
+      "resolved_url": "https://store.steampowered.com/app/606150/Moonlighter/?l=schinese",
+      "status": 200,
+      "sha256": "a78341f60e0617a5a88922e887a475c9c6d9f84fcd18d035db8ac366ed7edd1f",
+      "text_chars": 5720
+    },
+    {
+      "id": "spire-core-loop",
+      "url": "https://teemo.dev/game-design/slay-the-spire/systems/core-loop-map-node/",
+      "resolved_url": "https://teemo.dev/game-design/slay-the-spire/systems/core-loop-map-node/",
+      "status": 200,
+      "sha256": "b26c9a7c983a219adccb936e8e5cf8c2dccbbb3f8210d7c749bf2a3c2e6deec8",
+      "text_chars": 8678
+    },
+    {
+      "id": "spire-combat",
+      "url": "https://teemo.dev/game-design/slay-the-spire/systems/combat-energy-block-and-enemy/",
+      "status": 200,
+      "sha256": "7ded7cd1b1b0004377e514c7716d06e271419ba86e1acd8215dc9524c370a850",
+      "text_chars": 11138
+    },
+    {
+      "id": "spire-meta",
+      "url": "https://teemo.dev/game-design/slay-the-spire/systems/ascension-and-meta-progression/",
+      "status": 200,
+      "sha256": "b60743d2d26e342fa7f20a1eb65aab7377d27c9533ec48c4a715ba0359b34eec",
+      "text_chars": 7754
+    },
+    {
+      "id": "spire-deck",
+      "url": "https://teemo.dev/game-design/slay-the-spire/systems/deck-construction-add-remove/",
+      "status": 200,
+      "sha256": "40ffcd8abc5c3b7af636c4d829d98c9c765e7191223b57c94daee271d89f72d9",
+      "text_chars": 13798
+    }
+  ],
+  "project_context": {
+    "head": "d818b56",
+    "read": [
+      "AGENTS.md",
+      "README.md",
+      "TASKS.md",
+      "docs/README.md",
+      "docs/01-game-outline.md",
+      "docs/04-code-references.md",
+      "docs/06-open-questions.md"
+    ],
+    "decision_status": "recommendations only; project repo, rules, game code and skill not modified"
+  },
+  "runtime_status": "original games and loading component not run",
+  "private_data_published": false
+}
