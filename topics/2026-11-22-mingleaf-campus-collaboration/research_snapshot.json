@@ -1,0 +1,534 @@
+{
+  "checked_at": "2026-11-22T07:59:15.093679+00:00",
+  "research_status": "partial; published frontend inspected, original project and backend unavailable",
+  "input": {
+    "short_url": "https://v.douyin.com/Rkdz8DNmmK8/",
+    "canonical_url": "https://www.douyin.com/note/7710680127528504616",
+    "note_id": "7710680127528504616",
+    "author": "JAY1023",
+    "published_at": "2026-11-22T01:37:03+08:00",
+    "images_viewed": 5
+  },
+  "author_comment": {
+    "comment_id": "7710679805130457890",
+    "author": "JAY1023",
+    "same_uid_as_note_author": true,
+    "text": "🌿 体验入口 主链接：mingleaf-vhixy8if5qk.qoder.zone 备用：demo.jay23.cn"
+  },
+  "sites": [
+    {
+      "url": "https://mingleaf-vhixy8if5qk.qoder.zone/",
+      "status": 200,
+      "title": "Mingleaf · 和合拍的人，做点有意思的事",
+      "html_sha256": "6850e90cfef70a9f9c0efe305c9bd6948ed2c065383f67d8cc9919262f17dc43"
+    },
+    {
+      "url": "https://demo.jay23.cn/",
+      "status": 200,
+      "title": "Mingleaf · 和合拍的人，做点有意思的事",
+      "html_sha256": "d47f524d1c2233feaf1e9a199f92857c644eb0769b69c692d4d2e752246c8f24"
+    }
+  ],
+  "frontend": {
+    "asset_count": 41,
+    "javascript_count": 39,
+    "total_bytes": 3595011,
+    "react_version_string": "19.3.1",
+    "three_revision": "175",
+    "main_api_base": "https://demo.jay23.cn/api/v1",
+    "realtime_client": "HTTP event pull/post/delete; not established WebSocket",
+    "assets": [
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/index-Boyh8TLa.js",
+        "bytes": 103397,
+        "sha256": "9ef0155ffe74df4b0bea4ad55820884521b44c82ebfdda149d72b8dd9510afd3",
+        "type": "application/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/react-vendor-B8ms0qdQ.js",
+        "bytes": 262487,
+        "sha256": "c190644901a6f7a6c11e4835d523db0dbdc6b7152aec5882931b797c993a4461",
+        "type": "application/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/index-sJjBEZqH.css",
+        "bytes": 415167,
+        "sha256": "211d2df19a9f27e646e83e72f675ca4e40a8b1c05d5097335c3acda7f1f0b863",
+        "type": "text/css; charset=utf-8"
+      },
+      {
+        "url": "https://demo.jay23.cn/assets/764d2fdbedc0a4c9a8b53a832903d52e1e8860dd/index-8iEJ0oCC.js",
+        "bytes": 105379,
+        "sha256": "39bcd80ecec148c319541d9acb7197fe44212b19d9db6b1cc6fdec709ccaf0b7",
+        "type": "application/javascript"
+      },
+      {
+        "url": "https://demo.jay23.cn/assets/764d2fdbedc0a4c9a8b53a832903d52e1e8860dd/react-vendor-B8ms0qdQ.js",
+        "bytes": 262487,
+        "sha256": "c190644901a6f7a6c11e4835d523db0dbdc6b7152aec5882931b797c993a4461",
+        "type": "application/javascript"
+      },
+      {
+        "url": "https://demo.jay23.cn/assets/764d2fdbedc0a4c9a8b53a832903d52e1e8860dd/index-BYKRHySt.css",
+        "bytes": 415649,
+        "sha256": "b2f6a6f74d16b5292b73111c7cabca41d45dc74ec272e7019a0f0cbb4e198b42",
+        "type": "text/css"
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/SceneCanvas-CsyqYyL9.js",
+        "bytes": 199616,
+        "sha256": "7bef73277a51977ea49dfe52a3b0fca4f45ab4e5d0c2a1962345340784ba63d2",
+        "type": "application/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/coffeeAccount-CdyXJddv.js",
+        "bytes": 810,
+        "sha256": "ed51cef2fafaff85102305ee8cb896ba282f03c4d2f34c4c12f6865431768a8a",
+        "type": "application/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/three-CH9DKzjz.js",
+        "bytes": 699405,
+        "sha256": "1f640de885a74bfdfc5e759cc1d70097c8c3c0b24220f6f5992bb241d04470ee",
+        "type": "application/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/react-three-fiber--nXAFkSR.js",
+        "bytes": 179979,
+        "sha256": "0c300e136958347aecae20e696328d728bfed2037a1d17ba24fc45b25618b9d5",
+        "type": "application/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/avatarActivity-BBtGP1RY.js",
+        "bytes": 12983,
+        "sha256": "ce084204d6f922353cb5dabe4ed01c77a628eb2cc3f053d520b95fe2880d07ab",
+        "type": "application/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/react-three-drei-BwCl-f4F.js",
+        "bytes": 308671,
+        "sha256": "04af148246aa74e9824183e0923bad7db80f27602285dff557625a2146ffe1ec",
+        "type": "application/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/Avatar-DUF8eGAE.js",
+        "bytes": 50608,
+        "sha256": "cb59dacab55c7965edfa78c325a9de26d966a727c591cc8207833e7a04271ecb",
+        "type": "application/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/usePrefersReducedMotion-CpFrw2ce.js",
+        "bytes": 688,
+        "sha256": "155e49f485c2c44f53eff277a3fd1832abb5e5c1520591a24e587b194425dcbc",
+        "type": "application/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/SceneFallback-KxG6-5PB.js",
+        "bytes": 2062,
+        "sha256": "2773a75de76c6ec67caf8203b23fc9ebe78f0443aeaad492ecbdbf7a77591846",
+        "type": "application/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/Scene-C9NNscCf.js",
+        "bytes": 8470,
+        "sha256": "5fd915f9dacce78477b3f02dadd0fe985d5c59480feafa97f6d9ac771e960087",
+        "type": "application/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/RoomProjectPicker-BqaWNjps.js",
+        "bytes": 3700,
+        "sha256": "0e5253573675b01df7f82d3c438dc457db228c8ba8974f27712db50e8991ba71",
+        "type": "application/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/useFieldPopover-lHSZgzgG.js",
+        "bytes": 1302,
+        "sha256": "06bde17f284b97e1b6802bc94e88783f55e3df733a33fb5260e98e58d9df8e06",
+        "type": "application/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/JourneyGuide-0TcHfRCD.js",
+        "bytes": 4176,
+        "sha256": "472677247dde41d916053aa6ff020eb1d5d4ed0486b6b19d0f06e12ab906f9fe",
+        "type": "application/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/boardModel-VXkCMmDE.js",
+        "bytes": 1253,
+        "sha256": "acd2a8b16dff3931386dbd8928cb032d57970135b3d2a830ddc8e8bedc748330",
+        "type": "application/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/IcebreakerCards-DJcjdSfJ.js",
+        "bytes": 4111,
+        "sha256": "00d1771f162001fcd7c1df927c411ddf64b7f89ef2e1176a89227033279352a4",
+        "type": "application/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/TeamDashboard-BoBIoTMv.js",
+        "bytes": 59587,
+        "sha256": "7c26053fc31a74e55517efe3b25fb580ab48198a4c12052bf10272217ef4d52a",
+        "type": "application/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/presentation-BC-I2Sit.js",
+        "bytes": 3067,
+        "sha256": "32e053cb4d078e8ff8b15a25d81ba481ba78e779ef29809a593e7d7e3d0a015c",
+        "type": "application/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/ActionLabel-CGDBlShq.js",
+        "bytes": 1225,
+        "sha256": "597a0c862d3e4473a4b4ee601d13e5d19d0e7eb495bb473039ac6b6134585594",
+        "type": "application/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/Settings-oxKRi-6M.js",
+        "bytes": 23676,
+        "sha256": "cb6e8dc411f5ed8dcc0946402f031d45bc1d94ffc60c6be084b3f8b25ad7f115",
+        "type": "application/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/useDialogA11y-J62Oieeg.js",
+        "bytes": 1338,
+        "sha256": "372fdb3f600acc70c760fb0c7416c8828a1b108818650403b7c0c387eb3a3855",
+        "type": "application/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/InviteAccept-CgEiLl2P.js",
+        "bytes": 5717,
+        "sha256": "f8f08ee903be40a3193b4eebf972ce2bcc059a0668e68a591cdb0caf8d6d0087",
+        "type": "application/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/Onboarding-xwb-U8vr.js",
+        "bytes": 10548,
+        "sha256": "8e851489fb24c9eabb0c8a370e87bf732dc16ee84d7bf35420ad3f7bee980b49",
+        "type": "application/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/MoodPanel-966SMub9.js",
+        "bytes": 4035,
+        "sha256": "b0318a3cbb399a5ffa75733e6ff64af0c55db6e96b77dd2c3000667bbcdd80cf",
+        "type": "application/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/WeeklyRituals-D_I7sUrn.js",
+        "bytes": 1620,
+        "sha256": "aa1246cece5d4aa9f9d06e3d6f4183dc3a1b73fd4ecc68fa4c837656e2fe3c97",
+        "type": "application/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/CoffeePanel-BVYB-j8d.js",
+        "bytes": 41926,
+        "sha256": "6e8c2b85887f182b5c59c442c6cf18bda6a3770edd888052e201e7ed7fec9ba8",
+        "type": "application/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/MessageWall-C6UbGzam.js",
+        "bytes": 9913,
+        "sha256": "b22bd312fd76886f1d6fb8059f1b082a1690653c9be8dcad1e2a4487dd3c036f",
+        "type": "application/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/DateField-Br_UOI-y.js",
+        "bytes": 81177,
+        "sha256": "3b23bf2b036b0dad9cac648e17a1f82fc91df540d8de5144a7bd0536f7e6346f",
+        "type": "application/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/FilePage-DmqYYmEV.js",
+        "bytes": 2338,
+        "sha256": "687c4c5c64a814c36dbccb7fac2f53305be1582f5bdd293e375cef8ef860f547",
+        "type": "application/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/ArtifactLibrary-qMcidO6C.js",
+        "bytes": 75711,
+        "sha256": "bfb5ec9a42c11d482618b575394f4085e636c4ecf110aae9a88374f9af6bcb66",
+        "type": "application/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/merge3-CYUgnbT3.js",
+        "bytes": 2373,
+        "sha256": "35bdf64afc621f66e495e9d402b19d3c57d1f72c420ebf97c0295a758e948008",
+        "type": "application/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/StudyDesk-I6MR_ymD.js",
+        "bytes": 11417,
+        "sha256": "a6f985600af525aea8af3e4caf880227fb38baeba265a0ec4ba3fc5ea7878885",
+        "type": "application/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/RecruitmentPanel-C3DVuzxp.js",
+        "bytes": 19732,
+        "sha256": "11b9d41caab8a78f475f578ed59ecaa3366e34dd4b9d5c67dd067b34f4372b78",
+        "type": "application/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/RoomTools-DaWk4PrI.js",
+        "bytes": 29323,
+        "sha256": "f314bb0f38517c643fafa5ec47beec1dcdcce514d19ac5ecc30c8e74e88403e1",
+        "type": "application/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/SceneLibrary-DXIrua0U.js",
+        "bytes": 1396,
+        "sha256": "1cea7408df5a1ba2600051559f2edef419e39e4e1d2350c01de8cd4128b117d6",
+        "type": "application/javascript; charset=utf-8"
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/ProjectWorkspace-CC_MRYFn.js",
+        "bytes": 166492,
+        "sha256": "8269aebe44de85a5acc4461aa1ae8c00c2ae519cf10539d0282f027ffe7aa8c6",
+        "type": "application/javascript; charset=utf-8"
+      }
+    ],
+    "code_locators": [
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/index-Boyh8TLa.js",
+        "sha256": "9ef0155ffe74df4b0bea4ad55820884521b44c82ebfdda149d72b8dd9510afd3",
+        "search_literal": "const zt=",
+        "character_offset": 19982,
+        "line": 2
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/index-Boyh8TLa.js",
+        "sha256": "9ef0155ffe74df4b0bea4ad55820884521b44c82ebfdda149d72b8dd9510afd3",
+        "search_literal": "const B={session:",
+        "character_offset": 23232,
+        "line": 2
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/index-Boyh8TLa.js",
+        "sha256": "9ef0155ffe74df4b0bea4ad55820884521b44c82ebfdda149d72b8dd9510afd3",
+        "search_literal": "function Ps(",
+        "character_offset": 34189,
+        "line": 2
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/index-Boyh8TLa.js",
+        "sha256": "9ef0155ffe74df4b0bea4ad55820884521b44c82ebfdda149d72b8dd9510afd3",
+        "search_literal": "/realtime/clients/",
+        "character_offset": 34261,
+        "line": 2
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/Scene-C9NNscCf.js",
+        "sha256": "5fd915f9dacce78477b3f02dadd0fe985d5c59480feafa97f6d9ac771e960087",
+        "search_literal": "const ve=7e3,Re=3.6",
+        "character_offset": 935,
+        "line": 2
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/Scene-C9NNscCf.js",
+        "sha256": "5fd915f9dacce78477b3f02dadd0fe985d5c59480feafa97f6d9ac771e960087",
+        "search_literal": "Math.hypot",
+        "character_offset": 1347,
+        "line": 2
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/Scene-C9NNscCf.js",
+        "sha256": "5fd915f9dacce78477b3f02dadd0fe985d5c59480feafa97f6d9ac771e960087",
+        "search_literal": "avatar:say",
+        "character_offset": 1932,
+        "line": 2
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/SceneCanvas-CsyqYyL9.js",
+        "sha256": "7bef73277a51977ea49dfe52a3b0fca4f45ab4e5d0c2a1962345340784ba63d2",
+        "search_literal": "const ma=",
+        "character_offset": 7190,
+        "line": 2
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/SceneCanvas-CsyqYyL9.js",
+        "sha256": "7bef73277a51977ea49dfe52a3b0fca4f45ab4e5d0c2a1962345340784ba63d2",
+        "search_literal": "orthographic:!0",
+        "character_offset": 192792,
+        "line": 2
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/SceneCanvas-CsyqYyL9.js",
+        "sha256": "7bef73277a51977ea49dfe52a3b0fca4f45ab4e5d0c2a1962345340784ba63d2",
+        "search_literal": "contextLost",
+        "character_offset": 186952,
+        "line": 2
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/ArtifactLibrary-qMcidO6C.js",
+        "sha256": "bfb5ec9a42c11d482618b575394f4085e636c4ecf110aae9a88374f9af6bcb66",
+        "search_literal": "baseVersionId",
+        "character_offset": 10114,
+        "line": 6
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/ArtifactLibrary-qMcidO6C.js",
+        "sha256": "bfb5ec9a42c11d482618b575394f4085e636c4ecf110aae9a88374f9af6bcb66",
+        "search_literal": "version_conflict",
+        "character_offset": 10274,
+        "line": 6
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/ArtifactLibrary-qMcidO6C.js",
+        "sha256": "bfb5ec9a42c11d482618b575394f4085e636c4ecf110aae9a88374f9af6bcb66",
+        "search_literal": "ts(O.text,N,H.content)",
+        "character_offset": 9560,
+        "line": 6
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/merge3-CYUgnbT3.js",
+        "sha256": "35bdf64afc621f66e495e9d402b19d3c57d1f72c420ebf97c0295a758e948008",
+        "search_literal": "4e6",
+        "character_offset": 93,
+        "line": 3
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/merge3-CYUgnbT3.js",
+        "sha256": "35bdf64afc621f66e495e9d402b19d3c57d1f72c420ebf97c0295a758e948008",
+        "search_literal": "function D(",
+        "character_offset": 1244,
+        "line": 4
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/ProjectWorkspace-CC_MRYFn.js",
+        "sha256": "8269aebe44de85a5acc4461aa1ae8c00c2ae519cf10539d0282f027ffe7aa8c6",
+        "search_literal": "as={todo:",
+        "character_offset": 56351,
+        "line": 1
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/ProjectWorkspace-CC_MRYFn.js",
+        "sha256": "8269aebe44de85a5acc4461aa1ae8c00c2ae519cf10539d0282f027ffe7aa8c6",
+        "search_literal": "weeklyReportPreview",
+        "character_offset": 140251,
+        "line": 5
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/ProjectWorkspace-CC_MRYFn.js",
+        "sha256": "8269aebe44de85a5acc4461aa1ae8c00c2ae519cf10539d0282f027ffe7aa8c6",
+        "search_literal": "publishWeeklyReport",
+        "character_offset": 139824,
+        "line": 5
+      },
+      {
+        "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/ProjectWorkspace-CC_MRYFn.js",
+        "sha256": "8269aebe44de85a5acc4461aa1ae8c00c2ae519cf10539d0282f027ffe7aa8c6",
+        "search_literal": "createDecision",
+        "character_offset": 51220,
+        "line": 1
+      }
+    ]
+  },
+  "source_map_checks": [
+    {
+      "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/index-Boyh8TLa.js.map",
+      "status": 404,
+      "content_type": null,
+      "bytes": 0,
+      "valid_source_map": false
+    },
+    {
+      "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/Scene-C9NNscCf.js.map",
+      "status": 404,
+      "content_type": null,
+      "bytes": 0,
+      "valid_source_map": false
+    },
+    {
+      "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/FilePage-DmqYYmEV.js.map",
+      "status": 404,
+      "content_type": null,
+      "bytes": 0,
+      "valid_source_map": false
+    },
+    {
+      "url": "https://mingleaf-vhixy8if5qk.qoder.zone/assets/TeamDashboard-BoBIoTMv.js.map",
+      "status": 404,
+      "content_type": null,
+      "bytes": 0,
+      "valid_source_map": false
+    }
+  ],
+  "github_discovery": {
+    "queries": [
+      "Mingleaf",
+      "Mingleaf 3D",
+      "jay23"
+    ],
+    "confirmed_original_repository": null,
+    "note": "Same-name results did not establish author or project identity; not an exhaustive absence proof"
+  },
+  "original_project_license": "not identified; publicly served bundles are not an open-source grant",
+  "comparables": [
+    {
+      "repo": "workadventure/workadventure",
+      "url": "https://github.com/workadventure/workadventure",
+      "stars": 5948,
+      "head": "621f2bf29b36e1aa3aacb2e4a64299356f2cf412",
+      "default_branch": "master",
+      "license_api": null,
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/workadventure/workadventure/blob/621f2bf29b36e1aa3aacb2e4a64299356f2cf412/README.md"
+        },
+        {
+          "path": "play/LICENSE.txt",
+          "url": "https://github.com/workadventure/workadventure/blob/621f2bf29b36e1aa3aacb2e4a64299356f2cf412/play/LICENSE.txt"
+        },
+        {
+          "path": "back/LICENSE.txt",
+          "url": "https://github.com/workadventure/workadventure/blob/621f2bf29b36e1aa3aacb2e4a64299356f2cf412/back/LICENSE.txt"
+        },
+        {
+          "path": "maps/package.json",
+          "url": "https://github.com/workadventure/workadventure/blob/621f2bf29b36e1aa3aacb2e4a64299356f2cf412/maps/package.json"
+        }
+      ]
+    },
+    {
+      "repo": "makeplane/plane",
+      "url": "https://github.com/makeplane/plane",
+      "stars": 62936,
+      "head": "da21a8ff8b4b0a1d7bfcca72eb184a13233bb143",
+      "default_branch": "preview",
+      "license_api": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "spdx_id": "AGPL-3.0",
+        "url": "https://api.github.com/licenses/agpl-3.0",
+        "node_id": "MDc6TGljZW5zZTE="
+      },
+      "files": [
+        {
+          "path": "LICENSE.txt",
+          "url": "https://github.com/makeplane/plane/blob/da21a8ff8b4b0a1d7bfcca72eb184a13233bb143/LICENSE.txt"
+        },
+        {
+          "path": "README.md",
+          "url": "https://github.com/makeplane/plane/blob/da21a8ff8b4b0a1d7bfcca72eb184a13233bb143/README.md"
+        }
+      ]
+    }
+  ],
+  "execution": {
+    "public_login_page_loaded": true,
+    "demo_button_clicked": false,
+    "registered_account": false,
+    "business_write_requests": false,
+    "backend_executed": false,
+    "full_app_acceptance": false,
+    "pure_merge_helper": {
+      "test_scope": "published pure merge3 helper only; no app/backend tests",
+      "passed": [
+        "nonoverlap_changes_merge",
+        "same_line_conflict_requires_choice",
+        "identical_insertions_deduplicated",
+        "line_diff_counts"
+      ]
+    }
+  },
+  "boundary": "Published browser resources only. No auth bypass or private-file discovery. No credentials published."
+}

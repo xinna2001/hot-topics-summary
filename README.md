@@ -46,6 +46,7 @@
 | 深空当铺：交易判断与武器店、寿司酒馆的取舍 | [查看详细信息](topics/2026-11-17-probably-stolen-shop-design/README.md) | [深空当铺：可能是偷的（官方 Steam 页面）](https://store.steampowered.com/app/4348910/Probably_Stolen__Cyberpunk_Shopkeeper_Sim/?l=schinese) |
 | 杀戮尖塔：构筑路线与动作地牢的借鉴边界 | [查看详细信息](topics/2026-11-17-slay-the-spire-dungeon-design/README.md) | [Slay the Spire 一代（官方 Steam 页面）](https://store.steampowered.com/app/646570/Slay_the_Spire/?l=schinese) |
 | VoiceStudio：本地声音克隆、视频译配音与有声书工作室 | [查看详细信息](topics/2026-11-20-voicestudio-local-voice-workstation/README.md) | [印度的一座小城，走出11万星的开源大神](https://v.douyin.com/saen9p66nv4/)<br>[印度的一座小城，走出11万星的开源大神](https://www.douyin.com/note/7709876715334067816) |
+| Mingleaf：3D 校园组队、项目协作与成果沉淀 | [查看详细信息](topics/2026-11-22-mingleaf-campus-collaboration/README.md) | [JAY1023：我把组队-干活-收尾搬进一个平台](https://v.douyin.com/Rkdz8DNmmK8/)<br>[Mingleaf 3D 校园组队平台](https://www.douyin.com/note/7710680127528504616) |
 <!-- HOT_TOPICS:END -->
 
 详细页说明：它是什么、技术如何实现、关联开源项目和官方资料、复现条件、限制，以及仍需核实的说法。关键结论附来源和查阅日期，区分已核实事实、作者宣称和推测。
