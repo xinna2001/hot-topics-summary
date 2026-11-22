@@ -771,6 +771,27 @@
       ],
       "created_at": "2026-11-20T14:27:48+00:00",
       "updated_at": "2026-11-20T14:27:48+00:00"
+    },
+    {
+      "id": "2026-11-22-mingleaf-campus-collaboration",
+      "name": "Mingleaf：3D 校园组队、项目协作与成果沉淀",
+      "report": "topics/2026-11-22-mingleaf-campus-collaboration/README.md",
+      "sources": [
+        {
+          "kind": "douyin",
+          "url": "https://v.douyin.com/Rkdz8DNmmK8/",
+          "title": "JAY1023：我把组队-干活-收尾搬进一个平台",
+          "note": "图文作品 7710680127528504616；作者评论确认主站和备用站"
+        },
+        {
+          "kind": "douyin",
+          "url": "https://www.douyin.com/note/7710680127528504616",
+          "title": "Mingleaf 3D 校园组队平台",
+          "note": "同一作品规范地址"
+        }
+      ],
+      "created_at": "2026-11-22T07:59:15+00:00",
+      "updated_at": "2026-11-22T07:59:15+00:00"
     }
   ]
 }
