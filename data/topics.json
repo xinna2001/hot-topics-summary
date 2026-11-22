@@ -792,6 +792,27 @@
       ],
       "created_at": "2026-11-22T07:59:15+00:00",
       "updated_at": "2026-11-22T07:59:15+00:00"
+    },
+    {
+      "id": "2026-11-22-pixel-play-aesthetic-recreation",
+      "name": "Pixel Play 审美复刻：像素树林与风铃扩展",
+      "report": "topics/2026-11-22-pixel-play-aesthetic-recreation/README.md",
+      "sources": [
+        {
+          "kind": "douyin",
+          "url": "https://v.douyin.com/1h8LlxA7wzk/",
+          "title": "iam小韩：进入 VibeCoding 大审美时代，审美复刻 EP02",
+          "note": "视频 7710025040179692096；FeralUI Pixel Play 与风铃扩展"
+        },
+        {
+          "kind": "douyin",
+          "url": "https://www.douyin.com/video/7710025040179692096",
+          "title": "Pixel Play 审美复刻 EP02",
+          "note": "同一视频规范地址"
+        }
+      ],
+      "created_at": "2026-11-22T14:07:02+00:00",
+      "updated_at": "2026-11-22T14:07:02+00:00"
     }
   ]
 }

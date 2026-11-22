@@ -1,0 +1,281 @@
+{
+  "checked_at": "2026-11-22T14:07:02.044837+00:00",
+  "research_status": "partial; public frontend inspected; no source project or recreation execution",
+  "input": {
+    "short_url": "https://v.douyin.com/1h8LlxA7wzk/",
+    "canonical_url": "https://www.douyin.com/video/7710025040179692096",
+    "video_id": "7710025040179692096",
+    "author": "iam小韩",
+    "published_at": "2026-11-20T07:14:54+08:00",
+    "claims": "FeralUI Pixel Play recreation and synthesized wind-chime extension; multiple prompt iterations acknowledged"
+  },
+  "media": {
+    "bytes": 5029161,
+    "sha256": "15ab54926140c3e4e4ba325afe56196876fcf0cdd543cd1e5b926e2f3aa08564",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1024,
+          "height": 576
+        },
+        {
+          "codec_name": "aac"
+        }
+      ],
+      "format": {
+        "duration": "54.402902",
+        "size": "5029161"
+      }
+    },
+    "metadata_width": 1920,
+    "metadata_height": 1080,
+    "viewed_sample_times_seconds": [
+      2.5,
+      7.5,
+      12.5,
+      17.5,
+      22.5,
+      27.5,
+      32.5,
+      37.5,
+      42.5,
+      47.5,
+      52.5
+    ],
+    "prompt_fragment_zoomed": true,
+    "continuous_viewing": false,
+    "audio_listening": false,
+    "asr": false,
+    "full_author_prompt_acquired": false
+  },
+  "original": {
+    "homepage": "https://feralui.dev/",
+    "homepage_browser_loaded": true,
+    "homepage_title": "FeralUI · playful, physics-driven React elements",
+    "homepage_version_label": "v0.1.1",
+    "homepage_creator_label": "Sarthak Navalekar",
+    "pixel_route": "https://feralui.dev/pixel-play",
+    "pixel_route_evidence": "original homepage card and route table in public bundle",
+    "pixel_interactive_acceptance": false,
+    "public_bundle": {
+      "url": "https://feralui.dev/assets/index-BWZdqrAX.js",
+      "acquisition": "public anonymous homepage cache from this task; decoded zstd, not credentials",
+      "bytes": 1209863,
+      "sha256": "1c29b9e85f71935aa7ca15f5d7f065e2307e28a7d159f169ecff18a5210f51f4"
+    },
+    "code_locators": [
+      {
+        "search_literal": "function iP(",
+        "character_offset": 837105,
+        "line": 362
+      },
+      {
+        "search_literal": "function Xv(",
+        "character_offset": 823478,
+        "line": 248
+      },
+      {
+        "search_literal": "function AP(",
+        "character_offset": 847462,
+        "line": 362
+      },
+      {
+        "search_literal": "function pP(",
+        "character_offset": 842200,
+        "line": 362
+      },
+      {
+        "search_literal": "iF=[",
+        "character_offset": 882991,
+        "line": 362
+      },
+      {
+        "search_literal": "HP=\"https://solutionb2u.itch.io/pixel-play-animated-trees#demo\"",
+        "character_offset": 878311,
+        "line": 362
+      },
+      {
+        "search_literal": "/api/pixel-play/shakes",
+        "character_offset": 876941,
+        "line": 362
+      },
+      {
+        "search_literal": "JB(c,te,S)||Xv(c,te,S)",
+        "character_offset": 850426,
+        "line": 362
+      },
+      {
+        "search_literal": "/pixel-play",
+        "character_offset": 876945,
+        "line": 362
+      },
+      {
+        "search_literal": "imageSmoothingEnabled=!1",
+        "character_offset": 823578,
+        "line": 248
+      }
+    ],
+    "published_about_copy": [
+      "Drawn in Aseprite: every tree, leaf and blossom is drawn by hand",
+      "Animated by hand: Calm, Breezy and Storm are keyframed animations, not simulations",
+      "Code only for touch: shaking a tree and falling leaves respond live"
+    ],
+    "rendering": "CPU pixel-buffer Canvas 2D path and WebGL path, CPU fallback on context loss",
+    "audio": "original preview wind noise generation; not proof of the video creator wind-chime implementation",
+    "license": "no original frontend open-source grant identified; other FeralUI component licenses not generalized"
+  },
+  "distribution": {
+    "url": "https://solutionb2u.itch.io/pixel-play-animated-trees#demo",
+    "http_status": 200,
+    "title": "Pixel Play: Animated Trees",
+    "kind": "asset pack, not a source-code repository",
+    "minimum_price_usd": 7.99,
+    "free_version": "Free version 1.0 (no updates), page label 3.4 MB",
+    "publisher": "solutionb2u",
+    "publisher_statement": "No generative AI was used",
+    "public_permission_reply": "Free demo may be used anywhere, but cannot be resold or repackaged as your own and sold",
+    "formal_package_license_read": false,
+    "downloaded": false,
+    "purchased": false,
+    "site_creator_identity_same_as_asset_publisher_proven": false,
+    "html_sha256": "775efd9121f8d024f37f4926032234d1f40b0d7b9b24a03de42e9f839db47464"
+  },
+  "github_discovery": {
+    "queries": [
+      "FeralUI",
+      "\"Pixel Play\" FeralUI"
+    ],
+    "public_mortspace_repository_names": [
+      "animaps",
+      "Deskfolio",
+      "feral-blob",
+      "fur",
+      "liquid-glass-tip",
+      "momo",
+      "playcaptcha",
+      "pullcord",
+      "stamp"
+    ],
+    "confirmed_pixel_play_repository": null,
+    "absence_is_not_exhaustive": true
+  },
+  "related_repositories": [
+    {
+      "repo": "mortspace/feral-blob",
+      "url": "https://github.com/mortspace/feral-blob",
+      "default_branch": "main",
+      "commit": "3a5feee745051ace4174744ff79cc9541aa0cd3a",
+      "stars": 26,
+      "license_api": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "files": [
+        {
+          "path": "LICENSE",
+          "url": "https://github.com/mortspace/feral-blob/blob/3a5feee745051ace4174744ff79cc9541aa0cd3a/LICENSE",
+          "sha256": "b86d35fbd8916cb5c70dc02fcb965d791fac9f4786718f8c5608b473c65f817b"
+        },
+        {
+          "path": "README.md",
+          "url": "https://github.com/mortspace/feral-blob/blob/3a5feee745051ace4174744ff79cc9541aa0cd3a/README.md",
+          "sha256": "0422ec0e7326481f846c6940fcd4f0fb9f739df97d82053116c066d4ae683ff3"
+        },
+        {
+          "path": "package.json",
+          "url": "https://github.com/mortspace/feral-blob/blob/3a5feee745051ace4174744ff79cc9541aa0cd3a/package.json",
+          "sha256": "ba932fd322a9bbea5b1ed5c3f79697cc08193dfefe3a02f8d623bdf5248f222f"
+        }
+      ],
+      "package_version": "0.2.0",
+      "inspection_scope": "README, LICENSE and package metadata; not installed or executed"
+    },
+    {
+      "repo": "pixijs/pixijs",
+      "url": "https://github.com/pixijs/pixijs",
+      "default_branch": "dev",
+      "commit": "16011d73d81678fa8c48f256ad36de7db7f90ce9",
+      "stars": 48878,
+      "license_api": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "files": [
+        {
+          "path": "LICENSE",
+          "url": "https://github.com/pixijs/pixijs/blob/16011d73d81678fa8c48f256ad36de7db7f90ce9/LICENSE",
+          "sha256": "5ce7447bc57f7349ffc48338782fbcabe613696e00712b20d66bc58e780f9473"
+        },
+        {
+          "path": "README.md",
+          "url": "https://github.com/pixijs/pixijs/blob/16011d73d81678fa8c48f256ad36de7db7f90ce9/README.md",
+          "sha256": "d3f61e60003977e815f826d7b65e74b20804a5b55739325c3e22c5267230da7f"
+        },
+        {
+          "path": "package.json",
+          "url": "https://github.com/pixijs/pixijs/blob/16011d73d81678fa8c48f256ad36de7db7f90ce9/package.json",
+          "sha256": "f15bc88581c47c217a4e46835adb86f81169c8a181e25292dd0e8a052b2c3a01"
+        }
+      ],
+      "package_version": "8.23.0",
+      "inspection_scope": "README, LICENSE and package metadata; not installed or executed"
+    },
+    {
+      "repo": "Tonejs/Tone.js",
+      "url": "https://github.com/Tonejs/Tone.js",
+      "default_branch": "dev",
+      "commit": "b48d2990b92e8c1068ea912a43dd5fd3ac6f64c3",
+      "stars": 14942,
+      "license_api": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "files": [
+        {
+          "path": "LICENSE.md",
+          "url": "https://github.com/Tonejs/Tone.js/blob/b48d2990b92e8c1068ea912a43dd5fd3ac6f64c3/LICENSE.md",
+          "sha256": "c2f9e2f9fd21639e8f8976e56b7df01d6efcc3b003dfd43ca59d4b10616efce7"
+        },
+        {
+          "path": "README.md",
+          "url": "https://github.com/Tonejs/Tone.js/blob/b48d2990b92e8c1068ea912a43dd5fd3ac6f64c3/README.md",
+          "sha256": "f82a637dddf5651a2d1a460a58d7955325f449c74ffe2789e4a24c2dae714e6d"
+        },
+        {
+          "path": "package.json",
+          "url": "https://github.com/Tonejs/Tone.js/blob/b48d2990b92e8c1068ea912a43dd5fd3ac6f64c3/package.json",
+          "sha256": "12d7aa40b1fe55d567071680b3036a6d6f885fcef5665259b7c6f554818ce8b9"
+        }
+      ],
+      "package_version": "15.5.73",
+      "inspection_scope": "README, LICENSE and package metadata; not installed or executed"
+    }
+  ],
+  "execution": {
+    "original_business_or_paid_actions": false,
+    "original_source_or_asset_mirror_published": false,
+    "author_recreation_code_acquired": false,
+    "wind_chime_source_acquired": false,
+    "recreation_built": false,
+    "performance_measured": false,
+    "sound_quality_evaluated": false,
+    "draft_prompt_is_our_own_outline": true
+  },
+  "acquisition_limits": [
+    "Anonymous Douyin HTML lacked target metadata; isolated browser read exact video detail",
+    "FeralUI direct HTTP timed out; anonymous browser homepage succeeded; later Pixel Play navigation did not produce a stable readback",
+    "Original public JS decoded from this task anonymous page cache; no usual user browser profile or login bypass used"
+  ]
+}
