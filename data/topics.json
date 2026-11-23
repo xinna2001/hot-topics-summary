@@ -813,6 +813,27 @@
       ],
       "created_at": "2026-11-22T14:07:02+00:00",
       "updated_at": "2026-11-22T14:07:02+00:00"
+    },
+    {
+      "id": "2026-11-23-hd2d-octopath-visual-style",
+      "name": "HD-2D：像素游戏的空间与光影质感（原视频待核）",
+      "report": "topics/2026-11-23-hd2d-octopath-visual-style/README.md",
+      "sources": [
+        {
+          "kind": "douyin",
+          "url": "https://v.douyin.com/Iros0nAAjBk/",
+          "title": "扇贝不好吃：2d怎么做出八方旅人的质感？我教你",
+          "note": "用户分享文案；作者与标题未独立核验。原短链解析为作品7710995776927550946；下载器和任务浏览器未取得正文、字幕、画面或评论。官方HD-2D定义、Godot组件和相似工程另行核实，不归因给原作者。"
+        },
+        {
+          "kind": "douyin",
+          "url": "https://www.douyin.com/video/7710995776927550946",
+          "title": "原分享解析后的抖音规范作品地址",
+          "note": "已核对短链跳转和移动分享页作品ID；页面停在视频数据加载中，作品发布日期及实际技术路线待核实。"
+        }
+      ],
+      "created_at": "2026-11-23T04:14:26+00:00",
+      "updated_at": "2026-11-23T04:14:26+00:00"
     }
   ]
 }
