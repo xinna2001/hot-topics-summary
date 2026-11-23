@@ -834,6 +834,27 @@
       ],
       "created_at": "2026-11-23T04:14:26+00:00",
       "updated_at": "2026-11-23T04:14:26+00:00"
+    },
+    {
+      "id": "2026-11-23-shawn-bikini-bottom-threejs",
+      "name": "Shawn 比奇堡海底世界：Three.js 与原作开源状态核查",
+      "report": "topics/2026-11-23-shawn-bikini-bottom-threejs/README.md",
+      "sources": [
+        {
+          "kind": "douyin",
+          "url": "https://v.douyin.com/kFhk1B3btwU/",
+          "title": "Shawn今天没想法：GPT6.2 + Hi3D + Three.js 比奇堡海底世界",
+          "note": "用户原短链；原作品7710234156428528049。已读取完整简介、12个采样画面、首屏评论及作者回复；作者2026-11-21答复GitHub问题说之后一定开源，本轮未找到能与原作对应的公开仓库。"
+        },
+        {
+          "kind": "douyin",
+          "url": "https://www.douyin.com/video/7710234156428528049",
+          "title": "Shawn 比奇堡原作品及原作者开源回复",
+          "note": "已核对作者与作品，发布时间2026-11-20 20:46:22 Asia/Shanghai；作者回复ID7710517498684359473，作品ID及作者UID匹配。公开源码入口未确认；相似项目不作为原作者源码。"
+        }
+      ],
+      "created_at": "2026-11-23T04:26:06+00:00",
+      "updated_at": "2026-11-23T04:28:28+00:00"
     }
   ]
 }
