@@ -1,0 +1,322 @@
+{
+  "topic_id": "2026-11-23-hd2d-octopath-visual-style",
+  "checked_date": "2026-11-23",
+  "timezone": "Asia/Shanghai",
+  "status": "partially_verified",
+  "original": {
+    "short_url": "https://v.douyin.com/Iros0nAAjBk/",
+    "canonical_url": "https://www.douyin.com/video/7710995776927550946",
+    "video_id": "7710995776927550946",
+    "title_and_author_source": "user-provided share text only",
+    "body_read": false,
+    "frames_read": false,
+    "subtitles_read": false,
+    "comments_read": false,
+    "publication_date_verified": false,
+    "downloader": {
+      "total": 1,
+      "success": 0,
+      "failed": 1
+    },
+    "browser_state": "视频数据加载中",
+    "not_inferred": [
+      "deleted",
+      "paid",
+      "mandatory_login"
+    ],
+    "original_engine_or_repo_verified": false
+  },
+  "documents": [
+    {
+      "url": "https://www.jp.square-enix.com/octopathtraveler2/about/",
+      "normalized_text_sha256": "f0e42da7ed7336814f449c1acd2fbc1686b2b229bb18bc37971ed55bafba0283",
+      "locators": [
+        {
+          "locator": "ドット絵と3DCGを融合した",
+          "excerpt": "ドが300万本を突破した\n「オクトパストラベラー」の\nシリーズ完全新作RPG。\nドット絵と3DCGを融合した\n「HD-2D」のグラフィックが、\nさらなる進化を遂げて登場。\n“ソリスティア”と呼ばれる新たな大地で、\n新たな時代に、新たな8人の旅が始まる。\n何処に行くのか、何をするのか、\nそしてどの物語の主人公となるのか、\n全ては君に託される。\n旅立とう、君だけの物語へ——\nグラフィック\nドット絵と3DCGを融合した\n「HD-2D」のグラフィック。\nシリーズ独自の、\n懐かしさと新しさが共存した表現が、\nより精彩なドット絵と、\nカメラワークで更なる進化を遂げた。\nTeam\n開発\nアクワイア & SQEX浅野チーム\n音楽\n西木 康智\nイラスト\n生島 直樹\nシナリオ\n普津澤 画乃新\nレーティング制度について\n著作権について\nプライバシーポリシー\nサポートセンター\n© SQUARE ENIX CO., LTD. All Rights Reserved."
+        },
+        {
+          "locator": "カメラワーク",
+          "excerpt": "\nシリーズ独自の、\n懐かしさと新しさが共存した表現が、\nより精彩なドット絵と、\nカメラワークで更なる進化を遂げた。\nTeam\n開発\nアクワイア & SQEX浅野チーム\n音楽\n西木 康智\nイラスト\n生島 直樹\nシナリオ\n普津澤 画乃新\nレーティング制度について\n著作権について\nプライバシーポリシー\nサポートセンター\n© SQUARE ENIX CO., LTD. All Rights Reserved."
+        }
+      ]
+    },
+    {
+      "url": "https://docs.godotengine.org/en/stable/classes/class_sprite3d.html",
+      "normalized_text_sha256": "f9439d1cfe9f0125eb8a5be7f2ee7861c2dc3074abf028b9aa7fdf260666c6b2",
+      "locators": [
+        {
+          "locator": "2D sprite node in a 3D world",
+          "excerpt": "sualInstance3D\n<\nNode3D\n<\nNode\n<\nObject\n2D sprite node in a 3D world.\nDescription\n\nA node that displays a 2D texture in a 3D environment. The texture displayed can be a region from a larger atlas texture, or a frame from a sprite sheet animation. See also\nSpriteBase3D\nwhere properties such as the billboard mode are defined.\nProperties\n\nint\nframe\n0\nVector2i\nframe_coords\nVector2i(0,\n0)\nint\nhframes\n1\nbool\nregion_enabled\nfalse\nRect2\nregion_rect\nRect2(0,\n0,\n0,\n0)\nTexture2D\ntexture\nint\nvframes\n1\nSig"
+        }
+      ]
+    },
+    {
+      "url": "https://docs.godotengine.org/en/stable/classes/class_spritebase3d.html",
+      "normalized_text_sha256": "044dce4a56a1e7e8dbf6338bee86677a59ce1e1a91722ac2ef689cae650d5563",
+      "locators": [
+        {
+          "locator": "shaded\n=\nfalse",
+          "excerpt": "ck to front (subject to priority).\nbool\nshaded\n=\nfalse\n🔗\nvoid\nset_draw_flag\n(flag:\nDrawFlags\n, enabled:\nbool\n)\nbool\nget_draw_flag\n(flag:\nDrawFlags\n)\nconst\nIf\ntrue\n, the\nLight3D\nin the\nEnvironment\nhas effects on the sprite.\nTextureFilter\ntexture_filter\n=\n3\n🔗\nvoid\nset_texture_filter\n(value:\nTextureFilter\n)\nTextureFilter\nget_texture_filter\n()\nFilter flags for the texture.\nNote:\nLinear filtering may cause artifacts around the edges, which are especially noticeable on opaque textures. To prevent this"
+        },
+        {
+          "locator": "pixel_size",
+          "excerpt": "alse\nVector2\noffset\nVector2(0,\n0)\nfloat\npixel_size\n0.01\nint\nrender_priority\n0\nbool\nshaded\nfalse\nTextureFilter\ntexture_filter\n3\nbool\ntransparent\ntrue\nMethods\n\nTriangleMesh\ngenerate_triangle_mesh\n()\nconst\nbool\nget_draw_flag\n(flag:\nDrawFlags\n)\nconst\nRect2\nget_item_rect\n()\nconst\nvoid\nset_draw_flag\n(flag:\nDrawFlags\n, enabled:\nbool\n)\nEnumerations\n\nenum\nDrawFlags\n:\n🔗\nDrawFlags\nFLAG_TRANSPARENT\n=\n0\nIf set, the texture's transparency and the opacity are used to make those parts of the sprite invisible."
+        },
+        {
+          "locator": "multiple cameras",
+          "excerpt": " when rendering shadows. In scenes with multiple cameras, the intended shadow cannot be determined and this will result in undefined behavior. See\nGitHub Pull Request #72638\nfor details.\nbool\ncentered\n=\ntrue\n🔗\nvoid\nset_centered\n(value:\nbool\n)\nbool\nis_centered\n()\nIf\ntrue\n, texture will be centered.\nbool\ndouble_sided\n=\ntrue\n🔗\nvoid\nset_draw_flag\n(flag:\nDrawFlags\n, enabled:\nbool\n)\nbool\nget_draw_flag\n(flag:\nDrawFlags\n)\nconst\nIf\ntrue\n, texture can be seen from the back as well, if\nfalse\n, it is invisi"
+        }
+      ]
+    },
+    {
+      "url": "https://docs.godotengine.org/en/stable/tutorials/3d/environment_and_post_processing.html",
+      "normalized_text_sha256": "94f24bc74557ddbc87c2ce7954062e6ab93ad6b8b17b767213bdcb2ebfde588e",
+      "locators": [
+        {
+          "locator": "Since Godot 4.2",
+          "excerpt": "D\n\nThere are 2 ways to use glow in 2D:\nSince Godot 4.2, you can enable HDR for 2D rendering when using the Forward+\nand Mobile rendering methods. This has a performance cost, but it allows for a\ngreater dynamic range. This also allows you to control which objects glow\nusing their individual\nModulate\nor\nSelf Modulate\nproperties (use the\nIntensity slider in the color picker). Enabling HDR can also reduce banding in the 2D\nrendering output.\nTo enable HDR in 2D, open the Project Settings, enable\nRe"
+        },
+        {
+          "locator": "CameraAttributes",
+          "excerpt": "he\nEnvironment resource into a separate CameraAttributes resource. This allows\nadjusting those properties independently of other Environment settings more\neasily.\nThe\nCameraAttributes\nresource stores exposure and depth of field\ninformation. It also allows enabling automatic exposure adjustments depending on\nscene brightness.\nThere are two kinds of CameraAttribute resources available:\nCameraAttributesPractical:\nFeatures are exposed using arbitrary units,\nwhich are easier to reason about for most "
+        },
+        {
+          "locator": "Screen-Space Indirect Lighting (SSIL)",
+          "excerpt": "d\nIntensity\nparameters can be adjusted.\nScreen-Space Indirect Lighting (SSIL)\n\nThis feature is only available when using the Forward+ renderer, not\nMobile or Compatibility.\nSSIL\nprovides indirect lighting for\nsmall details or dynamic geometry that other global illumination techniques\ncannot cover. This applies to bounced diffuse lighting, but also emissive\nmaterials. When\nSSIL\nis enabled on its\nown, the effect may not be that noticeable, which is intended.\nInstead,\nSSIL\nis meant to be used as a"
+        },
+        {
+          "locator": "Using glow in 2D",
+          "excerpt": "y uses a different glow implementation.\nUsing glow in 2D\n\nThere are 2 ways to use glow in 2D:\nSince Godot 4.2, you can enable HDR for 2D rendering when using the Forward+\nand Mobile rendering methods. This has a performance cost, but it allows for a\ngreater dynamic range. This also allows you to control which objects glow\nusing their individual\nModulate\nor\nSelf Modulate\nproperties (use the\nIntensity slider in the color picker). Enabling HDR can also reduce banding in the 2D\nrendering output.\nTo"
+        }
+      ]
+    },
+    {
+      "url": "https://docs.godotengine.org/en/stable/tutorials/2d/2d_lights_and_shadows.html",
+      "normalized_text_sha256": "af52736d2561cc8a6c006ad830ffb6f9fe2da9c614ae996f0879e693790271f6",
+      "locators": [
+        {
+          "locator": "Normal and specular maps",
+          "excerpt": "eing too high (PCF5, Filter Smooth 4)\n\nNormal and specular maps\n\nNormal maps and specular maps can greatly enhance the sense of depth of your 2D\nlighting. Similar to how these work in 3D rendering, normal maps can help make\nlighting look less flat by varying its intensity depending on the direction of\nthe surface receiving light (on a per-pixel basis). Specular maps further help\nimprove visuals by making some of the light reflect back to the viewer.\nBoth PointLight2D and DirectionalLight2D sup"
+        },
+        {
+          "locator": "Nearest\ntexture filtering will\nnot",
+          "excerpt": " and shadows\nthat match your art style,\nNearest\ntexture filtering will\nnot\nachieve\nthis effect. Nearest filtering affects only how the engine samples textures — it\ndoes not change how the engine renders lighting and shadows.\nTo achieve pixelated lighting and shadows, use a custom shader to modify\nLIGHT_VERTEX\nand\nSHADOW_VERTEX\nto snap light sampling to a pixel grid.\nThe following shader snaps lighting to a grid using the\nfloor()\nfunction:\nshader_type\ncanvas_item\n;\nuniform\nfloat\npixel_size\n=\n4.0\n"
+        },
+        {
+          "locator": "LIGHT_VERTEX",
+          "excerpt": " shadows, use a custom shader to modify\nLIGHT_VERTEX\nand\nSHADOW_VERTEX\nto snap light sampling to a pixel grid.\nThe following shader snaps lighting to a grid using the\nfloor()\nfunction:\nshader_type\ncanvas_item\n;\nuniform\nfloat\npixel_size\n=\n4.0\n;\nvoid\nfragment\n()\n{\n// Snap lighting and shadows to pixel grid.\nLIGHT_VERTEX\n.\nxy\n=\nfloor\n(\nLIGHT_VERTEX\n.\nxy\n/\npixel_size\n)\n*\npixel_size\n;\nSHADOW_VERTEX\n=\nfloor\n(\nSHADOW_VERTEX\n/\npixel_size\n)\n*\npixel_size\n;\n// Normal rendering.\nCOLOR\n=\ntexture\n(\nTEXTURE\n,\n"
+        }
+      ]
+    }
+  ],
+  "repositories": [
+    {
+      "repo": "GSansigolo/SimpleHD2D",
+      "sha": "9d71017a8a3baf3c533fa9893e26b86473db1a28",
+      "stars": 63,
+      "license_metadata": null,
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/GSansigolo/SimpleHD2D/blob/9d71017a8a3baf3c533fa9893e26b86473db1a28/README.md",
+          "blob_sha": "2066fc99bdf641da74cba10715e897c2376b8e3c",
+          "size": 235,
+          "sha256": "2f2e206d4fb80b0bd2bb1f16005153dec92693de0db5229357750cce7a19186f"
+        },
+        {
+          "path": "project.godot",
+          "url": "https://github.com/GSansigolo/SimpleHD2D/blob/9d71017a8a3baf3c533fa9893e26b86473db1a28/project.godot",
+          "blob_sha": "87b6953e8fe5fc39d665b46e84029444282a4a61",
+          "size": 3166,
+          "sha256": "abc2b16764f10f675c5d9b90774bbe296db05b0e2b3c4b8f379c5401cb4e522c"
+        },
+        {
+          "path": "levels/castle_level.tscn",
+          "url": "https://github.com/GSansigolo/SimpleHD2D/blob/9d71017a8a3baf3c533fa9893e26b86473db1a28/levels/castle_level.tscn",
+          "blob_sha": "28175beabfa1d3ff6f535bd80d8f15769cc4569a",
+          "size": 7722,
+          "sha256": "c873634da57574bf2a0b9fa23ba2e7b6752c63be2d1a836d645d47d5913db553"
+        },
+        {
+          "path": "assets/characters/terra_character_body_3d.tscn",
+          "url": "https://github.com/GSansigolo/SimpleHD2D/blob/9d71017a8a3baf3c533fa9893e26b86473db1a28/assets/characters/terra_character_body_3d.tscn",
+          "blob_sha": "f75f78dba84f9ca589b7893d69598e0020b5dfaf",
+          "size": 2457,
+          "sha256": "45f40740519c6865e4ccc1cc3255ea20f7f7d320da3a70603eb407f608216164"
+        },
+        {
+          "path": "assets/characters/player_move.gd",
+          "url": "https://github.com/GSansigolo/SimpleHD2D/blob/9d71017a8a3baf3c533fa9893e26b86473db1a28/assets/characters/player_move.gd",
+          "blob_sha": "0151f6ed71a42e40c3d1c3ce968477c55c49a1d5",
+          "size": 1643,
+          "sha256": "5c2dc2148a40a58e3b83c5e29ccc7eb616cd928e470b5b80fd06cb91083e90f7"
+        },
+        {
+          "path": "assets/characters/player_camera.gd",
+          "url": "https://github.com/GSansigolo/SimpleHD2D/blob/9d71017a8a3baf3c533fa9893e26b86473db1a28/assets/characters/player_camera.gd",
+          "blob_sha": "b812d59f681db36533d70fe2ed3b78a940d07cec",
+          "size": 1773,
+          "sha256": "52602e558ea306f6a1bf91e839ffac4f8b73ac40e4692f7f825d88e9e8bd35a6"
+        },
+        {
+          "path": "assets/characters/Vignette.gdshader",
+          "url": "https://github.com/GSansigolo/SimpleHD2D/blob/9d71017a8a3baf3c533fa9893e26b86473db1a28/assets/characters/Vignette.gdshader",
+          "blob_sha": "c2f9a5f2a64f6c38b7cc9f8d2f3b17dbb86d0e97",
+          "size": 678,
+          "sha256": "15266efc60564031bff0cce29a2d30a80265184401b881589e974360bf3fdab3"
+        },
+        {
+          "path": "assets/camera_attributes/new_camera_attributes_practical.tres",
+          "url": "https://github.com/GSansigolo/SimpleHD2D/blob/9d71017a8a3baf3c533fa9893e26b86473db1a28/assets/camera_attributes/new_camera_attributes_practical.tres",
+          "blob_sha": "fd8237213dec9ad35d4172501de44bed61d0883e",
+          "size": 174,
+          "sha256": "d89967388aff4ee78f964914efffa92e07523288e406c1e2e7b99c76efd23459"
+        },
+        {
+          "path": "assets/materials/base_material.tres",
+          "url": "https://github.com/GSansigolo/SimpleHD2D/blob/9d71017a8a3baf3c533fa9893e26b86473db1a28/assets/materials/base_material.tres",
+          "blob_sha": "b164e0ad27730c759865326db859b7472a47f0b9",
+          "size": 352,
+          "sha256": "8c8870564e04fd620a46225142991f2afbb160e21ec7f6a4885ab4dc75122f2a"
+        }
+      ],
+      "tree_truncated": false
+    },
+    {
+      "repo": "PKGaspi/godot-HD2D",
+      "sha": "b75191027ed62f583c5b4a3a3cd8be60ed56f045",
+      "stars": 3,
+      "license_metadata": null,
+      "files": [
+        {
+          "path": "project.godot",
+          "url": "https://github.com/PKGaspi/godot-HD2D/blob/b75191027ed62f583c5b4a3a3cd8be60ed56f045/project.godot",
+          "blob_sha": "f8660deb10f45a6407f4e8c68868c519342f9178",
+          "size": 4240,
+          "sha256": "f60c0406c0740fe6c274bdd03d3b78c32fabe37ee75abb12b4d003018c401e9c"
+        },
+        {
+          "path": "src/Game.tscn",
+          "url": "https://github.com/PKGaspi/godot-HD2D/blob/b75191027ed62f583c5b4a3a3cd8be60ed56f045/src/Game.tscn",
+          "blob_sha": "ebb0fb9b9e55551e5aeff4def81384884eaf5b9f",
+          "size": 2676,
+          "sha256": "10bdfc0f8dad666919dabb91471ad034d145669f936abecbe3c5de61efb57617"
+        },
+        {
+          "path": "src/character/Player.tscn",
+          "url": "https://github.com/PKGaspi/godot-HD2D/blob/b75191027ed62f583c5b4a3a3cd8be60ed56f045/src/character/Player.tscn",
+          "blob_sha": "5b3026b85174c1006b939fabc420c21ccf489437",
+          "size": 2245,
+          "sha256": "a7ecae286d9ac1fdf3095985a8b68807a944c0c370f30af39da517b62542d5a7"
+        },
+        {
+          "path": "src/lib/day_cycle/DayCycle.gd",
+          "url": "https://github.com/PKGaspi/godot-HD2D/blob/b75191027ed62f583c5b4a3a3cd8be60ed56f045/src/lib/day_cycle/DayCycle.gd",
+          "blob_sha": "3d8ba26ab3e57a405f6303875492bf7ec99939a4",
+          "size": 3996,
+          "sha256": "ef5e2af23241a1d8eaa9f5166ac9ff83287864cd11d1af1b4836a11ec2649c31"
+        },
+        {
+          "path": "src/lib/day_cycle/DayCycle.tscn",
+          "url": "https://github.com/PKGaspi/godot-HD2D/blob/b75191027ed62f583c5b4a3a3cd8be60ed56f045/src/lib/day_cycle/DayCycle.tscn",
+          "blob_sha": "ac2637cc46f5aaf349b06fe38197a24a0c38fa2f",
+          "size": 1856,
+          "sha256": "685de104aeeea9b3f9192e2b082b142b2c26c57e63670105b3dc2652b6172506"
+        }
+      ],
+      "tree_truncated": false
+    },
+    {
+      "repo": "godotengine/godot-demo-projects",
+      "sha": "b761b4cd5718a7118f2c95eb55f181d0a5f004f1",
+      "stars": 9827,
+      "license_metadata": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "files": [
+        {
+          "path": "LICENSE.md",
+          "url": "https://github.com/godotengine/godot-demo-projects/blob/b761b4cd5718a7118f2c95eb55f181d0a5f004f1/LICENSE.md",
+          "blob_sha": "05519693673e35cc80bba699e69af3de1d9886d7",
+          "size": 1134,
+          "sha256": "0339177149b474f7ff676d32218ecb3a8f2538955610023c3769763720d09e4c"
+        },
+        {
+          "path": "README.md",
+          "url": "https://github.com/godotengine/godot-demo-projects/blob/b761b4cd5718a7118f2c95eb55f181d0a5f004f1/README.md",
+          "blob_sha": "088017a0aa264ae79a20704c2fdefa13fb479612",
+          "size": 2263,
+          "sha256": "4c121fc88a1412b8e381263146ac67937c485386e79641569117a6516dd64ba3"
+        },
+        {
+          "path": "3d/sprites/README.md",
+          "url": "https://github.com/godotengine/godot-demo-projects/blob/b761b4cd5718a7118f2c95eb55f181d0a5f004f1/3d/sprites/README.md",
+          "blob_sha": "e63dbe5fd3d08322aa26d0840ab58a448b74eaf3",
+          "size": 1631,
+          "sha256": "02fea0db81cea25bfc04b7912a319f96d4b6a1b5a4ef5beac4ea3698b1699c8b"
+        },
+        {
+          "path": "3d/sprites/project.godot",
+          "url": "https://github.com/godotengine/godot-demo-projects/blob/b761b4cd5718a7118f2c95eb55f181d0a5f004f1/3d/sprites/project.godot",
+          "blob_sha": "47a96df1d9695bd55c5dcd0d223467c4f495bb99",
+          "size": 5711,
+          "sha256": "0588bc4392fd9a0dde7dee84e501003b7b82268ab1547efc2fc57187960abb83"
+        },
+        {
+          "path": "3d/sprites/3d_sprites.tscn",
+          "url": "https://github.com/godotengine/godot-demo-projects/blob/b761b4cd5718a7118f2c95eb55f181d0a5f004f1/3d/sprites/3d_sprites.tscn",
+          "blob_sha": "6b25e5bc3d1f4e631de3322bd7b3b1bc7e9dddef",
+          "size": 24390,
+          "sha256": "3b750dd564bda3c04ee1c5fedb1719970a8612b4603b1812afe31d1c2d937613"
+        },
+        {
+          "path": "3d/sprites/scripts/player.gd",
+          "url": "https://github.com/godotengine/godot-demo-projects/blob/b761b4cd5718a7118f2c95eb55f181d0a5f004f1/3d/sprites/scripts/player.gd",
+          "blob_sha": "1ee5b8de6718382889ca366c410a6a6f57edaeb0",
+          "size": 901,
+          "sha256": "aa70729d01973689b200e2a32025ae6d41cc9236dd5bd29d62d6ef0264213fce"
+        },
+        {
+          "path": "3d/sprites/shaders/paper_material.gdshader",
+          "url": "https://github.com/godotengine/godot-demo-projects/blob/b761b4cd5718a7118f2c95eb55f181d0a5f004f1/3d/sprites/shaders/paper_material.gdshader",
+          "blob_sha": "a21b830b695a708bffd9fefb51ea934b718aeae2",
+          "size": 1157,
+          "sha256": "eba4a869d697f673db331da064030f816bea3de87187787dff111fc8d7eef4fb"
+        },
+        {
+          "path": "3d/sprites/textures/checker.LICENSE.md",
+          "url": "https://github.com/godotengine/godot-demo-projects/blob/b761b4cd5718a7118f2c95eb55f181d0a5f004f1/3d/sprites/textures/checker.LICENSE.md",
+          "blob_sha": "a7a1e0beeaab1940f8ec4363d5baf673fdb47be5",
+          "size": 151,
+          "sha256": "6bc8f5d346a33821415c5869c27ab2cedbd936e5c630dd0987468bf3727177c4"
+        },
+        {
+          "path": "3d/sprites/textures/small_8_direction_characters.LICENSE.md",
+          "url": "https://github.com/godotengine/godot-demo-projects/blob/b761b4cd5718a7118f2c95eb55f181d0a5f004f1/3d/sprites/textures/small_8_direction_characters.LICENSE.md",
+          "blob_sha": "5b7d5b54428d0ed661f8d6be626210450c4e0291",
+          "size": 194,
+          "sha256": "5fdaf8219e83a1aaebeff113006a91bf364b8e70a512545f8ff0bf5311112574"
+        }
+      ],
+      "tree_truncated": false
+    }
+  ],
+  "runtime_validation": {
+    "engine_installed": false,
+    "reference_game_executed": false,
+    "visual_acceptance": false,
+    "performance_measured": false
+  },
+  "unread_sources": [
+    {
+      "url": "https://www.unrealengine.com/en-US/developer-interviews/octopath-traveler-s-hd-2d-art-style-and-story-make-for-a-jrpg-dream-come-true",
+      "status": 403,
+      "used_as_evidence": false
+    }
+  ]
+}
