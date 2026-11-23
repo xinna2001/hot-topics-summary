@@ -1,0 +1,189 @@
+{
+  "topic_id": "2026-11-23-shawn-bikini-bottom-threejs",
+  "checked_date": "2026-11-23",
+  "timezone": "Asia/Shanghai",
+  "source_status": "original_material_read_original_repository_not_found",
+  "original": {
+    "short_url": "https://v.douyin.com/kFhk1B3btwU/",
+    "canonical_url": "https://www.douyin.com/video/7710234156428528049",
+    "aweme_id": "7710234156428528049",
+    "author_nickname": "Shawn今天没想法",
+    "author_douyin_id": "40939464468",
+    "published_at": "2026-11-20T20:46:22+08:00",
+    "description": "我用gpt6.2+hi3d+three.js构建了一个可自由探索的比奇堡海底世界。@拔萝卜别拔我 \n虽然没有Claude加持，少了顶级的逻辑和审美，折腾得特别费劲，但还是一步步把它做出来了！\n \n整个项目我拆成两大块：海面构造 + 海底世界，两块全都支持自由互动✨\n里面每一块模块，单独拎出来，都能做成一个独立小项目\n \n做这个项目，我最看重的就是真实感\n这次开发主要攻克了四个难点：\n✅ 水面效果模拟\n✅ 海底水下光线的氛围\n✅ 比奇堡海底城市搭建\n✅ 角色模型精度优化\n \n先说角色这块：\n最早用Codex生成的角色模型，看着还行，但因为我们太熟悉海绵宝宝，一眼就能感觉到违和、不够还原。\n后面我换成Hi3D来生成角色模型，精度特别好，一个模型有60多m，贴图很高清，但是我是做了重新拓扑再放入场景的。我还发现特别好做骨骼绑定，后续接上动作也不会出戏。\n \n场景这边，我没有做动画1:1复刻，而是保留经典元素的氛围感\n海面小岛、椰子树🏝️\n海底比奇堡游泳圈、特色菠萝屋、各式海底房子\n还有水里漂浮的花瓣细节，全都安排上。其实场景还有很多小彩蛋，熟悉的npc们也都在。\n \n后面我也会拆视频，逐个拆解水面、光影、建模这些难点，分享每一块模块的制作思路\n全部开源！\n感兴趣的朋友可以点个关注，等我更新～\n#我就说抖音能学到ai真知识 #干货知识分享  #比奇堡  #gpt #gta",
+    "read_scope": {
+      "description_complete": true,
+      "sampled_frame_seconds": [
+        0,
+        15,
+        30,
+        45,
+        60,
+        75,
+        90,
+        105,
+        120,
+        135,
+        150,
+        154
+      ],
+      "full_continuous_viewing": false,
+      "asr": false,
+      "comments_first_page_count": 5,
+      "comments_has_more": true
+    },
+    "media_probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "aac"
+        },
+        {
+          "codec_name": "h264",
+          "width": 1080,
+          "height": 1440
+        }
+      ],
+      "format": {
+        "duration": "155.766667",
+        "size": "22152848"
+      }
+    },
+    "media_sha256": "19ca5554fd307ebe6b153375b78708a094ef40bd68ecfb50d5f9e169e689bd2d",
+    "metadata_resolution_not_used_as_media_probe": {
+      "width": 1440,
+      "height": 1920
+    },
+    "direct_downloader_detail_status": 403
+  },
+  "author_open_source_reply": {
+    "question_comment_id": "7710510330853950258",
+    "question": "能体验吗，有 GitHub 仓库吗",
+    "reply_comment_id": "7710517498684359473",
+    "reply": "稍晚一些哦，目前项目比较匆忙，之后一定开源，等我嗷[酷拽][酷拽][酷拽][酷拽]",
+    "replied_at": "2026-11-21T15:05:53+08:00",
+    "aweme_id_matches": true,
+    "author_uid_matches_original_author": true,
+    "repository_url_in_reply": false
+  },
+  "public_profile": {
+    "nickname": "Shawn今天没想法",
+    "signature": "👦🏻AI共创老铁@拔萝卜别拔我  \n🐏关注我～关注我～全部ai实践经验~\n😆关注即入股，都是各位伯乐的功劳~\n⬇️资料群，获得开源项目后续~伯乐们来\n🏅AI想法跑路大赛冠军\n🥇白日做梦锦标赛冠军\n🥈脑洞跑偏大赛第一名",
+    "visible_post_records": 11,
+    "latest_post_list_not_complete": true,
+    "source_repository_identified": false,
+    "follow_join_group_or_dm": false
+  },
+  "repository_searches": [
+    {
+      "query": "比奇堡 three",
+      "result_count": 0
+    },
+    {
+      "query": "Shawn hi3d",
+      "result_count": 0
+    },
+    {
+      "query": "7710234156428528049",
+      "result_count": 0
+    },
+    {
+      "query": "\"gpt6.2\" \"three.js\"",
+      "result_count": 0
+    },
+    {
+      "query": "Shawn hi3d",
+      "result_count": 0
+    },
+    {
+      "query": "\"hi3d\" \"three.js\"",
+      "result_count": 3
+    },
+    {
+      "query": "\"Shawn今天没想法\"",
+      "result_count": 0
+    },
+    {
+      "query": "\"bikini bottom\" three",
+      "result_count": 4
+    }
+  ],
+  "references": [
+    {
+      "repo": "mrdoob/three.js",
+      "sha": "b2dce982c57ff795d7709f5da993ea24c2b07aa1",
+      "commit_date": "2026-11-23T04:04:18Z",
+      "stars": 119180,
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/mrdoob/three.js/blob/b2dce982c57ff795d7709f5da993ea24c2b07aa1/README.md",
+          "size": 2969,
+          "sha256": "d553d824625a07d7690de93af6f8daf13d6aaed42700929d7ce4e725fa5ef10d"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://github.com/mrdoob/three.js/blob/b2dce982c57ff795d7709f5da993ea24c2b07aa1/LICENSE",
+          "size": 1081,
+          "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+        },
+        {
+          "path": "package.json",
+          "url": "https://github.com/mrdoob/three.js/blob/b2dce982c57ff795d7709f5da993ea24c2b07aa1/package.json",
+          "size": 3818,
+          "sha256": "87f2c99a8718e5fdd6f5e51427fde52c6075f2f698ddf8f7b4e162882df93940"
+        },
+        {
+          "path": "examples/jsm/objects/Water.js",
+          "url": "https://github.com/mrdoob/three.js/blob/b2dce982c57ff795d7709f5da993ea24c2b07aa1/examples/jsm/objects/Water.js",
+          "size": 13314,
+          "sha256": "b9d659735f768964c21f5d4241bdeb13e7c4b3fafaff57aa4a1ac5a4470d069e"
+        },
+        {
+          "path": "examples/webgl_shaders_ocean.html",
+          "url": "https://github.com/mrdoob/three.js/blob/b2dce982c57ff795d7709f5da993ea24c2b07aa1/examples/webgl_shaders_ocean.html",
+          "size": 6881,
+          "sha256": "ad350e23d00041fe051022fcd9a9cc007d5ca3cf3c224b021853d09014759401"
+        },
+        {
+          "path": "examples/jsm/loaders/GLTFLoader.js",
+          "url": "https://github.com/mrdoob/three.js/blob/b2dce982c57ff795d7709f5da993ea24c2b07aa1/examples/jsm/loaders/GLTFLoader.js",
+          "size": 119861,
+          "sha256": "532ac726e120039acbcd6cf54328c57acbf7b438176afaa6951257126d11bff1"
+        }
+      ],
+      "relation_to_original": "Reference only; no proof that creator used these implementation files."
+    },
+    {
+      "repo": "winchxyz/bikini-bottom",
+      "sha": "ef541602038b0de1f40f5c946df0858dff268fbf",
+      "stars": 25,
+      "files": [
+        "README.md"
+      ],
+      "attribution": "not linked to Shawn; compare only",
+      "file_sha256": {
+        "README.md": "d9fb73fb4304f60f8c9c5178a7724caecb3696674e2a4d480df89c94a5ae6659"
+      }
+    }
+  ],
+  "repository_attribution": {
+    "original_author_repo_verified": false,
+    "candidate_is_not_accepted_as_original": true,
+    "reason": "No original-author link; candidate README describes a different procedural-assets pipeline."
+  },
+  "runtime_validation": {
+    "original_project_executed": false,
+    "candidate_executed": false,
+    "three_example_executed": false,
+    "performance_tested": false
+  },
+  "not_publicly_archived": [
+    "raw_api_responses",
+    "authentication_tokens",
+    "cookies",
+    "full_video",
+    "author_face_images"
+  ]
+}
