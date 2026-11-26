@@ -1,0 +1,570 @@
+{
+  "checked_at": "2026-11-26T05:25:20.767882+00:00",
+  "research_status": "partially_verified",
+  "input_url": "https://v.douyin.com/-zi658x8qOw/",
+  "canonical_url": "https://www.douyin.com/note/7712127508354696895",
+  "source": {
+    "aweme_id": "7712127508354696895",
+    "author": "今天也费算力了",
+    "description": "#大模型  #视频生成 #人工智能 #deepseek",
+    "published_at": "2026-11-25T23:13:33+08:00",
+    "read_scope": "One complete original image visually read; exact-ID public detail, description and partial publicly served comments read. No author-generated film, project or claimed pinned run screenshot obtained.",
+    "image_receipts": [
+      {
+        "index": 1,
+        "bytes": 224058,
+        "sha256": "abe9f9da623640c98063495220c8b7d6d66d6c5c143a5c6d036bfc7769a62a48",
+        "declared_width": 1224,
+        "declared_height": 2189
+      }
+    ],
+    "author_replies_read": [
+      {
+        "cid": "7712309583629124411",
+        "text": "没放视频，评论区放了有一张截图，你可以看看",
+        "is_author": true,
+        "createTime": 1795662007
+      },
+      {
+        "cid": "7712310414759543589",
+        "text": "可以试试，我试过可以做一些简单的",
+        "is_author": true,
+        "createTime": 1795662199
+      },
+      {
+        "cid": "7712310444832916278",
+        "text": "手机不行",
+        "is_author": true,
+        "createTime": 1795662206
+      },
+      {
+        "cid": "7712234999345464122",
+        "text": "普通电脑都可以",
+        "is_author": true,
+        "createTime": 1795644642
+      }
+    ]
+  },
+  "source_retrieval": {
+    "installed_downloader": {
+      "reported_total": 1,
+      "reported_success": 0,
+      "reported_failed": 1,
+      "exit_code": 0
+    },
+    "public_html": {
+      "http_status": 200,
+      "exact_note_id_matched": true,
+      "public_detail_decoded": true
+    },
+    "browser": {
+      "isolated_profile": true,
+      "body_read": true,
+      "terminated": true
+    }
+  },
+  "style_verification": {
+    "style_json_count_excluding_template": 99,
+    "styleboard_catalog_count": 99,
+    "style_paths": [
+      "styles/archive-lighttable/style.json",
+      "styles/art-deco/style.json",
+      "styles/ascii-crt/style.json",
+      "styles/assembly-line-diagram/style.json",
+      "styles/backrooms/style.json",
+      "styles/bauhaus-shapes/style.json",
+      "styles/blueprint/style.json",
+      "styles/brick-toy/style.json",
+      "styles/briefing-board/style.json",
+      "styles/caption-news/style.json",
+      "styles/cel-anime-80s/style.json",
+      "styles/chalkboard/style.json",
+      "styles/circuit-board/style.json",
+      "styles/city-symphony/style.json",
+      "styles/colored-pencil/style.json",
+      "styles/comic-history/style.json",
+      "styles/countdown/style.json",
+      "styles/crayon-book/style.json",
+      "styles/crayon-world/style.json",
+      "styles/dark-documentary/style.json",
+      "styles/dark-keynote/style.json",
+      "styles/data-physical/style.json",
+      "styles/dataviz/style.json",
+      "styles/desktop-flythrough/style.json",
+      "styles/double-exposure/style.json",
+      "styles/engraving/style.json",
+      "styles/firefly-pointillism/style.json",
+      "styles/flat-space-explainer/style.json",
+      "styles/flow-field/style.json",
+      "styles/game-show/style.json",
+      "styles/gilded-illumination/style.json",
+      "styles/glass-product/style.json",
+      "styles/halftone-dossier/style.json",
+      "styles/hardcore-info/style.json",
+      "styles/hd-2d/style.json",
+      "styles/hologram-hud/style.json",
+      "styles/impasto/style.json",
+      "styles/ink-wash/style.json",
+      "styles/instruction-manual/style.json",
+      "styles/ipad-sketch/style.json",
+      "styles/iso-infographic/style.json",
+      "styles/isometric-picture-book/style.json",
+      "styles/kino-montage/style.json",
+      "styles/lidar-survey/style.json",
+      "styles/living-screencast/style.json",
+      "styles/lowpoly-island/style.json",
+      "styles/manga-panels/style.json",
+      "styles/map-explainer/style.json",
+      "styles/marker-paper/style.json",
+      "styles/memphis-diorama/style.json",
+      "styles/microgame/style.json",
+      "styles/microscope/style.json",
+      "styles/midcentury-toon/style.json",
+      "styles/neon-tubes/style.json",
+      "styles/news-package/style.json",
+      "styles/newsreel/style.json",
+      "styles/one-bit-dither/style.json",
+      "styles/one-line/style.json",
+      "styles/oscilloscope-math/style.json",
+      "styles/paper-lantern/style.json",
+      "styles/paper-popup/style.json",
+      "styles/papercut-red/style.json",
+      "styles/pen-plotter/style.json",
+      "styles/pictogram-motion/style.json",
+      "styles/pip-simulation/style.json",
+      "styles/pixel-rpg/style.json",
+      "styles/pop-art/style.json",
+      "styles/precise-mechanism/style.json",
+      "styles/printed-long-take/style.json",
+      "styles/risograph/style.json",
+      "styles/rubber-hose/style.json",
+      "styles/satellite-briefing/style.json",
+      "styles/scifi-toon/style.json",
+      "styles/scratch-film/style.json",
+      "styles/security-xray/style.json",
+      "styles/shadow-puppet/style.json",
+      "styles/silent-film/style.json",
+      "styles/silhouette-rhythm/style.json",
+      "styles/silkscreen-poster/style.json",
+      "styles/sketchnote/style.json",
+      "styles/spreadsheet/style.json",
+      "styles/spy-titles/style.json",
+      "styles/stained-glass/style.json",
+      "styles/stick-explainer/style.json",
+      "styles/swiss-motion/style.json",
+      "styles/teardown/style.json",
+      "styles/telestrator/style.json",
+      "styles/text-flash-cuts/style.json",
+      "styles/thermal-camera/style.json",
+      "styles/tilt-shift/style.json",
+      "styles/transit-map/style.json",
+      "styles/ukiyoe/style.json",
+      "styles/urban-sketch/style.json",
+      "styles/vintage-collage/style.json",
+      "styles/visual-investigation/style.json",
+      "styles/watercolor/style.json",
+      "styles/white-model/style.json",
+      "styles/whiteboard/style.json",
+      "styles/woodcut/style.json"
+    ]
+  },
+  "repositories": [
+    {
+      "full_name": "3b1b/manim",
+      "description": "Animation engine for explanatory math videos",
+      "html_url": "https://github.com/3b1b/manim",
+      "default_branch": "master",
+      "created_at": "2015-03-22T18:50:58Z",
+      "pushed_at": "2026-09-09T16:23:48Z",
+      "stargazers_count": 96974,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "commit": "fafa083a4fb274bba9cabde0b6e2f50ba6da0622",
+      "commit_date": "2026-09-09T16:23:48Z",
+      "tree_truncated": false,
+      "tree_file_count": 182
+    },
+    {
+      "full_name": "deepseek-ai/deepseek-harness",
+      "description": "DeepSeek Harness: Everything is a Plugin.",
+      "html_url": "https://github.com/deepseek-ai/deepseek-harness",
+      "default_branch": "master",
+      "created_at": "2026-08-13T11:56:32Z",
+      "pushed_at": "2026-11-22T11:00:05Z",
+      "stargazers_count": 287170,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "commit": "4b399c39a6d1479cd84ca591b4d7c88e24d38a96",
+      "commit_date": "2026-11-22T08:50:28Z",
+      "tree_truncated": false,
+      "tree_file_count": 22949
+    },
+    {
+      "full_name": "lemomo-ai/lemo-opuscar",
+      "description": "A toolbox of film styles made in code for Claude Code: 99 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：99 种现成风格，也能做出你自己的",
+      "html_url": "https://github.com/lemomo-ai/lemo-opuscar",
+      "default_branch": "main",
+      "created_at": "2026-09-26T10:10:41Z",
+      "pushed_at": "2026-11-23T04:53:40Z",
+      "stargazers_count": 21225,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "commit": "8ca0dd805e214bcc1d30714cd5b9d21cc02a454b",
+      "commit_date": "2026-11-23T04:50:36Z",
+      "tree_truncated": false,
+      "tree_file_count": 3944
+    },
+    {
+      "full_name": "motion-canvas/motion-canvas",
+      "description": "Visualize Your Ideas With Code",
+      "html_url": "https://github.com/motion-canvas/motion-canvas",
+      "default_branch": "main",
+      "created_at": "2022-08-03T16:30:14Z",
+      "pushed_at": "2026-07-02T20:01:32Z",
+      "stargazers_count": 20244,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "commit": "7b91435c301d530351dcf5ebb91dd139c002e405",
+      "commit_date": "2026-07-02T20:01:32Z",
+      "tree_truncated": false,
+      "tree_file_count": 1059
+    },
+    {
+      "full_name": "remotion-dev/remotion",
+      "description": "🎥      Make videos programmatically with React",
+      "html_url": "https://github.com/remotion-dev/remotion",
+      "default_branch": "main",
+      "created_at": "2020-06-23T19:49:10Z",
+      "pushed_at": "2026-11-25T16:53:08Z",
+      "stargazers_count": 75769,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "commit": "c1de64d7e260e83cdaf5ff379583d7067c128d20",
+      "commit_date": "2026-11-25T16:53:06Z",
+      "tree_truncated": false,
+      "tree_file_count": 14858
+    }
+  ],
+  "fetched_file_evidence": [
+    {
+      "repo": "lemomo-ai/lemo-opuscar",
+      "commit": "8ca0dd805e214bcc1d30714cd5b9d21cc02a454b",
+      "path": "README.zh-CN.md",
+      "bytes": 99820,
+      "sha256": "8872de3218c8671019189ea6a6db4d9c26fff57c3179e02745ce600f9b7c89c1",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/8ca0dd805e214bcc1d30714cd5b9d21cc02a454b/README.zh-CN.md"
+    },
+    {
+      "repo": "lemomo-ai/lemo-opuscar",
+      "commit": "8ca0dd805e214bcc1d30714cd5b9d21cc02a454b",
+      "path": "LICENSE",
+      "bytes": 8317,
+      "sha256": "07768caf240de25886f48e8053e384f2a7db40f331138671883d7b65f6758da7",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/8ca0dd805e214bcc1d30714cd5b9d21cc02a454b/LICENSE"
+    },
+    {
+      "repo": "lemomo-ai/lemo-opuscar",
+      "commit": "8ca0dd805e214bcc1d30714cd5b9d21cc02a454b",
+      "path": "REUSE.toml",
+      "bytes": 23080,
+      "sha256": "2d31200b27558c5b3be4dda62dea25175e71444470d7d4cf1bf553217caa2cfd",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/8ca0dd805e214bcc1d30714cd5b9d21cc02a454b/REUSE.toml"
+    },
+    {
+      "repo": "lemomo-ai/lemo-opuscar",
+      "commit": "8ca0dd805e214bcc1d30714cd5b9d21cc02a454b",
+      "path": "DIRECTOR.md",
+      "bytes": 13679,
+      "sha256": "82e1b46e0ef3b1f241e68a06df4311d409cde94ee8a902fa4780793e0155590c",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/8ca0dd805e214bcc1d30714cd5b9d21cc02a454b/DIRECTOR.md"
+    },
+    {
+      "repo": "lemomo-ai/lemo-opuscar",
+      "commit": "8ca0dd805e214bcc1d30714cd5b9d21cc02a454b",
+      "path": "TECHNIQUE.md",
+      "bytes": 14422,
+      "sha256": "fb9904545be887d1ada6e618528b05e52d1d5cef7e684a21042a3b5c5877fe11",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/8ca0dd805e214bcc1d30714cd5b9d21cc02a454b/TECHNIQUE.md"
+    },
+    {
+      "repo": "lemomo-ai/lemo-opuscar",
+      "commit": "8ca0dd805e214bcc1d30714cd5b9d21cc02a454b",
+      "path": "core/README.md",
+      "bytes": 10501,
+      "sha256": "a014770c732448f048aeee8975c7135263e9e18166f78fca65c63482bd681576",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/8ca0dd805e214bcc1d30714cd5b9d21cc02a454b/core/README.md"
+    },
+    {
+      "repo": "lemomo-ai/lemo-opuscar",
+      "commit": "8ca0dd805e214bcc1d30714cd5b9d21cc02a454b",
+      "path": "core/render/video.mjs",
+      "bytes": 8156,
+      "sha256": "128ef01b864d4e642900f9de575c03532cd2747c3b5a860ac8cd20bb607c08bd",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/8ca0dd805e214bcc1d30714cd5b9d21cc02a454b/core/render/video.mjs"
+    },
+    {
+      "repo": "lemomo-ai/lemo-opuscar",
+      "commit": "8ca0dd805e214bcc1d30714cd5b9d21cc02a454b",
+      "path": "core/render/mux.sh",
+      "bytes": 12661,
+      "sha256": "776b175e2f7511c0bd1cb9dd005c0195367a5eab1dc20b3427e168c2a103d1a8",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/8ca0dd805e214bcc1d30714cd5b9d21cc02a454b/core/render/mux.sh"
+    },
+    {
+      "repo": "lemomo-ai/lemo-opuscar",
+      "commit": "8ca0dd805e214bcc1d30714cd5b9d21cc02a454b",
+      "path": "core/render/page.mjs",
+      "bytes": 8123,
+      "sha256": "34790f117f0835c17848eb39b24bf474499a9e0d65aa633e0730cca3d007976e",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/8ca0dd805e214bcc1d30714cd5b9d21cc02a454b/core/render/page.mjs"
+    },
+    {
+      "repo": "lemomo-ai/lemo-opuscar",
+      "commit": "8ca0dd805e214bcc1d30714cd5b9d21cc02a454b",
+      "path": "core/audio/sampler.py",
+      "bytes": 52708,
+      "sha256": "bcbc3cab6f64d585de7f7ef8100278ac6452b676614e8f3b56585fe44a35c519",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/8ca0dd805e214bcc1d30714cd5b9d21cc02a454b/core/audio/sampler.py"
+    },
+    {
+      "repo": "lemomo-ai/lemo-opuscar",
+      "commit": "8ca0dd805e214bcc1d30714cd5b9d21cc02a454b",
+      "path": "core/tts/tts_zh.py",
+      "bytes": 7319,
+      "sha256": "e31bbd863f9cf925ebffdcf3eefca24f996266b19e4963d45f6c31419ac40c03",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/8ca0dd805e214bcc1d30714cd5b9d21cc02a454b/core/tts/tts_zh.py"
+    },
+    {
+      "repo": "lemomo-ai/lemo-opuscar",
+      "commit": "8ca0dd805e214bcc1d30714cd5b9d21cc02a454b",
+      "path": "core/image/gen_image.py",
+      "bytes": 13550,
+      "sha256": "34de75e5b9d11dac78773cbccd77d4d18fec47f83f44326b12c5ebf63a11b223",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/8ca0dd805e214bcc1d30714cd5b9d21cc02a454b/core/image/gen_image.py"
+    },
+    {
+      "repo": "lemomo-ai/lemo-opuscar",
+      "commit": "8ca0dd805e214bcc1d30714cd5b9d21cc02a454b",
+      "path": ".claude-plugin/marketplace.json",
+      "bytes": 414,
+      "sha256": "b1600baf59c23e6368ff1fd3927e18324a8189bcf99048dcd2d5cca5063df74d",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/8ca0dd805e214bcc1d30714cd5b9d21cc02a454b/.claude-plugin/marketplace.json"
+    },
+    {
+      "repo": "lemomo-ai/lemo-opuscar",
+      "commit": "8ca0dd805e214bcc1d30714cd5b9d21cc02a454b",
+      "path": "styles/lidar-survey/STYLE.md",
+      "bytes": 13152,
+      "sha256": "fe7034a4f7a66af8712562544e8dc33d68c25ee8cfe9975fff5d0ab98b253d28",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/8ca0dd805e214bcc1d30714cd5b9d21cc02a454b/styles/lidar-survey/STYLE.md"
+    },
+    {
+      "repo": "lemomo-ai/lemo-opuscar",
+      "commit": "8ca0dd805e214bcc1d30714cd5b9d21cc02a454b",
+      "path": "styles/lidar-survey/style.json",
+      "bytes": 534,
+      "sha256": "b4ca5de194a02f6b388991f62be9f525485ac59e16b4430d8e679e400ebd1e84",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/8ca0dd805e214bcc1d30714cd5b9d21cc02a454b/styles/lidar-survey/style.json"
+    },
+    {
+      "repo": "lemomo-ai/lemo-opuscar",
+      "commit": "8ca0dd805e214bcc1d30714cd5b9d21cc02a454b",
+      "path": "styles/lidar-survey/demo/build.sh",
+      "bytes": 4183,
+      "sha256": "e1ac0ac6c7c4fd93d2d3332e0796c1f4ae4f6bc473f7f96dd0e8081e585ac14f",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/8ca0dd805e214bcc1d30714cd5b9d21cc02a454b/styles/lidar-survey/demo/build.sh"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "commit": "4b399c39a6d1479cd84ca591b4d7c88e24d38a96",
+      "path": "README.md",
+      "bytes": 2673,
+      "sha256": "0f5516be2acde776f05572cbc8c3093c90549afe04ce118e11157d073d5d15f4",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/4b399c39a6d1479cd84ca591b4d7c88e24d38a96/README.md"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "commit": "4b399c39a6d1479cd84ca591b4d7c88e24d38a96",
+      "path": "LICENSE",
+      "bytes": 1065,
+      "sha256": "ebb4f09972aee8608be255debaf78451a68e95c290f55c240dec2ecfa16ea6be",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/4b399c39a6d1479cd84ca591b4d7c88e24d38a96/LICENSE"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "commit": "4b399c39a6d1479cd84ca591b4d7c88e24d38a96",
+      "path": "docs/subsystems/skills.md",
+      "bytes": 26371,
+      "sha256": "7aa40c708e932168cf7aa420aea1217cdcfd8c4d52825908bdba49c7a5e78f9a",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/4b399c39a6d1479cd84ca591b4d7c88e24d38a96/docs/subsystems/skills.md"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "commit": "4b399c39a6d1479cd84ca591b4d7c88e24d38a96",
+      "path": "docs/user/guide/plugin-market.md",
+      "bytes": 11029,
+      "sha256": "990f58adc4b7bc404bc9675123bc0ba2ad8af77891d6c5b98f40e8f6037bc97c",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/4b399c39a6d1479cd84ca591b4d7c88e24d38a96/docs/user/guide/plugin-market.md"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "commit": "4b399c39a6d1479cd84ca591b4d7c88e24d38a96",
+      "path": "docs/cordis-tutorial/01-first-plugin.md",
+      "bytes": 3415,
+      "sha256": "d9e7fb1f2b1f14fa721c11fa390a3c852026ca5587fcde583baeb2e8896c6271",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/4b399c39a6d1479cd84ca591b4d7c88e24d38a96/docs/cordis-tutorial/01-first-plugin.md"
+    },
+    {
+      "repo": "remotion-dev/remotion",
+      "commit": "c1de64d7e260e83cdaf5ff379583d7067c128d20",
+      "path": "README.md",
+      "bytes": 4626,
+      "sha256": "2206827db004f0d2404fdb0c816bd9a7d6431846176e75b37971bd48090556dd",
+      "url": "https://github.com/remotion-dev/remotion/blob/c1de64d7e260e83cdaf5ff379583d7067c128d20/README.md"
+    },
+    {
+      "repo": "remotion-dev/remotion",
+      "commit": "c1de64d7e260e83cdaf5ff379583d7067c128d20",
+      "path": "LICENSE.md",
+      "bytes": 2849,
+      "sha256": "53e92b6560f26f9d913a8ac97e4861e013c99ee9164fa0b11c25d8a02672fc09",
+      "url": "https://github.com/remotion-dev/remotion/blob/c1de64d7e260e83cdaf5ff379583d7067c128d20/LICENSE.md"
+    },
+    {
+      "repo": "motion-canvas/motion-canvas",
+      "commit": "7b91435c301d530351dcf5ebb91dd139c002e405",
+      "path": "README.md",
+      "bytes": 5266,
+      "sha256": "9895daa20be79849a312b5cb5b9ed36db2d1a6dfe9731b5e53a67b222abe9cd9",
+      "url": "https://github.com/motion-canvas/motion-canvas/blob/7b91435c301d530351dcf5ebb91dd139c002e405/README.md"
+    },
+    {
+      "repo": "motion-canvas/motion-canvas",
+      "commit": "7b91435c301d530351dcf5ebb91dd139c002e405",
+      "path": "LICENSE",
+      "bytes": 1070,
+      "sha256": "b3f12201916c5d478263cd210cf17f3d0c007d03bd574e0b77cac6307953068e",
+      "url": "https://github.com/motion-canvas/motion-canvas/blob/7b91435c301d530351dcf5ebb91dd139c002e405/LICENSE"
+    },
+    {
+      "repo": "3b1b/manim",
+      "commit": "fafa083a4fb274bba9cabde0b6e2f50ba6da0622",
+      "path": "README.md",
+      "bytes": 8330,
+      "sha256": "c691ca2c4eea1303d9a56dbf970840ed9a424fdae222ce2e244937969c267b00",
+      "url": "https://github.com/3b1b/manim/blob/fafa083a4fb274bba9cabde0b6e2f50ba6da0622/README.md"
+    },
+    {
+      "repo": "3b1b/manim",
+      "commit": "fafa083a4fb274bba9cabde0b6e2f50ba6da0622",
+      "path": "LICENSE.md",
+      "bytes": 1077,
+      "sha256": "fe450f4b69c56c80e4ba2f3226174d1af417e7c1728362ed81a8f6c0b909eb43",
+      "url": "https://github.com/3b1b/manim/blob/fafa083a4fb274bba9cabde0b6e2f50ba6da0622/LICENSE.md"
+    },
+    {
+      "repo": "lemomo-ai/lemo-opuscar",
+      "commit": "8ca0dd805e214bcc1d30714cd5b9d21cc02a454b",
+      "path": "plugin/skills/lemo-opuscar/SKILL.md",
+      "bytes": 3608,
+      "sha256": "17c2f1c2a337becf28ec1e23eec46b42a6f0ffa2691b40d8b97b35d043b79f65",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/8ca0dd805e214bcc1d30714cd5b9d21cc02a454b/plugin/skills/lemo-opuscar/SKILL.md"
+    },
+    {
+      "repo": "lemomo-ai/lemo-opuscar",
+      "commit": "8ca0dd805e214bcc1d30714cd5b9d21cc02a454b",
+      "path": "plugin/skills/lemo-opuscar/scripts/setup.sh",
+      "bytes": 9615,
+      "sha256": "6b5e39efe99e42d671edb365e11b89d065ccda7188a45e81fe5757f5f46661be",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/8ca0dd805e214bcc1d30714cd5b9d21cc02a454b/plugin/skills/lemo-opuscar/scripts/setup.sh"
+    },
+    {
+      "repo": "lemomo-ai/lemo-opuscar",
+      "commit": "8ca0dd805e214bcc1d30714cd5b9d21cc02a454b",
+      "path": "plugin/.claude-plugin/plugin.json",
+      "bytes": 385,
+      "sha256": "254ccbde59c0b92f5b81fbf8037b824614fd3f1e7e0a1839ecd4e0fa21a92edf",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/8ca0dd805e214bcc1d30714cd5b9d21cc02a454b/plugin/.claude-plugin/plugin.json"
+    },
+    {
+      "repo": "lemomo-ai/lemo-opuscar",
+      "commit": "8ca0dd805e214bcc1d30714cd5b9d21cc02a454b",
+      "path": "package.json",
+      "bytes": 382,
+      "sha256": "49835af1ed5960acc847b04973f0a3bbdf68be16730bbc8fccf39510538f9b72",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/8ca0dd805e214bcc1d30714cd5b9d21cc02a454b/package.json"
+    },
+    {
+      "repo": "lemomo-ai/lemo-opuscar",
+      "commit": "8ca0dd805e214bcc1d30714cd5b9d21cc02a454b",
+      "path": "MY-STYLES.md",
+      "bytes": 16484,
+      "sha256": "a391fc8b773423efed905e92f5d776f3974f49b54fdfe9912627355f0589ed35",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/8ca0dd805e214bcc1d30714cd5b9d21cc02a454b/MY-STYLES.md"
+    },
+    {
+      "repo": "lemomo-ai/lemo-opuscar",
+      "commit": "8ca0dd805e214bcc1d30714cd5b9d21cc02a454b",
+      "path": "core/audio/INSTRUMENTS.md",
+      "bytes": 35177,
+      "sha256": "eaf460da61efeb77974a44e783dc20857f3e4623e0c2725316c930bfe837eb28",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/8ca0dd805e214bcc1d30714cd5b9d21cc02a454b/core/audio/INSTRUMENTS.md"
+    },
+    {
+      "repo": "lemomo-ai/lemo-opuscar",
+      "commit": "8ca0dd805e214bcc1d30714cd5b9d21cc02a454b",
+      "path": "styleboard/catalog.json",
+      "bytes": 58176,
+      "sha256": "226ee78b33b0aaa64b1250b55b3e7eaa5bddbc0c02118c692448fc07df83e418",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/8ca0dd805e214bcc1d30714cd5b9d21cc02a454b/styleboard/catalog.json"
+    },
+    {
+      "repo": "deepseek-ai/deepseek-harness",
+      "commit": "4b399c39a6d1479cd84ca591b4d7c88e24d38a96",
+      "path": "packages/skill/skill-filesystem/src/index.ts",
+      "bytes": 40125,
+      "sha256": "7188f929188ccb115177f0287663939ea3739ca35207f56b3eb7e437b7aa4c2e",
+      "url": "https://github.com/deepseek-ai/deepseek-harness/blob/4b399c39a6d1479cd84ca591b4d7c88e24d38a96/packages/skill/skill-filesystem/src/index.ts"
+    }
+  ],
+  "inspection_note": "Pinned files were fetched and hashed; report conclusions use the cited file content and relevant source excerpts. Fetching is not runtime validation.",
+  "runtime": {
+    "lemo_installed": false,
+    "deepseek_harness_installed": false,
+    "film_generated": false,
+    "models_invoked": false,
+    "tts_invoked": false,
+    "performance_or_cost_benchmark": false
+  },
+  "unverified": [
+    "Exact DeepSeek framework/model/version used by the Douyin author",
+    "Author pinned screenshot and complete film",
+    "End-to-end skill loading and film production with DeepSeek",
+    "Same-task duration, quality, reliability and cost comparison"
+  ]
+}

@@ -50,6 +50,7 @@
 | Pixel Play 审美复刻：像素树林与风铃扩展 | [查看详细信息](topics/2026-11-22-pixel-play-aesthetic-recreation/README.md) | [iam小韩：进入 VibeCoding 大审美时代，审美复刻 EP02](https://v.douyin.com/1h8LlxA7wzk/)<br>[Pixel Play 审美复刻 EP02](https://www.douyin.com/video/7710025040179692096) |
 | HD-2D：像素游戏的空间与光影质感（原视频待核） | [查看详细信息](topics/2026-11-23-hd2d-octopath-visual-style/README.md) | [扇贝不好吃：2d怎么做出八方旅人的质感？我教你](https://v.douyin.com/Iros0nAAjBk/)<br>[原分享解析后的抖音规范作品地址](https://www.douyin.com/video/7710995776927550946) |
 | Shawn 比奇堡海底世界：Three.js 与原作开源状态核查 | [查看详细信息](topics/2026-11-23-shawn-bikini-bottom-threejs/README.md) | [Shawn今天没想法：GPT6.2 + Hi3D + Three.js 比奇堡海底世界](https://v.douyin.com/kFhk1B3btwU/)<br>[Shawn 比奇堡原作品及原作者开源回复](https://www.douyin.com/video/7710234156428528049) |
+| Lemo-Opuscar：99 种代码影片风格与 DeepSeek 接入核查 | [查看详细信息](topics/2026-11-26-lemo-opuscar-code-films/README.md) | [今天也费算力了：Lemo-Opuscar 与 DeepSeek 代码做视频](https://v.douyin.com/-zi658x8qOw/)<br>[Lemo-Opuscar 原图文作品](https://www.douyin.com/note/7712127508354696895) |
 <!-- HOT_TOPICS:END -->
 
 详细页说明：它是什么、技术如何实现、关联开源项目和官方资料、复现条件、限制，以及仍需核实的说法。关键结论附来源和查阅日期，区分已核实事实、作者宣称和推测。

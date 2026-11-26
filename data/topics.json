@@ -855,6 +855,27 @@
       ],
       "created_at": "2026-11-23T04:26:06+00:00",
       "updated_at": "2026-11-23T04:28:28+00:00"
+    },
+    {
+      "id": "2026-11-26-lemo-opuscar-code-films",
+      "name": "Lemo-Opuscar：99 种代码影片风格与 DeepSeek 接入核查",
+      "report": "topics/2026-11-26-lemo-opuscar-code-films/README.md",
+      "sources": [
+        {
+          "kind": "douyin",
+          "url": "https://v.douyin.com/-zi658x8qOw/",
+          "title": "今天也费算力了：Lemo-Opuscar 与 DeepSeek 代码做视频",
+          "note": "用户原分享短链；已读取1张完整原图、简介及部分公开作者回复。原作者运行截图、工程和成片未取得。"
+        },
+        {
+          "kind": "douyin",
+          "url": "https://www.douyin.com/note/7712127508354696895",
+          "title": "Lemo-Opuscar 原图文作品",
+          "note": "短链解析并由公开详情核对的同一作品；发布时间2026-11-25 23:13:33 Asia/Shanghai。项目对应及99风格已核实，DeepSeek成片耗时、成本与质量未实测。"
+        }
+      ],
+      "created_at": "2026-11-26T05:25:25+00:00",
+      "updated_at": "2026-11-26T05:25:25+00:00"
     }
   ]
 }
